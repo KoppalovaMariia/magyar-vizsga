@@ -1,0 +1,2622 @@
+{
+ "id": "t1",
+ "n": 1,
+ "title": "Символы и праздники",
+ "hu": "Nemzeti jelképek és ünnepek",
+ "source": "Segédanyag BFKH, 2026. szeptember, 2–10. dia",
+ "kus": [
+  {
+   "id": "k_q_ki",
+   "lang": true,
+   "ru": "Ki? — Кто?"
+  },
+  {
+   "id": "k_q_mikor",
+   "lang": true,
+   "ru": "Mikor? — Когда?"
+  },
+  {
+   "id": "k_q_hol",
+   "lang": true,
+   "ru": "Hol? — Где?"
+  },
+  {
+   "id": "k_q_mit",
+   "lang": true,
+   "ru": "Mi? / Mit? — Что?"
+  },
+  {
+   "id": "k_q_melyik",
+   "lang": true,
+   "ru": "Melyik? — Какой (из)?"
+  },
+  {
+   "id": "k_q_emlekere",
+   "lang": true,
+   "ru": "Kinek az emlékére? — В память о ком?"
+  },
+  {
+   "id": "k_q_irta",
+   "lang": true,
+   "ru": "írta — написал(а)"
+  },
+  {
+   "id": "k_q_zenesitette",
+   "lang": true,
+   "ru": "zenésítette meg — положил на музыку"
+  },
+  {
+   "id": "k_q_jelkepez",
+   "lang": true,
+   "ru": "jelképez — символизирует"
+  },
+  {
+   "id": "k_q_sorolja",
+   "lang": true,
+   "ru": "Sorolja fel! — Перечислите!"
+  },
+  {
+   "id": "k_q_nevezze",
+   "lang": true,
+   "ru": "Nevezze meg! — Назовите!"
+  },
+  {
+   "id": "k_q_parositsa",
+   "lang": true,
+   "ru": "Párosítsa! — Соедините пары!"
+  },
+  {
+   "id": "k_q_egeszitse",
+   "lang": true,
+   "ru": "Egészítse ki! — Дополните!"
+  },
+  {
+   "id": "k_q_igaz",
+   "lang": true,
+   "ru": "Igaz vagy hamis? — Верно или неверно?"
+  },
+  {
+   "id": "k_q_jelolje",
+   "lang": true,
+   "ru": "Jelölje meg! — Отметьте!"
+  },
+  {
+   "id": "k_symbols",
+   "ru": "4 главных символа: флаг, Святая корона, Гимн, герб",
+   "hu": "zászló, Szent Korona, Himnusz, címer"
+  },
+  {
+   "id": "k_flag_colors",
+   "ru": "Флаг сверху вниз: красный, белый, зелёный",
+   "hu": "piros, fehér, zöld"
+  },
+  {
+   "id": "k_flag_red",
+   "ru": "Красный символизирует силу",
+   "hu": "piros – erő"
+  },
+  {
+   "id": "k_flag_white",
+   "ru": "Белый символизирует верность",
+   "hu": "fehér – hűség"
+  },
+  {
+   "id": "k_flag_green",
+   "ru": "Зелёный символизирует надежду",
+   "hu": "zöld – remény"
+  },
+  {
+   "id": "k_flag_parl",
+   "ru": "В национальные праздники флаг поднимают перед Парламентом",
+   "hu": "az Országház előtt"
+  },
+  {
+   "id": "k_coa_parts",
+   "ru": "Герб: двойной крест, три холма с короной, Святая корона, поле из 8 красно-серебряных полос",
+   "hu": "kettős kereszt, hármas halom, Szent Korona, hétszer vágott mező"
+  },
+  {
+   "id": "k_crown_where",
+   "ru": "Святую корону можно увидеть в Парламенте",
+   "hu": "az Országházban"
+  },
+  {
+   "id": "k_regalia",
+   "ru": "Регалии: корона, держава, меч, скипетр, мантия",
+   "hu": "Szent Korona, országalma, koronázási kard, jogar, palást"
+  },
+  {
+   "id": "k_regalia_mean",
+   "ru": "Регалии — символы бывшей королевской власти",
+   "hu": "az egykori királyi hatalom jelképei"
+  },
+  {
+   "id": "k_cities",
+   "ru": "Города коронации: Буда, Эстергом, Пожонь, Шопрон, Секешфехервар",
+   "hu": "Buda, Esztergom, Pozsony, Sopron, Székesfehérvár"
+  },
+  {
+   "id": "k_crown_law",
+   "ru": "По Основному закону корона воплощает конституционную непрерывность государства и единство нации",
+   "hu": "alkotmányos állami folytonosság, a nemzet egysége"
+  },
+  {
+   "id": "k_hymn_author",
+   "ru": "Гимн написал Ференц Кёльчеи",
+   "hu": "Kölcsey Ferenc"
+  },
+  {
+   "id": "k_hymn_year",
+   "ru": "Гимн написан в 1823 году",
+   "hu": "1823"
+  },
+  {
+   "id": "k_hymn_music",
+   "ru": "Музыку Гимна написал Ференц Эркель",
+   "hu": "Erkel Ferenc"
+  },
+  {
+   "id": "k_hymn_line",
+   "extra": true,
+   "ru": "Первая строка Гимна: «Боже, благослови венгра»",
+   "hu": "Isten, áldd meg a magyart"
+  },
+  {
+   "id": "k_szozat_author",
+   "ru": "Szózat написал Михай Вёрёшмарти",
+   "hu": "Vörösmarty Mihály"
+  },
+  {
+   "id": "k_szozat_year",
+   "ru": "Szózat написан в 1836 году",
+   "hu": "1836"
+  },
+  {
+   "id": "k_szozat_music",
+   "ru": "Музыку Szózat написал Бени Эгрешши",
+   "hu": "Egressy Béni"
+  },
+  {
+   "id": "k_szozat_when",
+   "ru": "Szózat поют наряду с Гимном на национальных праздниках",
+   "hu": "a Himnusz mellett, nemzeti ünnepeken"
+  },
+  {
+   "id": "k_szozat_lines",
+   "ru": "Начало Szózat: «Родине своей непоколебимо будь верен, о венгр»",
+   "hu": "Hazádnak rendületlenűl légy híve, oh magyar"
+  },
+  {
+   "id": "k_mar15",
+   "ru": "15 марта — память революции и освободительной войны 1848–49",
+   "hu": "március 15."
+  },
+  {
+   "id": "k_aug20",
+   "ru": "20 августа — основание государства и король Святой Иштван",
+   "hu": "augusztus 20."
+  },
+  {
+   "id": "k_oct23",
+   "ru": "23 октября — революция и освободительная борьба 1956 года",
+   "hu": "október 23."
+  },
+  {
+   "id": "k_kokarda",
+   "ru": "Символ 1848 года — красно-бело-зелёная кокарда",
+   "hu": "kokárda"
+  },
+  {
+   "id": "k_lyukas",
+   "ru": "Символ 1956 года — флаг с дырой",
+   "hu": "lyukas zászló"
+  },
+  {
+   "id": "k_aug20_custom",
+   "extra": true,
+   "ru": "20 августа: крестный ход со Святой Десницей и вечерний фейерверк",
+   "hu": "Szent Jobb-körmenet, tűzijáték"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "t1l0",
+   "title": "Язык экзамена",
+   "hu": "A vizsga nyelve",
+   "min": 15,
+   "kus": [
+    "k_q_ki",
+    "k_q_mikor",
+    "k_q_hol",
+    "k_q_mit",
+    "k_q_melyik",
+    "k_q_emlekere",
+    "k_q_irta",
+    "k_q_zenesitette",
+    "k_q_jelkepez",
+    "k_q_sorolja",
+    "k_q_nevezze",
+    "k_q_parositsa",
+    "k_q_egeszitse",
+    "k_q_igaz",
+    "k_q_jelolje"
+   ],
+   "blocks": [
+    {
+     "type": "story",
+     "title": "Экзамен говорит на венгерском",
+     "text": "Все 12 вопросов на экзамене будут на венгерском, и ответы тоже пишутся по-венгерски. Хорошая новость: вопросы строятся из небольшого набора слов. Выучишь около 15 слов, и почти любой вопрос станет понятным.\n\nОтвечать чаще всего нужно коротко: имя, год, дата, одно-два слова."
+    },
+    {
+     "type": "story",
+     "title": "Секрет венгерского за минуту",
+     "text": "Венгерский клеит смысл к концу слова. Там, где в русском предлог, в венгерском окончание:\n\n[[Országházban]] = Országház + -ban = «в Парламенте»\n[[Himnuszt]] = Himnusz + -t = «Гимн» (кого? что?)\n\nПоэтому слова кажутся длинными. На деле это обычный корень плюс «хвостики». Наведи курсор или нажми на любое венгерское слово, и увидишь его разбор."
+    },
+    {
+     "type": "words",
+     "title": "Вопросительные слова",
+     "items": [
+      {
+       "hu": "Ki?",
+       "ru": "Кто?",
+       "tip": "Ki — кто. Как «кто» в английском who. Ответ — человек: Kölcsey Ferenc."
+      },
+      {
+       "hu": "Mikor?",
+       "ru": "Когда?",
+       "tip": "Ответ — год или дата: 1823, március 15."
+      },
+      {
+       "hu": "Hol?",
+       "ru": "Где?",
+       "tip": "Ответ — место: az Országházban."
+      },
+      {
+       "hu": "Mit?",
+       "ru": "Что? (вин. падеж)",
+       "tip": "Mi = что, mit = что (кого? что?). Mit jelképez? — Что символизирует?"
+      },
+      {
+       "hu": "Melyik?",
+       "ru": "Какой? Который?",
+       "tip": "Выбор из нескольких: Melyik évben? — В каком году?"
+      },
+      {
+       "hu": "Kinek az emlékére?",
+       "ru": "В память о ком / о чём?",
+       "tip": "Вопрос про праздники. emlék = память."
+      }
+     ]
+    },
+    {
+     "type": "phrase",
+     "hu": "Ki írta a Himnuszt?",
+     "ru": "Кто написал Гимн?"
+    },
+    {
+     "type": "phrase",
+     "hu": "Ki zenésítette meg a Szózatot?",
+     "ru": "Кто положил Szózat на музыку?"
+    },
+    {
+     "type": "phrase",
+     "hu": "Mit jelképez a zászló zöld színe?",
+     "ru": "Что символизирует зелёный цвет флага?"
+    },
+    {
+     "type": "words",
+     "title": "Задания-команды",
+     "items": [
+      {
+       "hu": "Sorolja fel!",
+       "ru": "Перечислите!",
+       "tip": "Нужно написать несколько пунктов через запятую."
+      },
+      {
+       "hu": "Nevezze meg!",
+       "ru": "Назовите!",
+       "tip": "Одно название или имя."
+      },
+      {
+       "hu": "Párosítsa!",
+       "ru": "Соедините пары!",
+       "tip": "Сопоставить левое с правым."
+      },
+      {
+       "hu": "Egészítse ki{ki_pv}!",
+       "ru": "Дополните!",
+       "tip": "Вписать пропущенное слово."
+      },
+      {
+       "hu": "Igaz vagy hamis?",
+       "ru": "Верно или неверно?",
+       "tip": "igaz — верно, hamis — неверно (ложно)."
+      },
+      {
+       "hu": "Jelölje meg!",
+       "ru": "Отметьте!",
+       "tip": "Поставить галочку у правильных вариантов."
+      }
+     ]
+    },
+    {
+     "type": "grammar",
+     "id": "G_IMP"
+    },
+    {
+     "type": "mnemo",
+     "text": "**Ki** — «кто», коротко, как щелчок. **Mikor** — «когда»: «ми-КОР» → «КОРоткая дата». **Hol** — «где»: «ХОЛл — где мы стоим». **Igaz** — «верно»: «игла точно в цель». **Hamis** — «неверно»: «хам врёт»."
+    }
+   ],
+   "practice": [
+    "p0_1",
+    "p0_2",
+    "p0_3",
+    "p0_4",
+    "p0_5",
+    "p0_6",
+    "p0_7",
+    "p0_8"
+   ]
+  },
+  {
+   "id": "t1l1",
+   "title": "Флаг и герб",
+   "hu": "A zászló és a címer",
+   "min": 20,
+   "kus": [
+    "k_symbols",
+    "k_flag_colors",
+    "k_flag_red",
+    "k_flag_white",
+    "k_flag_green",
+    "k_flag_parl",
+    "k_coa_parts"
+   ],
+   "blocks": [
+    {
+     "type": "story",
+     "title": "Четыре главных символа",
+     "text": "Официальная методичка называет четыре главных национальных символа Венгрии. Это [[zászló]] (флаг), [[Szent Korona]] (Святая корона), [[Himnusz]] (Гимн) и [[címer]] (герб).\n\nЗапомни как то, что можно **повесить, надеть, спеть и нарисовать**: флаг, корону, гимн, герб."
+    },
+    {
+     "type": "phrase",
+     "hu": "A legfontosabb nemzeti jelképeink: a zászló, a Szent Korona, a Himnusz és a címer.",
+     "ru": "Наши важнейшие национальные символы: флаг, Святая корона, Гимн и герб."
+    },
+    {
+     "type": "flag",
+     "title": "Нажми на каждую полосу",
+     "stripes": [
+      {
+       "color": "piros",
+       "hex": "#CD2A3E",
+       "hu": "erő",
+       "ru": "сила",
+       "mn": "Красный — кровь и мускулы. Сила."
+      },
+      {
+       "color": "fehér",
+       "hex": "#FFFFFF",
+       "hu": "hűség",
+       "ru": "верность",
+       "mn": "Белый — как платье невесты. Верность."
+      },
+      {
+       "color": "zöld",
+       "hex": "#436F4D",
+       "hu": "remény",
+       "ru": "надежда",
+       "mn": "Зелёный — весенний росток. Надежда."
+      }
+     ]
+    },
+    {
+     "type": "phrase",
+     "hu": "A piros az erőt jelképezi.",
+     "ru": "Красный символизирует силу."
+    },
+    {
+     "type": "phrase",
+     "hu": "A fehér a hűséget jelképezi.",
+     "ru": "Белый символизирует верность."
+    },
+    {
+     "type": "phrase",
+     "hu": "A zöld a reményt jelképezi.",
+     "ru": "Зелёный символизирует надежду."
+    },
+    {
+     "type": "grammar",
+     "id": "G_ACC"
+    },
+    {
+     "type": "story",
+     "title": "Где поднимают флаг",
+     "text": "В национальные праздники флаг торжественно поднимают перед [[Országház]], зданием Парламента в Будапеште. [[Ország]] = страна, [[ház]] = дом, то есть «дом страны»."
+    },
+    {
+     "type": "phrase",
+     "hu": "Nemzeti ünnepeken felvonják a zászlót az Országház előtt.",
+     "ru": "В национальные праздники флаг поднимают перед Парламентом."
+    },
+    {
+     "type": "hotspots",
+     "title": "Разгляди герб: нажимай на точки",
+     "img": "img/coa.jpg",
+     "w": 285,
+     "h": 599,
+     "points": [
+      {
+       "x": 50,
+       "y": 16,
+       "hu": "Szent Korona",
+       "ru": "Святая корона — наверху, над щитом."
+      },
+      {
+       "x": 25,
+       "y": 55,
+       "hu": "vörössel és ezüsttel hétszer vágott mező",
+       "ru": "Левая половина: поле, «семь раз рассечённое красным и серебром». 7 разрезов дают 8 полос, по 4 каждого цвета."
+      },
+      {
+       "x": 70,
+       "y": 47,
+       "hu": "kettős kereszt",
+       "ru": "Двойной крест: крест с двумя перекладинами."
+      },
+      {
+       "x": 73,
+       "y": 74,
+       "hu": "korona",
+       "ru": "Маленькая корона: из неё поднимается двойной крест."
+      },
+      {
+       "x": 73,
+       "y": 89,
+       "hu": "hármas halom",
+       "ru": "Три зелёных холма. Методичка пишет: «Hármas halom, rajta korona», то есть «три холма, на них корона»."
+      }
+     ]
+    },
+    {
+     "type": "phrase",
+     "hu": "Hármas halom, rajta korona.",
+     "ru": "Три холма, на них корона."
+    },
+    {
+     "type": "phrase",
+     "hu": "Vörössel és ezüsttel hétszer vágott mező.",
+     "ru": "Поле, семь раз рассечённое красным и серебром."
+    },
+    {
+     "type": "mnemo",
+     "text": "Герб читается **слева направо и снизу вверх**: полосы, потом холмы, из них корона, из неё двойной крест, а над всем Святая корона.\n\n«hétszer» = hét (семь) + -szer (раз). «Семь раз режем — восемь полос»."
+    }
+   ],
+   "practice": [
+    "p1_1",
+    "p1_2",
+    "p1_3",
+    "p1_4",
+    "p1_5",
+    "p1_6",
+    "p1_7",
+    "p1_8",
+    "p1_9"
+   ]
+  },
+  {
+   "id": "t1l2",
+   "title": "Святая корона и регалии",
+   "hu": "A Szent Korona és a koronázási jelvények",
+   "min": 20,
+   "kus": [
+    "k_crown_where",
+    "k_regalia",
+    "k_regalia_mean",
+    "k_cities",
+    "k_crown_law"
+   ],
+   "blocks": [
+    {
+     "type": "story",
+     "title": "Корона, которая старше страны",
+     "img": "img/crown.jpg",
+     "text": "Святая корона ([[Szent Korona]]) — главная реликвия Венгрии. Узнать её легко: крестик на макушке стоит **наклонно**.\n\nСегодня корону можно увидеть в [[Országházban]], в здании Парламента."
+    },
+    {
+     "type": "phrase",
+     "hu": "A Szent Korona az Országházban tekinthető meg.",
+     "ru": "Святую корону можно увидеть в Парламенте."
+    },
+    {
+     "type": "grammar",
+     "id": "G_LOC"
+    },
+    {
+     "type": "hotspots",
+     "title": "Коронационные регалии: нажимай на точки",
+     "img": "img/regalia.jpg",
+     "w": 800,
+     "h": 544,
+     "points": [
+      {
+       "x": 56,
+       "y": 26,
+       "hu": "Szent Korona",
+       "ru": "Святая корона."
+      },
+      {
+       "x": 12,
+       "y": 50,
+       "hu": "koronázási jogar",
+       "ru": "Скипетр — жезл власти. [[jogar]]"
+      },
+      {
+       "x": 17,
+       "y": 79,
+       "hu": "koronázási kard",
+       "ru": "Меч. [[kard]]"
+      },
+      {
+       "x": 77,
+       "y": 61,
+       "hu": "országalma",
+       "ru": "Держава: шар с крестом. Дословно «яблоко страны»: ország + alma."
+      }
+     ]
+    },
+    {
+     "type": "story",
+     "title": "Пятый предмет — мантия",
+     "img": "img/palast.jpg",
+     "text": "Пятая регалия — коронационная мантия, [[palást]]. Её сшили из шёлка больше тысячи лет назад.\n\nВсе пять вместе: **корона, держава, меч, скипетр, мантия**. Методичка говорит, что это символы бывшей королевской власти, а сейчас они часть национальных символов."
+    },
+    {
+     "type": "phrase",
+     "hu": "A koronázási jelvények az egykori királyi hatalom jelképei.",
+     "ru": "Коронационные регалии — символы бывшей королевской власти."
+    },
+    {
+     "type": "mnemo",
+     "text": "**országalma** = ország (страна) + alma (яблоко). «Яблоко страны» в руке короля.\n**jogar** — «ЙО-ГАР»: «Йо! Гарант власти» — скипетр.\n**kard** — «КАРД»: «кортик-кард» — меч.\n**palást** — «ПАЛАСТ» ≈ «пласт ткани» — мантия."
+    },
+    {
+     "type": "story",
+     "title": "Где короновали королей",
+     "img": "img/esztergom.jpg",
+     "text": "Методичка называет пять бывших городов коронации: [[Buda]], [[Esztergom]], [[Pozsony]], [[Sopron]], [[Székesfehérvár]].\n\nPozsony — это сегодняшняя Братислава, столица Словакии. На фото базилика в Эстергоме."
+    },
+    {
+     "type": "mnemo",
+     "text": "**Б**абушка **Е**ст **П**ироги **С** **С**ыром:\nБ — Buda, Е — Esztergom, П — Pozsony, С — Sopron, С — Székesfehérvár."
+    },
+    {
+     "type": "quote",
+     "hu": "A Szent Korona megtestesíti Magyarország alkotmányos állami folytonosságát és a nemzet egységét.",
+     "ru": "Святая корона воплощает конституционную непрерывность венгерского государства и единство нации.",
+     "src": "Magyarország Alaptörvénye (сокращено)"
+    },
+    {
+     "type": "mnemo",
+     "text": "Корона — это **«непрерывность + единство»**. Слова, которые важно узнать в вопросе: folytonosság (непрерывность), egység (единство)."
+    }
+   ],
+   "practice": [
+    "p2_1",
+    "p2_2",
+    "p2_3",
+    "p2_4",
+    "p2_5",
+    "p2_6",
+    "p2_7",
+    "p2_8"
+   ]
+  },
+  {
+   "id": "t1l3",
+   "title": "Гимн и Szózat",
+   "hu": "A Himnusz és a Szózat",
+   "min": 20,
+   "kus": [
+    "k_hymn_author",
+    "k_hymn_year",
+    "k_hymn_music",
+    "k_hymn_line",
+    "k_szozat_author",
+    "k_szozat_year",
+    "k_szozat_music",
+    "k_szozat_when",
+    "k_szozat_lines"
+   ],
+   "blocks": [
+    {
+     "type": "duo",
+     "title": "Две главные песни страны. Нажми, чтобы перевернуть",
+     "cards": [
+      {
+       "hu": "Himnusz",
+       "ru": "Гимн",
+       "img": "img/kolcsey.jpg",
+       "rows": [
+        [
+         "Слова",
+         "Kölcsey Ferenc"
+        ],
+        [
+         "Год",
+         "1823"
+        ],
+        [
+         "Музыка",
+         "Erkel Ferenc"
+        ]
+       ],
+       "note": "Официальный гимн Венгрии."
+      },
+      {
+       "hu": "Szózat",
+       "ru": "«Воззвание»",
+       "img": "img/vorosmarty.jpg",
+       "rows": [
+        [
+         "Слова",
+         "Vörösmarty Mihály"
+        ],
+        [
+         "Год",
+         "1836"
+        ],
+        [
+         "Музыка",
+         "Egressy Béni"
+        ]
+       ],
+       "note": "Вторая песня: её поют рядом с Гимном."
+      }
+     ]
+    },
+    {
+     "type": "grammar",
+     "id": "G_NAMES"
+    },
+    {
+     "type": "phrase",
+     "hu": "A Himnuszt Kölcsey Ferenc írta 1823-ban.",
+     "ru": "Гимн написал Ференц Кёльчеи в 1823 году."
+    },
+    {
+     "type": "phrase",
+     "hu": "Erkel Ferenc zenésítette meg.",
+     "ru": "Музыку к нему написал Ференц Эркель."
+    },
+    {
+     "type": "story",
+     "title": "Рукопись 1823 года",
+     "img": "img/manuscript.jpg",
+     "text": "Так выглядит рукопись Кёльчеи. Первая строка: [[Isten]], [[áldd meg]] [[a]] [[magyart]], то есть «Боже, благослови венгра». Этой строки нет в тексте методички, но её знает каждый венгр, и она часто встречается в тестах."
+    },
+    {
+     "type": "phrase",
+     "hu": "Isten, áldd meg a magyart!",
+     "ru": "Боже, благослови венгра!"
+    },
+    {
+     "type": "phrase",
+     "hu": "A Szózatot Vörösmarty Mihály írta 1836-ban.",
+     "ru": "Szózat написал Михай Вёрёшмарти в 1836 году."
+    },
+    {
+     "type": "phrase",
+     "hu": "Egressy Béni zenésítette meg.",
+     "ru": "Музыку к нему написал Бени Эгрешши."
+    },
+    {
+     "type": "phrase",
+     "hu": "A Himnusz mellett gyakran énekeljük nemzeti ünnepeken.",
+     "ru": "Его часто поют наряду с Гимном на национальных праздниках."
+    },
+    {
+     "type": "grammar",
+     "id": "G_YEAR"
+    },
+    {
+     "type": "poem",
+     "title": "Начало Szózat",
+     "lines": [
+      {
+       "hu": "Hazádnak rendületlenűl",
+       "ru": "Родине своей непоколебимо"
+      },
+      {
+       "hu": "Légy híve, oh magyar;",
+       "ru": "будь верен, о венгр;"
+      },
+      {
+       "hu": "Bölcsőd az{az_pron} s majdan sírod is,",
+       "ru": "она твоя колыбель, а однажды и могила,"
+      },
+      {
+       "hu": "Mely ápol s eltakar.",
+       "ru": "что растит и укроет."
+      }
+     ],
+     "note": "Для экзамена важны первые две строки. rendületlenűl — старое написание, сейчас пишут rendületlenül."
+    },
+    {
+     "type": "mnemo",
+     "text": "**Гимн = «КЭ»**: Кёльчеи (слова) + Эркель (музыка). Гимн появился первым, в 1823 году.\n**Szózat = В + Е = «ВЕрность»**: Вёрёшмарти и Эгрешши, а сама песня про то, чтобы быть **верным** родине («légy híve»). 1836 — через 13 лет после Гимна."
+    }
+   ],
+   "practice": [
+    "p3_1",
+    "p3_2",
+    "p3_3",
+    "p3_4",
+    "p3_5",
+    "p3_6",
+    "p3_7",
+    "p3_8",
+    "p3_9"
+   ]
+  },
+  {
+   "id": "t1l4",
+   "title": "Национальные праздники",
+   "hu": "Nemzeti ünnepek",
+   "min": 20,
+   "kus": [
+    "k_mar15",
+    "k_aug20",
+    "k_oct23",
+    "k_kokarda",
+    "k_lyukas",
+    "k_aug20_custom"
+   ],
+   "blocks": [
+    {
+     "type": "calendar",
+     "title": "Три праздника: весна, лето, осень. Переверни листок",
+     "days": [
+      {
+       "date": "március 15.",
+       "ru": "15 марта",
+       "season": "весна",
+       "hu": "az 1848–49-es forradalom és szabadságharc emlékére",
+       "tr": "в память революции и освободительной войны 1848–49 годов",
+       "symbol": "kokarda",
+       "sym_hu": "kokárda",
+       "sym_ru": "Кокарда из лент цветов флага. Её носили революционеры 1848 года."
+      },
+      {
+       "date": "augusztus 20.",
+       "ru": "20 августа",
+       "season": "лето",
+       "hu": "az államalapítás és az államalapító Szent István király emlékére",
+       "tr": "в память основания государства и короля-основателя Святого Иштвана",
+       "symbol": "fireworks",
+       "sym_hu": "tűzijáték",
+       "sym_ru": "Вечером над Дунаем большой фейерверк, а днём крестный ход со Святой Десницей (Szent Jobb) — мощами короля."
+      },
+      {
+       "date": "október 23.",
+       "ru": "23 октября",
+       "season": "осень",
+       "hu": "az 1956. évi forradalom és szabadságharc emlékére",
+       "tr": "в память революции и освободительной борьбы 1956 года",
+       "symbol": "lyukas",
+       "sym_hu": "lyukas zászló",
+       "sym_ru": "Флаг с дырой: восставшие вырезали из флага коммунистический герб."
+      }
+     ]
+    },
+    {
+     "type": "phrase",
+     "hu": "Március 15.: az 1848–49-es forradalom és szabadságharc emlékére",
+     "ru": "15 марта: в память революции и освободительной войны 1848–49 годов"
+    },
+    {
+     "type": "phrase",
+     "hu": "Augusztus 20.: az államalapítás és az államalapító Szent István király emlékére",
+     "ru": "20 августа: в память основания государства и короля-основателя Святого Иштвана"
+    },
+    {
+     "type": "phrase",
+     "hu": "Október 23.: az 1956. évi forradalom és szabadságharc emlékére",
+     "ru": "23 октября: в память революции и освободительной борьбы 1956 года"
+    },
+    {
+     "type": "grammar",
+     "id": "G_DATE"
+    },
+    {
+     "type": "story",
+     "title": "Флаг с дырой",
+     "img": "img/w_lyukas.jpg",
+     "text": "В 1956 году восставшие вырезали из флага коммунистический герб, и получился [[lyukas zászló]], «флаг с дырой». Это один из главных символов революции. На фото памятная табличка в Будапеште: флаг с дырой и следы пуль 1956 года на стене."
+    },
+    {
+     "type": "phrase",
+     "hu": "Az 1956-os forradalom egyik legfőbb jelképe a lyukas zászló.",
+     "ru": "Один из главных символов революции 1956 года — флаг с дырой."
+    },
+    {
+     "type": "phrase",
+     "hu": "Az 1848–49-es forradalom egyik legfőbb jelképe a kokárda.",
+     "ru": "Один из главных символов революции 1848–49 годов — кокарда."
+    },
+    {
+     "type": "mnemo",
+     "text": "**Весна, лето, осень = 1848, 1000, 1956.**\n15 марта — весна и революция (кокарда).\n20 августа — лето, хлеб и фейерверк, король Иштван (около 1000 года).\n23 октября — осень, 1956 год (флаг с дырой).\n\nЦифры: **15-20-23** — каждый раз всё больше."
+    }
+   ],
+   "practice": [
+    "p4_1",
+    "p4_2",
+    "p4_3",
+    "p4_4",
+    "p4_5",
+    "p4_6",
+    "p4_7",
+    "p4_8"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "d1",
+   "mode": "diag",
+   "kus": [
+    "k_hymn_author"
+   ],
+   "type": "mcq",
+   "q": "Who wrote the lyrics of the Hungarian national anthem (Himnusz)?",
+   "opts": [
+    "Ferenc Kölcsey",
+    "Mihály Vörösmarty",
+    "Sándor Petőfi",
+    "Ferenc Erkel"
+   ],
+   "a": 0
+  },
+  {
+   "id": "d2",
+   "mode": "diag",
+   "kus": [
+    "k_hymn_music"
+   ],
+   "type": "mcq",
+   "q": "Who composed the music of the Himnusz?",
+   "opts": [
+    "Béla Bartók",
+    "Ferenc Erkel",
+    "Ferenc Liszt",
+    "Béni Egressy"
+   ],
+   "a": 1
+  },
+  {
+   "id": "d3",
+   "mode": "diag",
+   "kus": [
+    "k_hymn_year"
+   ],
+   "type": "mcq",
+   "q": "In which year was the Himnusz written?",
+   "opts": [
+    "1848",
+    "1836",
+    "1823",
+    "1867"
+   ],
+   "a": 2
+  },
+  {
+   "id": "d4",
+   "mode": "diag",
+   "kus": [
+    "k_szozat_author"
+   ],
+   "type": "mcq",
+   "q": "Who wrote the Szózat (the second national song)?",
+   "opts": [
+    "János Arany",
+    "Ferenc Kölcsey",
+    "Sándor Petőfi",
+    "Mihály Vörösmarty"
+   ],
+   "a": 3
+  },
+  {
+   "id": "d5",
+   "mode": "diag",
+   "kus": [
+    "k_szozat_music"
+   ],
+   "type": "mcq",
+   "q": "Who set the Szózat to music?",
+   "opts": [
+    "Béni Egressy",
+    "Ferenc Erkel",
+    "Zoltán Kodály",
+    "Ferenc Liszt"
+   ],
+   "a": 0
+  },
+  {
+   "id": "d6",
+   "mode": "diag",
+   "kus": [
+    "k_szozat_year"
+   ],
+   "type": "mcq",
+   "q": "In which year was the Szózat written?",
+   "opts": [
+    "1823",
+    "1836",
+    "1848",
+    "1956"
+   ],
+   "a": 1
+  },
+  {
+   "id": "d7",
+   "mode": "diag",
+   "kus": [
+    "k_szozat_when"
+   ],
+   "type": "mcq",
+   "q": "When is the Szózat usually sung?",
+   "opts": [
+    "Only at football matches",
+    "At weddings",
+    "Together with the Himnusz at national holidays",
+    "Only on Christmas Eve"
+   ],
+   "a": 2
+  },
+  {
+   "id": "d8",
+   "mode": "diag",
+   "kus": [
+    "k_flag_colors"
+   ],
+   "type": "mcq",
+   "q": "What are the colours of the Hungarian flag, from top to bottom?",
+   "opts": [
+    "Green, white, red",
+    "Red, white, green",
+    "Red, green, white",
+    "White, red, green"
+   ],
+   "a": 1
+  },
+  {
+   "id": "d9",
+   "mode": "diag",
+   "kus": [
+    "k_flag_white"
+   ],
+   "type": "mcq",
+   "q": "What does the WHITE stripe of the flag symbolise?",
+   "opts": [
+    "Strength",
+    "Hope",
+    "Loyalty",
+    "Peace"
+   ],
+   "a": 2
+  },
+  {
+   "id": "d10",
+   "mode": "diag",
+   "kus": [
+    "k_flag_red"
+   ],
+   "type": "mcq",
+   "q": "What does the RED stripe of the flag symbolise?",
+   "opts": [
+    "Strength",
+    "Blood of heroes",
+    "Love",
+    "Hope"
+   ],
+   "a": 0
+  },
+  {
+   "id": "d11",
+   "mode": "diag",
+   "kus": [
+    "k_flag_green"
+   ],
+   "type": "mcq",
+   "q": "What does the GREEN stripe of the flag symbolise?",
+   "opts": [
+    "Nature",
+    "Hope",
+    "Loyalty",
+    "Wealth"
+   ],
+   "a": 1
+  },
+  {
+   "id": "d12",
+   "mode": "diag",
+   "kus": [
+    "k_coa_parts"
+   ],
+   "type": "mcq",
+   "q": "What is on the right half of the Hungarian coat of arms?",
+   "opts": [
+    "A lion with a sword",
+    "An eagle",
+    "A double cross on three hills",
+    "Seven stars"
+   ],
+   "a": 2
+  },
+  {
+   "id": "d13",
+   "mode": "diag",
+   "kus": [
+    "k_crown_where"
+   ],
+   "type": "mcq",
+   "q": "Where can the Holy Crown be seen today?",
+   "opts": [
+    "Hungarian National Museum",
+    "Esztergom Basilica",
+    "Buda Castle",
+    "The Parliament building (Országház)"
+   ],
+   "a": 3
+  },
+  {
+   "id": "d14",
+   "mode": "diag",
+   "kus": [
+    "k_regalia"
+   ],
+   "type": "mcq",
+   "q": "Which of these is NOT one of the Hungarian coronation regalia?",
+   "opts": [
+    "The orb",
+    "The sceptre",
+    "The cockade",
+    "The coronation mantle"
+   ],
+   "a": 2
+  },
+  {
+   "id": "d15",
+   "mode": "diag",
+   "kus": [
+    "k_regalia_mean"
+   ],
+   "type": "mcq",
+   "q": "What did the coronation regalia originally symbolise?",
+   "opts": [
+    "The power of the Church",
+    "Former royal power",
+    "Victory in war",
+    "Membership of the EU"
+   ],
+   "a": 1
+  },
+  {
+   "id": "d16",
+   "mode": "diag",
+   "kus": [
+    "k_cities"
+   ],
+   "type": "mcq",
+   "q": "Which city was NOT a coronation city of Hungarian kings?",
+   "opts": [
+    "Székesfehérvár",
+    "Pozsony (Bratislava)",
+    "Debrecen",
+    "Esztergom"
+   ],
+   "a": 2
+  },
+  {
+   "id": "d17",
+   "mode": "diag",
+   "kus": [
+    "k_crown_law"
+   ],
+   "type": "mcq",
+   "q": "According to the Fundamental Law, what does the Holy Crown embody?",
+   "opts": [
+    "The constitutional continuity of the state and the unity of the nation",
+    "The wealth of the royal family",
+    "The power of the Church",
+    "Hungary's EU membership"
+   ],
+   "a": 0
+  },
+  {
+   "id": "d18",
+   "mode": "diag",
+   "kus": [
+    "k_mar15"
+   ],
+   "type": "mcq",
+   "q": "What does 15 March commemorate?",
+   "opts": [
+    "The founding of the state",
+    "The 1848–49 revolution and war of independence",
+    "The 1956 revolution",
+    "Joining the EU"
+   ],
+   "a": 1
+  },
+  {
+   "id": "d19",
+   "mode": "diag",
+   "kus": [
+    "k_aug20"
+   ],
+   "type": "mcq",
+   "q": "What does 20 August commemorate?",
+   "opts": [
+    "The 1956 revolution",
+    "The end of World War II",
+    "The founding of the state and King Saint Stephen",
+    "The 1848 revolution"
+   ],
+   "a": 2
+  },
+  {
+   "id": "d20",
+   "mode": "diag",
+   "kus": [
+    "k_oct23"
+   ],
+   "type": "mcq",
+   "q": "What does 23 October commemorate?",
+   "opts": [
+    "The 1956 revolution and freedom fight",
+    "The Treaty of Trianon",
+    "The founding of the state",
+    "The 1848 revolution"
+   ],
+   "a": 0
+  },
+  {
+   "id": "d21",
+   "mode": "diag",
+   "kus": [
+    "k_lyukas"
+   ],
+   "type": "mcq",
+   "q": "Which object became a main symbol of the 1956 revolution?",
+   "opts": [
+    "The cockade",
+    "The flag with a hole in the middle",
+    "The double cross",
+    "The Holy Crown"
+   ],
+   "a": 1
+  },
+  {
+   "id": "d22",
+   "mode": "diag",
+   "kus": [
+    "k_kokarda"
+   ],
+   "type": "mcq",
+   "q": "Which object became a main symbol of the 1848–49 revolution?",
+   "opts": [
+    "The red-white-green cockade",
+    "The flag with a hole",
+    "The orb",
+    "The coat of arms"
+   ],
+   "a": 0
+  },
+  {
+   "id": "d23",
+   "mode": "diag",
+   "kus": [
+    "k_symbols"
+   ],
+   "type": "mcq",
+   "q": "Which set lists Hungary's four most important national symbols, as the official guide names them?",
+   "opts": [
+    "Flag, Holy Crown, anthem, coat of arms",
+    "Flag, forint, Parliament, anthem",
+    "Coat of arms, paprika, Danube, anthem",
+    "Holy Crown, Tokaji wine, flag, Parliament"
+   ],
+   "a": 0
+  },
+  {
+   "id": "d24",
+   "mode": "diag",
+   "kus": [
+    "k_flag_parl"
+   ],
+   "type": "mcq",
+   "q": "Where is the national flag ceremonially raised on national holidays?",
+   "opts": [
+    "On Gellért Hill",
+    "In front of the Parliament building",
+    "At the Buda Castle",
+    "On Heroes' Square"
+   ],
+   "a": 1
+  },
+  {
+   "id": "p0_1",
+   "mode": "practice",
+   "kus": [
+    "k_q_ki",
+    "k_q_mikor",
+    "k_q_hol",
+    "k_q_mit",
+    "k_q_melyik"
+   ],
+   "type": "match",
+   "q": "Соедини вопросительные слова с переводом",
+   "pairs": [
+    [
+     "Ki?",
+     "Кто?"
+    ],
+    [
+     "Mikor?",
+     "Когда?"
+    ],
+    [
+     "Hol?",
+     "Где?"
+    ],
+    [
+     "Mit?",
+     "Что?"
+    ],
+    [
+     "Melyik?",
+     "Какой из?"
+    ]
+   ]
+  },
+  {
+   "id": "p0_2",
+   "mode": "practice",
+   "kus": [
+    "k_q_sorolja",
+    "k_q_nevezze",
+    "k_q_parositsa",
+    "k_q_egeszitse",
+    "k_q_jelolje"
+   ],
+   "type": "match",
+   "q": "Соедини команды с переводом",
+   "pairs": [
+    [
+     "Sorolja fel!",
+     "Перечислите!"
+    ],
+    [
+     "Nevezze meg!",
+     "Назовите!"
+    ],
+    [
+     "Párosítsa!",
+     "Соедините пары!"
+    ],
+    [
+     "Egészítse ki{ki_pv}!",
+     "Дополните!"
+    ],
+    [
+     "Jelölje meg!",
+     "Отметьте!"
+    ]
+   ]
+  },
+  {
+   "id": "p0_3",
+   "mode": "practice",
+   "kus": [
+    "k_q_irta",
+    "k_q_ki"
+   ],
+   "type": "mcq",
+   "q": "Что спрашивают? «[[Ki írta a Himnuszt?]]»",
+   "opts": [
+    "Когда написали Гимн?",
+    "Кто написал Гимн?",
+    "Где поют Гимн?",
+    "Кто положил Гимн на музыку?"
+   ],
+   "a": 1
+  },
+  {
+   "id": "p0_4",
+   "mode": "practice",
+   "kus": [
+    "k_q_zenesitette"
+   ],
+   "type": "mcq",
+   "q": "Что значит «[[zenésítette meg]]»?",
+   "opts": [
+    "написал слова",
+    "спел",
+    "положил на музыку",
+    "перевёл"
+   ],
+   "a": 2,
+   "ex": "[[zene]] = музыка. [[zenésítette meg]] = «сделал музыкой», то есть положил на музыку."
+  },
+  {
+   "id": "p0_5",
+   "mode": "practice",
+   "kus": [
+    "k_q_igaz"
+   ],
+   "type": "mcq",
+   "q": "«Igaz vagy hamis?» Ты считаешь утверждение неверным. Что выбрать?",
+   "opts": [
+    "igaz",
+    "hamis"
+   ],
+   "a": 1
+  },
+  {
+   "id": "p0_6",
+   "mode": "practice",
+   "kus": [
+    "k_q_jelkepez",
+    "k_q_mit"
+   ],
+   "type": "tiles",
+   "q": "Собери вопрос: «Что символизирует флаг?»",
+   "answer": [
+    "Mit",
+    "jelképez",
+    "a",
+    "zászló?"
+   ],
+   "extra": [
+    "Ki",
+    "írta"
+   ]
+  },
+  {
+   "id": "p0_7",
+   "mode": "practice",
+   "kus": [
+    "k_q_emlekere"
+   ],
+   "type": "mcq",
+   "q": "«[[Kinek az emlékére ünnepeljük augusztus 20-át?]]» О чём спрашивают?",
+   "opts": [
+    "Когда празднуют 20 августа?",
+    "В память о ком празднуют 20 августа?",
+    "Где празднуют 20 августа?"
+   ],
+   "a": 1
+  },
+  {
+   "id": "p0_8",
+   "mode": "practice",
+   "kus": [
+    "k_q_ki",
+    "k_q_mikor",
+    "k_q_hol"
+   ],
+   "type": "match",
+   "q": "Какой вопрос к какому ответу?",
+   "pairs": [
+    [
+     "Ki?",
+     "Kölcsey Ferenc"
+    ],
+    [
+     "Mikor?",
+     "1823-ban"
+    ],
+    [
+     "Hol?",
+     "az Országházban"
+    ]
+   ]
+  },
+  {
+   "id": "p1_1",
+   "mode": "practice",
+   "kus": [
+    "k_flag_colors"
+   ],
+   "type": "paint",
+   "q": "Раскрась флаг Венгрии",
+   "regions": [
+    "piros",
+    "fehér",
+    "zöld"
+   ]
+  },
+  {
+   "id": "p1_2",
+   "mode": "practice",
+   "kus": [
+    "k_flag_red",
+    "k_flag_white",
+    "k_flag_green"
+   ],
+   "type": "match",
+   "q": "Цвет → что символизирует",
+   "pairs": [
+    [
+     "piros",
+     "erő"
+    ],
+    [
+     "fehér",
+     "hűség"
+    ],
+    [
+     "zöld",
+     "remény"
+    ]
+   ]
+  },
+  {
+   "id": "p1_3",
+   "mode": "practice",
+   "kus": [
+    "k_flag_white"
+   ],
+   "type": "tiles",
+   "q": "Собери: «Белый символизирует верность».",
+   "answer": [
+    "A",
+    "fehér",
+    "a",
+    "hűséget",
+    "jelképezi."
+   ],
+   "extra": [
+    "reményt",
+    "piros"
+   ]
+  },
+  {
+   "id": "p1_4",
+   "mode": "practice",
+   "kus": [
+    "k_flag_green",
+    "k_q_mit"
+   ],
+   "type": "type",
+   "q": "Mit jelképez a zászló zöld színe?",
+   "accept": [
+    "remény",
+    "a remény",
+    "a reményt",
+    "reményt"
+   ],
+   "ex": "zöld → [[reményt]] (надежду)."
+  },
+  {
+   "id": "p1_5",
+   "mode": "practice",
+   "kus": [
+    "k_coa_parts"
+   ],
+   "type": "hotspot",
+   "q": "Подпиши части герба",
+   "img": "img/coa.jpg",
+   "w": 285,
+   "h": 599,
+   "points": [
+    {
+     "x": 50,
+     "y": 16,
+     "label": "Szent Korona"
+    },
+    {
+     "x": 25,
+     "y": 55,
+     "label": "hétszer vágott mező"
+    },
+    {
+     "x": 70,
+     "y": 47,
+     "label": "kettős kereszt"
+    },
+    {
+     "x": 73,
+     "y": 89,
+     "label": "hármas halom"
+    }
+   ],
+   "extra": [
+    "országalma"
+   ]
+  },
+  {
+   "id": "p1_6",
+   "mode": "practice",
+   "kus": [
+    "k_symbols"
+   ],
+   "type": "multi",
+   "q": "Отметь 4 главных национальных символа",
+   "opts": [
+    "zászló",
+    "Szent Korona",
+    "Himnusz",
+    "címer",
+    "forint",
+    "Országház"
+   ],
+   "a": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "p1_7",
+   "mode": "practice",
+   "kus": [
+    "k_flag_parl"
+   ],
+   "type": "mcq",
+   "q": "Nemzeti ünnepeken felvonják a zászlót … előtt.",
+   "opts": [
+    "az Országház",
+    "a Nemzeti Múzeum",
+    "a Budai Vár"
+   ],
+   "a": 0
+  },
+  {
+   "id": "p1_8",
+   "mode": "practice",
+   "kus": [
+    "k_flag_red",
+    "k_q_jelkepez"
+   ],
+   "type": "type",
+   "q": "Впиши по-венгерски: красный символизирует …\nA piros az ___ jelképezi.",
+   "accept": [
+    "erőt"
+   ],
+   "ex": "[[erőt]] = erő + -t. Нужен винительный падеж: символизирует что?"
+  },
+  {
+   "id": "p1_9",
+   "mode": "practice",
+   "kus": [
+    "k_coa_parts"
+   ],
+   "type": "tf",
+   "q": "A címeren kettős kereszt és hármas halom van.",
+   "a": true,
+   "ex": "Верно: на гербе есть двойной крест и три холма."
+  },
+  {
+   "id": "p2_1",
+   "mode": "practice",
+   "kus": [
+    "k_regalia"
+   ],
+   "type": "hotspot",
+   "q": "Подпиши регалии",
+   "img": "img/regalia.jpg",
+   "w": 800,
+   "h": 544,
+   "points": [
+    {
+     "x": 56,
+     "y": 26,
+     "label": "Szent Korona"
+    },
+    {
+     "x": 12,
+     "y": 50,
+     "label": "jogar"
+    },
+    {
+     "x": 17,
+     "y": 79,
+     "label": "kard"
+    },
+    {
+     "x": 77,
+     "y": 61,
+     "label": "országalma"
+    }
+   ],
+   "extra": [
+    "palást"
+   ]
+  },
+  {
+   "id": "p2_2",
+   "mode": "practice",
+   "kus": [
+    "k_regalia"
+   ],
+   "type": "match",
+   "q": "Регалия → перевод",
+   "pairs": [
+    [
+     "országalma",
+     "держава"
+    ],
+    [
+     "jogar",
+     "скипетр"
+    ],
+    [
+     "kard",
+     "меч"
+    ],
+    [
+     "palást",
+     "мантия"
+    ]
+   ]
+  },
+  {
+   "id": "p2_3",
+   "mode": "practice",
+   "kus": [
+    "k_crown_where",
+    "k_q_hol"
+   ],
+   "type": "type",
+   "q": "Hol tekinthető meg a Szent Korona?",
+   "accept": [
+    "Országház",
+    "az Országházban",
+    "Országházban",
+    "a Parlamentben",
+    "Parlament",
+    "Parlamentben",
+    "az Országház"
+   ],
+   "ex": "[[az]] [[Országházban]] — в Парламенте."
+  },
+  {
+   "id": "p2_4",
+   "mode": "practice",
+   "kus": [
+    "k_cities"
+   ],
+   "type": "multi",
+   "q": "Отметь города коронации",
+   "opts": [
+    "Buda",
+    "Esztergom",
+    "Debrecen",
+    "Pozsony",
+    "Szeged",
+    "Sopron",
+    "Székesfehérvár"
+   ],
+   "a": [
+    0,
+    1,
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "p2_5",
+   "mode": "practice",
+   "kus": [
+    "k_regalia_mean"
+   ],
+   "type": "mcq",
+   "q": "Mit jelképeznek a koronázási jelvények?",
+   "opts": [
+    "az egykori királyi hatalmat",
+    "az Európai Uniót",
+    "a reformkort"
+   ],
+   "a": 0,
+   "ex": "Регалии символизируют бывшую королевскую власть: [[egykori]] [[királyi]] [[hatalmat]]."
+  },
+  {
+   "id": "p2_6",
+   "mode": "practice",
+   "kus": [
+    "k_crown_law"
+   ],
+   "type": "tiles",
+   "q": "Собери: корона воплощает … единство нации",
+   "answer": [
+    "a",
+    "nemzet",
+    "egységét"
+   ],
+   "extra": [
+    "folytonosság",
+    "hatalom"
+   ]
+  },
+  {
+   "id": "p2_7",
+   "mode": "practice",
+   "kus": [
+    "k_regalia"
+   ],
+   "type": "flash",
+   "front": "országalma",
+   "back": "держава: «яблоко страны» (ország + alma)"
+  },
+  {
+   "id": "p2_8",
+   "mode": "practice",
+   "kus": [
+    "k_cities"
+   ],
+   "type": "type",
+   "q": "[[Pozsony]] сегодня называется… (по-русски)",
+   "accept": [
+    "Братислава",
+    "bratislava",
+    "братислава"
+   ],
+   "ex": "Pozsony = Братислава."
+  },
+  {
+   "id": "p3_1",
+   "mode": "practice",
+   "kus": [
+    "k_hymn_author",
+    "k_hymn_music",
+    "k_szozat_author",
+    "k_szozat_music"
+   ],
+   "type": "match",
+   "q": "Кто что сделал?",
+   "pairs": [
+    [
+     "Himnusz – szöveg",
+     "Kölcsey Ferenc"
+    ],
+    [
+     "Himnusz – zene",
+     "Erkel Ferenc"
+    ],
+    [
+     "Szózat – szöveg",
+     "Vörösmarty Mihály"
+    ],
+    [
+     "Szózat – zene",
+     "Egressy Béni"
+    ]
+   ]
+  },
+  {
+   "id": "p3_2",
+   "mode": "practice",
+   "kus": [
+    "k_hymn_year",
+    "k_szozat_year"
+   ],
+   "type": "match",
+   "q": "Произведение → год",
+   "pairs": [
+    [
+     "Himnusz",
+     "1823"
+    ],
+    [
+     "Szózat",
+     "1836"
+    ]
+   ]
+  },
+  {
+   "id": "p3_3",
+   "mode": "practice",
+   "kus": [
+    "k_hymn_author",
+    "k_q_ki",
+    "k_q_irta"
+   ],
+   "type": "type",
+   "q": "Ki írta a Himnuszt?",
+   "accept": [
+    "Kölcsey Ferenc",
+    "Kölcsey"
+   ],
+   "ex": "[[Kölcsey Ferenc]]: сначала фамилия, потом имя."
+  },
+  {
+   "id": "p3_4",
+   "mode": "practice",
+   "kus": [
+    "k_szozat_lines"
+   ],
+   "type": "tiles",
+   "q": "Собери начало Szózat",
+   "answer": [
+    "Hazádnak",
+    "rendületlenűl",
+    "légy",
+    "híve,",
+    "oh",
+    "magyar"
+   ],
+   "extra": [
+    "Isten",
+    "áldd"
+   ]
+  },
+  {
+   "id": "p3_5",
+   "mode": "practice",
+   "kus": [
+    "k_szozat_music",
+    "k_q_zenesitette"
+   ],
+   "type": "type",
+   "q": "Ki zenésítette meg a Szózatot?",
+   "accept": [
+    "Egressy Béni",
+    "Egressy"
+   ]
+  },
+  {
+   "id": "p3_6",
+   "mode": "practice",
+   "kus": [
+    "k_hymn_line"
+   ],
+   "type": "mcq",
+   "q": "Первая строка Гимна:",
+   "opts": [
+    "Hazádnak rendületlenűl",
+    "Isten, áldd meg a magyart",
+    "Talpra magyar, hí a haza"
+   ],
+   "a": 1,
+   "ex": "«Talpra magyar» — это «Национальная песня» Петёфи (тема 3)."
+  },
+  {
+   "id": "p3_7",
+   "mode": "practice",
+   "kus": [
+    "k_szozat_when"
+   ],
+   "type": "tf",
+   "q": "A Szózatot a Himnusz mellett gyakran énekeljük nemzeti ünnepeken.",
+   "a": true
+  },
+  {
+   "id": "p3_8",
+   "mode": "practice",
+   "kus": [
+    "k_hymn_year",
+    "k_q_melyik"
+   ],
+   "type": "type",
+   "q": "Melyik évben írta Kölcsey Ferenc a Himnuszt?",
+   "accept": [
+    "1823",
+    "1823-ban"
+   ]
+  },
+  {
+   "id": "p3_9",
+   "mode": "practice",
+   "kus": [
+    "k_szozat_author"
+   ],
+   "type": "tf",
+   "q": "A Szózatot Kölcsey Ferenc írta.",
+   "a": false,
+   "ex": "Неверно: Szózat написал [[Vörösmarty Mihály]]."
+  },
+  {
+   "id": "p4_1",
+   "mode": "practice",
+   "kus": [
+    "k_mar15",
+    "k_aug20",
+    "k_oct23"
+   ],
+   "type": "match",
+   "q": "Дата → событие",
+   "pairs": [
+    [
+     "március 15.",
+     "1848–49-es forradalom"
+    ],
+    [
+     "augusztus 20.",
+     "államalapítás, Szent István"
+    ],
+    [
+     "október 23.",
+     "1956-os forradalom"
+    ]
+   ]
+  },
+  {
+   "id": "p4_2",
+   "mode": "practice",
+   "kus": [
+    "k_mar15",
+    "k_aug20",
+    "k_oct23"
+   ],
+   "type": "order",
+   "q": "Расставь события по времени, от самого раннего",
+   "items": [
+    "államalapítás (Szent István)",
+    "1848–49-es forradalom",
+    "1956-os forradalom"
+   ]
+  },
+  {
+   "id": "p4_3",
+   "mode": "practice",
+   "kus": [
+    "k_oct23",
+    "k_q_mikor"
+   ],
+   "type": "type",
+   "q": "Mikor ünnepeljük az 1956-os forradalmat?",
+   "accept": [
+    "október 23.",
+    "október 23",
+    "okt. 23.",
+    "október 23-án"
+   ],
+   "ex": "[[október]] 23. Точка после числа означает порядковое: «23-е»."
+  },
+  {
+   "id": "p4_4",
+   "mode": "practice",
+   "kus": [
+    "k_kokarda",
+    "k_lyukas"
+   ],
+   "type": "match",
+   "q": "Символ → революция",
+   "pairs": [
+    [
+     "kokárda",
+     "1848–49"
+    ],
+    [
+     "lyukas zászló",
+     "1956"
+    ]
+   ]
+  },
+  {
+   "id": "p4_5",
+   "mode": "practice",
+   "kus": [
+    "k_aug20",
+    "k_q_emlekere"
+   ],
+   "type": "type",
+   "q": "Kinek az emlékére ünnepeljük augusztus 20-át?",
+   "accept": [
+    "Szent István",
+    "Szent István király",
+    "Szent István királyra",
+    "az államalapító Szent István király emlékére",
+    "István király",
+    "Szent István emlékére",
+    "Szent István király emlékére"
+   ]
+  },
+  {
+   "id": "p4_6",
+   "mode": "practice",
+   "kus": [
+    "k_mar15"
+   ],
+   "type": "mcq",
+   "q": "Március 15. — ez melyik esemény emlékére?",
+   "opts": [
+    "az 1956-os forradalom",
+    "az 1848–49-es forradalom és szabadságharc",
+    "az államalapítás"
+   ],
+   "a": 1
+  },
+  {
+   "id": "p4_7",
+   "mode": "practice",
+   "kus": [
+    "k_aug20_custom"
+   ],
+   "type": "match",
+   "q": "20 августа: венгерское слово → перевод",
+   "pairs": [
+    [
+     "tűzijáték",
+     "фейерверк"
+    ],
+    [
+     "Szent Jobb",
+     "Святая Десница"
+    ],
+    [
+     "körmenet",
+     "крестный ход"
+    ]
+   ]
+  },
+  {
+   "id": "p4_8",
+   "mode": "practice",
+   "kus": [
+    "k_mar15",
+    "k_aug20",
+    "k_oct23"
+   ],
+   "type": "list",
+   "q": "Sorolja fel Magyarország nemzeti ünnepeit!",
+   "items": [
+    [
+     "március 15"
+    ],
+    [
+     "augusztus 20"
+    ],
+    [
+     "október 23"
+    ]
+   ],
+   "ex": "Три даты через запятую. Точку после числа можно не ставить."
+  },
+  {
+   "id": "c1",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_hymn_author"
+   ],
+   "type": "type",
+   "q": "Ki írta a Himnuszt?",
+   "accept": [
+    "Kölcsey Ferenc",
+    "Kölcsey"
+   ]
+  },
+  {
+   "id": "c2",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_hymn_music"
+   ],
+   "type": "type",
+   "q": "Ki zenésítette meg a Himnuszt?",
+   "accept": [
+    "Erkel Ferenc",
+    "Erkel"
+   ]
+  },
+  {
+   "id": "c3",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_hymn_year"
+   ],
+   "type": "type",
+   "q": "Melyik évben írta Kölcsey Ferenc a Himnuszt?",
+   "accept": [
+    "1823",
+    "1823-ban"
+   ]
+  },
+  {
+   "id": "c4",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_szozat_author"
+   ],
+   "type": "type",
+   "q": "Ki írta a Szózatot?",
+   "accept": [
+    "Vörösmarty Mihály",
+    "Vörösmarty"
+   ]
+  },
+  {
+   "id": "c5",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_szozat_music"
+   ],
+   "type": "type",
+   "q": "Ki zenésítette meg a Szózatot?",
+   "accept": [
+    "Egressy Béni",
+    "Egressy"
+   ]
+  },
+  {
+   "id": "c6",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k_szozat_year"
+   ],
+   "type": "mcq",
+   "q": "Mikor írta Vörösmarty Mihály a Szózatot?",
+   "opts": [
+    "1823-ban",
+    "1836-ban",
+    "1848-ban",
+    "1867-ben"
+   ],
+   "a": 1
+  },
+  {
+   "id": "c7",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k_flag_red",
+    "k_flag_white",
+    "k_flag_green"
+   ],
+   "type": "match",
+   "q": "Párosítsa a színeket a jelentésükkel!",
+   "pairs": [
+    [
+     "piros",
+     "erő"
+    ],
+    [
+     "fehér",
+     "hűség"
+    ],
+    [
+     "zöld",
+     "remény"
+    ]
+   ]
+  },
+  {
+   "id": "c8",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_flag_green"
+   ],
+   "type": "type",
+   "q": "Mit jelképez a zászló zöld színe?",
+   "accept": [
+    "remény",
+    "a remény",
+    "a reményt",
+    "reményt"
+   ]
+  },
+  {
+   "id": "c9",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k_coa_parts"
+   ],
+   "type": "hotspot",
+   "q": "Nevezze meg a címer részeit!",
+   "img": "img/coa.jpg",
+   "w": 285,
+   "h": 599,
+   "points": [
+    {
+     "x": 50,
+     "y": 16,
+     "label": "Szent Korona"
+    },
+    {
+     "x": 25,
+     "y": 55,
+     "label": "hétszer vágott mező"
+    },
+    {
+     "x": 70,
+     "y": 47,
+     "label": "kettős kereszt"
+    },
+    {
+     "x": 73,
+     "y": 89,
+     "label": "hármas halom"
+    }
+   ],
+   "extra": [
+    "országalma",
+    "kokárda"
+   ]
+  },
+  {
+   "id": "c10",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k_regalia"
+   ],
+   "type": "multi",
+   "q": "Jelölje meg a koronázási jelvényeket!",
+   "opts": [
+    "Szent Korona",
+    "országalma",
+    "kokárda",
+    "koronázási kard",
+    "jogar",
+    "lyukas zászló",
+    "palást"
+   ],
+   "a": [
+    0,
+    1,
+    3,
+    4,
+    6
+   ]
+  },
+  {
+   "id": "c11",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_crown_where"
+   ],
+   "type": "type",
+   "q": "Hol tekinthető meg a Szent Korona?",
+   "accept": [
+    "Országház",
+    "az Országházban",
+    "Országházban",
+    "a Parlamentben",
+    "Parlament",
+    "Parlamentben",
+    "az Országház"
+   ]
+  },
+  {
+   "id": "c12",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k_cities"
+   ],
+   "type": "multi",
+   "q": "Jelölje meg az egykori koronázó városokat!",
+   "opts": [
+    "Buda",
+    "Debrecen",
+    "Esztergom",
+    "Pozsony",
+    "Pécs",
+    "Sopron",
+    "Székesfehérvár"
+   ],
+   "a": [
+    0,
+    2,
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "c13",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k_mar15",
+    "k_aug20",
+    "k_oct23"
+   ],
+   "type": "match",
+   "q": "Párosítsa a nemzeti ünnepeket az eseményekkel!",
+   "pairs": [
+    [
+     "március 15.",
+     "az 1848–49-es forradalom és szabadságharc"
+    ],
+    [
+     "augusztus 20.",
+     "az államalapítás, Szent István király"
+    ],
+    [
+     "október 23.",
+     "az 1956-os forradalom és szabadságharc"
+    ]
+   ]
+  },
+  {
+   "id": "c14",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_aug20"
+   ],
+   "type": "type",
+   "q": "Kinek az emlékére ünnepeljük augusztus 20-át?",
+   "accept": [
+    "Szent István",
+    "Szent István király",
+    "az államalapító Szent István király emlékére",
+    "István király",
+    "Szent István emlékére",
+    "Szent István király emlékére"
+   ]
+  },
+  {
+   "id": "c15",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k_szozat_author"
+   ],
+   "type": "tf",
+   "q": "A Szózatot Kölcsey Ferenc írta.",
+   "a": false
+  },
+  {
+   "id": "c16",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k_flag_parl"
+   ],
+   "type": "tf",
+   "q": "Nemzeti ünnepeken felvonják a zászlót az Országház előtt.",
+   "a": true
+  },
+  {
+   "id": "c17",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_szozat_lines"
+   ],
+   "type": "type",
+   "q": "Egészítse ki{ki_pv} a Szózat sorait!\nHazádnak rendületlenűl / Légy ___, oh magyar",
+   "accept": [
+    "híve"
+   ]
+  },
+  {
+   "id": "c18",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k_flag_colors"
+   ],
+   "type": "list",
+   "q": "Sorolja fel a magyar zászló színeit!",
+   "items": [
+    [
+     "piros"
+    ],
+    [
+     "fehér"
+    ],
+    [
+     "zöld"
+    ]
+   ]
+  },
+  {
+   "id": "c19",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k_mar15",
+    "k_aug20",
+    "k_oct23"
+   ],
+   "type": "list",
+   "q": "Sorolja fel Magyarország nemzeti ünnepeit!",
+   "items": [
+    [
+     "március 15"
+    ],
+    [
+     "augusztus 20"
+    ],
+    [
+     "október 23"
+    ]
+   ]
+  },
+  {
+   "id": "c20",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_crown_law"
+   ],
+   "type": "mcq",
+   "q": "Mit testesít meg a Szent Korona az Alaptörvény szerint?",
+   "opts": [
+    "a királyi család gazdagságát",
+    "Magyarország alkotmányos állami folytonosságát és a nemzet egységét",
+    "az Európai Uniót",
+    "a reformkort"
+   ],
+   "a": 1
+  },
+  {
+   "id": "c21",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k_lyukas"
+   ],
+   "type": "tf",
+   "q": "Az 1956-os forradalom egyik legfőbb jelképe a lyukas zászló.",
+   "a": true
+  },
+  {
+   "id": "c22",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_kokarda"
+   ],
+   "type": "type",
+   "q": "Mi volt az 1848–49-es forradalom egyik legfőbb jelképe?",
+   "accept": [
+    "kokárda",
+    "a kokárda",
+    "a piros-fehér-zöld kokárda",
+    "piros-fehér-zöld kokárda"
+   ]
+  },
+  {
+   "id": "c23",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_oct23"
+   ],
+   "type": "type",
+   "q": "Mikor ünnepeljük az 1956-os forradalmat?",
+   "accept": [
+    "október 23.",
+    "október 23",
+    "október 23-án",
+    "okt. 23."
+   ]
+  },
+  {
+   "id": "c24",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k_crown_where"
+   ],
+   "type": "tf",
+   "q": "A Szent Korona a Magyar Nemzeti Múzeumban tekinthető meg.",
+   "a": false
+  },
+  {
+   "id": "c25",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_regalia_mean"
+   ],
+   "type": "mcq",
+   "q": "Mit jelképeznek a koronázási jelvények?",
+   "opts": [
+    "az Európai Uniót",
+    "az egykori királyi hatalmat",
+    "a reformkort",
+    "az 1956-os forradalmat"
+   ],
+   "a": 1
+  },
+  {
+   "id": "c26",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_szozat_when"
+   ],
+   "type": "mcq",
+   "q": "Mikor énekeljük gyakran a Szózatot?",
+   "opts": [
+    "nemzeti ünnepeken, a Himnusz mellett",
+    "csak karácsonykor",
+    "csak focimeccsen"
+   ],
+   "a": 0
+  },
+  {
+   "id": "c27",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k_symbols"
+   ],
+   "type": "multi",
+   "q": "Jelölje meg a legfontosabb nemzeti jelképeket!",
+   "opts": [
+    "zászló",
+    "forint",
+    "Szent Korona",
+    "Himnusz",
+    "Országház",
+    "címer"
+   ],
+   "a": [
+    0,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "id": "c28",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_flag_white"
+   ],
+   "type": "type",
+   "q": "Mit jelképez a zászló fehér színe?",
+   "accept": [
+    "hűség",
+    "a hűség",
+    "a hűséget",
+    "hűséget"
+   ]
+  },
+  {
+   "id": "c29",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k_flag_red"
+   ],
+   "type": "type",
+   "q": "Mit jelképez a zászló piros színe?",
+   "accept": [
+    "erő",
+    "az erő",
+    "az erőt",
+    "erőt"
+   ]
+  },
+  {
+   "id": "c30",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k_hymn_line"
+   ],
+   "type": "mcq",
+   "q": "Mi a Himnusz első sora?",
+   "opts": [
+    "Isten, áldd meg a magyart",
+    "Talpra magyar, hí a haza",
+    "Hazádnak rendületlenűl"
+   ],
+   "a": 0
+  }
+ ]
+}

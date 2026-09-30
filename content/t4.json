@@ -1,0 +1,2712 @@
+{
+ "id": "t4",
+ "n": 4,
+ "title": "Государственные институты",
+ "hu": "Az Alaptörvény alapvető intézményei",
+ "source": "Segédanyag BFKH, 2026. szeptember, 35–40. dia",
+ "kus": [
+  {
+   "id": "k4_q_hatalyba",
+   "lang": true,
+   "ru": "hatályba lép — вступает в силу"
+  },
+  {
+   "id": "k4_q_elfogad",
+   "lang": true,
+   "ru": "elfogad (fogadta el) — принимает (принял)"
+  },
+  {
+   "id": "k4_q_hany",
+   "lang": true,
+   "ru": "Hány? — Сколько?"
+  },
+  {
+   "id": "k4_q_evre",
+   "lang": true,
+   "ru": "Hány évre? — На сколько лет?"
+  },
+  {
+   "id": "k4_q_valaszt",
+   "lang": true,
+   "ru": "választ / megválaszt — избирает"
+  },
+  {
+   "id": "k4_q_feladat",
+   "lang": true,
+   "ru": "feladat — задача; Mi a feladata? — Какова его задача?"
+  },
+  {
+   "id": "k4_alap_what",
+   "ru": "Основной закон — конституция Венгрии: норма с высшей юридической силой, которая стоит над всеми остальными законами",
+   "hu": "Magyarország alkotmánya"
+  },
+  {
+   "id": "k4_alap_jogrend",
+   "ru": "Основной закон — основа правового порядка Венгрии",
+   "hu": "Magyarország jogrendjének alapja"
+  },
+  {
+   "id": "k4_alap_who",
+   "ru": "Основной закон принял Парламент (Országgyűlés)",
+   "hu": "az Országgyűlés"
+  },
+  {
+   "id": "k4_alap_adopted",
+   "ru": "Основной закон приняли 18 апреля 2011 года",
+   "hu": "2011. április 18."
+  },
+  {
+   "id": "k4_alap_force",
+   "ru": "Основной закон вступил в силу 1 января 2012 года",
+   "hu": "2012. január 1."
+  },
+  {
+   "id": "k4_alap_values",
+   "ru": "Создавая Основной закон, Парламент держал в уме: уважение конституционных традиций, стабильную демократическую систему, национальную независимость и суверенитет, христианские ценности и европейскую культуру",
+   "hu": "alkotmányos hagyományok, nemzeti függetlenség és szuverenitás, keresztény értékek, európai kultúra"
+  },
+  {
+   "id": "k4_alap_protect",
+   "ru": "Основной закон учитывает защиту семей и венгерских общин за границей",
+   "hu": "a családok és a határon túli magyar közösségek védelme"
+  },
+  {
+   "id": "k4_ogy_what",
+   "ru": "Országgyűlés (Государственное собрание, Парламент) — высший представительный орган народа Венгрии",
+   "hu": "Magyarország legfőbb népképviseleti szerve"
+  },
+  {
+   "id": "k4_ogy_199",
+   "ru": "В Парламенте 199 депутатов",
+   "hu": "199 fő"
+  },
+  {
+   "id": "k4_ogy_4",
+   "ru": "Депутатов Парламента избирают на 4 года",
+   "hu": "4 évre"
+  },
+  {
+   "id": "k4_ogy_house",
+   "extra": true,
+   "ru": "Дополнительно (не из методички): Парламент заседает в здании Országház в Будапеште",
+   "hu": "az Országházban"
+  },
+  {
+   "id": "k4_ogy_law",
+   "ru": "Парламент принимает и изменяет Основной закон и создаёт законы",
+   "hu": "megalkotja és módosítja az Alaptörvényt, törvényeket alkot"
+  },
+  {
+   "id": "k4_ogy_budget",
+   "ru": "Парламент принимает центральный (государственный) бюджет и одобряет его исполнение",
+   "hu": "elfogadja a központi költségvetést"
+  },
+  {
+   "id": "k4_ogy_pm",
+   "ru": "Парламент избирает премьер-министра и решает вопросы доверия правительству",
+   "hu": "megválasztja a miniszterelnököt"
+  },
+  {
+   "id": "k4_korm_exec",
+   "ru": "Правительство вместе с подчинённым ему госуправлением составляет исполнительную власть",
+   "hu": "végrehajtó hatalom"
+  },
+  {
+   "id": "k4_korm_members",
+   "ru": "Члены правительства — премьер-министр (глава правительства) и министры",
+   "hu": "a miniszterelnök és a miniszterek"
+  },
+  {
+   "id": "k4_pm_name",
+   "ru": "Премьер-министр Венгрии — Петер Мадьяр",
+   "hu": "Magyar Péter"
+  },
+  {
+   "id": "k4_pm_head",
+   "ru": "Премьер-министр — глава правительства",
+   "hu": "a Kormány feje"
+  },
+  {
+   "id": "k4_pm_eu",
+   "ru": "Премьер-министр представляет Венгрию в Европейском совете",
+   "hu": "az Európai Tanácsban"
+  },
+  {
+   "id": "k4_korm_tasks",
+   "ru": "Задачи правительства: руководит госуправлением, издаёт правовые нормы, обеспечивает работу государственных систем (оборона, правопорядок, образование, здравоохранение)",
+   "hu": "irányítja a közigazgatást, jogszabályokat alkot, működteti az állami ellátórendszereket"
+  },
+  {
+   "id": "k4_min_state",
+   "ru": "Министерства «государства»: внутренних дел, иностранных дел, финансов, обороны, юстиции и канцелярия премьер-министра",
+   "hu": "Belügyminisztérium, Külügyminisztérium, Pénzügyminisztérium, Honvédelmi Minisztérium, Igazságügyi Minisztérium, Miniszterelnökség"
+  },
+  {
+   "id": "k4_min_people",
+   "ru": "Министерства «про людей»: здравоохранения; образования и по делам детей; социальное и по делам семьи; общественных связей и культуры",
+   "hu": "Egészségügyi, Oktatási és Gyermekügyi, Szociális és Családügyi, Társadalmi kapcsolatokért és Kultúráért felelős Minisztérium"
+  },
+  {
+   "id": "k4_min_economy",
+   "ru": "Министерства «про экономику и землю»: аграрное, экономики и энергетики, транспорта и инвестиций, развития села и поселений, живой среды, науки и технологий",
+   "hu": "Agrár- és Élelmiszergazdaságért Felelős, Gazdasági és Energetikai, Közlekedési és Beruházási, Vidék- és Településfejlesztési, Élő Környezetért Felelős, Tudományos és Technológiai Minisztérium"
+  },
+  {
+   "id": "k4_ke_what",
+   "ru": "Президент республики — глава государства Венгрии",
+   "hu": "Magyarország államfője"
+  },
+  {
+   "id": "k4_ke_unity",
+   "ru": "Президент выражает единство нации и следит за демократической работой государства",
+   "hu": "kifejezi a nemzet egységét"
+  },
+  {
+   "id": "k4_ke_name",
+   "ru": "Президент Венгрии — Андраш Бака",
+   "hu": "Baka András"
+  },
+  {
+   "id": "k4_ke_elect",
+   "ru": "Президента избирает Парламент",
+   "hu": "az Országgyűlés választja"
+  },
+  {
+   "id": "k4_ke_5",
+   "ru": "Президента избирают на 5 лет",
+   "hu": "5 évre"
+  },
+  {
+   "id": "k4_ke_secret",
+   "ru": "Президента избирают тайным голосованием",
+   "hu": "titkos szavazással"
+  },
+  {
+   "id": "k4_ke_once",
+   "ru": "Президента можно переизбрать не больше одного раза",
+   "hu": "legfeljebb egy alkalommal újraválasztható"
+  },
+  {
+   "id": "k4_ke_army",
+   "ru": "Президент — главнокомандующий Венгерской армии (Magyar Honvédség)",
+   "hu": "a Magyar Honvédség főparancsnoka"
+  },
+  {
+   "id": "k4_ke_session",
+   "ru": "Президент созывает учредительное (первое) заседание Парламента",
+   "hu": "összehívja az Országgyűlés alakuló ülését"
+  },
+  {
+   "id": "k4_ke_dissolve",
+   "ru": "Президент может распустить Парламент в случаях, определённых Основным законом",
+   "hu": "feloszlathatja az Országgyűlést"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "t4l1",
+   "title": "Основной закон",
+   "hu": "Magyarország Alaptörvénye",
+   "min": 20,
+   "kus": [
+    "k4_q_hatalyba",
+    "k4_q_elfogad",
+    "k4_alap_what",
+    "k4_alap_jogrend",
+    "k4_alap_who",
+    "k4_alap_adopted",
+    "k4_alap_force",
+    "k4_alap_values",
+    "k4_alap_protect"
+   ],
+   "blocks": [
+    {
+     "type": "story",
+     "title": "Закон, который главнее всех законов",
+     "img": "img/w_parliament.jpg",
+     "text": "На фото книга с золотой обложкой: [[Magyarország Alaptörvénye]], «Основной закон Венгрии». За ней купол Парламента, где этот закон приняли.\n\nСлово легко разобрать: [[alap]] = основа, фундамент, [[törvény]] = закон. **Alaptörvény — «закон-фундамент»**, то есть конституция ([[alkotmány]]).\n\nМетодичка говорит о нём три вещи: это **особая норма**, которая стоит **над всеми остальными законами**; у неё **самая высокая юридическая сила**; она **основа правового порядка** Венгрии. Если обычный закон спорит с Основным законом, прав Основной закон."
+    },
+    {
+     "type": "phrase",
+     "hu": "Az Alaptörvény Magyarország alkotmánya.",
+     "ru": "Основной закон — конституция Венгрии."
+    },
+    {
+     "type": "phrase",
+     "hu": "Az Alaptörvény Magyarország jogrendjének alapja.",
+     "ru": "Основной закон — основа правового порядка Венгрии."
+    },
+    {
+     "type": "words",
+     "title": "Слова этого урока",
+     "items": [
+      {
+       "hu": "Alaptörvény",
+       "ru": "Основной закон",
+       "tip": "alap (основа) + törvény (закон). Пишется с большой буквы."
+      },
+      {
+       "hu": "alkotmány",
+       "ru": "конституция",
+       "tip": "Родственник глагола alkot — «создавать»."
+      },
+      {
+       "hu": "törvény",
+       "ru": "закон",
+       "tip": "Множественное число: törvények (законы)."
+      },
+      {
+       "hu": "jogrend",
+       "ru": "правовой порядок",
+       "tip": "jog (право) + rend (порядок)."
+      },
+      {
+       "hu": "Országgyűlés",
+       "ru": "Государственное собрание, Парламент",
+       "tip": "ország (страна) + gyűlés (собрание). Главное слово всей темы."
+      },
+      {
+       "hu": "elfogad",
+       "ru": "принимать (закон)",
+       "tip": "В прошедшем времени приставка отрывается: fogadta el — принял."
+      },
+      {
+       "hu": "hatályba lép",
+       "ru": "вступать в силу",
+       "tip": "hatály (сила закона) + -ba (в) + lép (шагать): закон «шагает в силу». Прошедшее: lépett hatályba."
+      }
+     ]
+    },
+    {
+     "type": "timeline",
+     "title": "Две даты Основного закона. Нажимай",
+     "events": [
+      {
+       "year": "2011",
+       "hu": "2011. április 18. – Az Országgyűlés elfogadta az Alaptörvényt.",
+       "ru": "Весной 2011 года Парламент **принял** новый Основной закон. Запомни слово [[elfogadta]] — «принял»."
+      },
+      {
+       "year": "2012",
+       "hu": "2012. január 1. – Az Alaptörvény hatályba lépett.",
+       "ru": "С **Нового года** закон начал действовать: [[hatályba lépett]] — «вступил в силу». Между принятием и вступлением в силу прошло больше восьми месяцев: стране дали время подготовиться."
+      }
+     ]
+    },
+    {
+     "type": "phrase",
+     "hu": "Az Országgyűlés 2011. április 18-án fogadta el az Alaptörvényt.",
+     "ru": "Парламент принял Основной закон 18 апреля 2011 года."
+    },
+    {
+     "type": "phrase",
+     "hu": "Az Alaptörvény 2012. január 1-jén lépett hatályba.",
+     "ru": "Основной закон вступил в силу 1 января 2012 года."
+    },
+    {
+     "type": "grammar",
+     "id": "G_PREVERB"
+    },
+    {
+     "type": "mnemo",
+     "text": "**Принят весной, заработал с Нового года.**\n\n**2011. április 18.** — представь, что закону исполнилось **18 лет**: он стал «совершеннолетним», и его можно принимать всерьёз.\n**2012. január 1.** — «новогодний подарок»: новый год, новая конституция.\n\nГоды идут подряд: **2011 → 2012**. Сначала «принять» (elfogad), потом «вступить в силу» (hatályba lép)."
+    },
+    {
+     "type": "story",
+     "title": "О чём думали авторы",
+     "text": "Методичка перечисляет, что [[Országgyűlés]] **держал в уме** ([[szem előtt tartotta]]), когда писал Основной закон. Это длинная фраза, но в ней всего шесть идей:\n\n1. уважать **конституционные традиции** Венгрии ([[alkotmányos{t4_alkotmanyos} hagyományok]]);\n2. обеспечить **стабильную и демократическую** систему институтов и управления;\n3. сохранить **национальную независимость и суверенитет** ([[nemzeti függetlenség és szuverenitás]]);\n4. сохранить **христианские ценности и европейскую культуру** ([[keresztény értékek]], [[európai kultúra]]);\n5. защищать **семьи** ([[családok]]);\n6. защищать **венгерские общины за границей** ([[határon túli magyar közösségek]]).\n\nНа экзамене такое спрашивают через «Отметьте верное»: достаточно **узнать** эти слова среди вариантов."
+    },
+    {
+     "type": "quote",
+     "hu": "Az Alaptörvény megalkotásakor az Országgyűlés Magyarország alkotmányos{t4_alkotmanyos} hagyományainak tiszteletben tartását, a stabil és demokratikus alkotmányos intézményrendszer és kormányzat biztosítását, továbbá a nemzeti függetlenség és szuverenitás, a keresztény értékek és az európai kultúra megőrzését, valamint a családok és a határon túli magyar közösségek védelmét tartotta szem előtt.",
+     "ru": "Создавая Основной закон, Парламент держал в уме уважение конституционных традиций Венгрии, обеспечение стабильной и демократической системы конституционных институтов и управления, а также сохранение национальной независимости и суверенитета, христианских ценностей и европейской культуры, и ещё защиту семей и венгерских общин за границей.",
+     "src": "Segédanyag BFKH, 36. dia"
+    },
+    {
+     "type": "mnemo",
+     "text": "Представь **дом**, который строит Парламент:\n\n**фундамент** — старые традиции (hagyományok);\n**крепкие стены** — стабильная демократия;\n**свой замок на двери** — независимость и суверенитет;\n**крест на крыше и европейский флаг** — христианские ценности и европейская культура;\n**семья внутри** — családok;\n**родственники за забором машут рукой** — венгры за границей (határon túli = «по ту сторону границы»).\n\nА вот короля в этом доме нет: «восстановить королевскую власть» — неверный вариант."
+    }
+   ],
+   "practice": [
+    "t4_p1_1",
+    "t4_p1_2",
+    "t4_p1_3",
+    "t4_p1_4",
+    "t4_p1_5",
+    "t4_p1_6",
+    "t4_p1_7",
+    "t4_p1_8",
+    "t4_p1_9",
+    "t4_p1_10"
+   ]
+  },
+  {
+   "id": "t4l2",
+   "title": "Парламент",
+   "hu": "Az Országgyűlés",
+   "min": 20,
+   "kus": [
+    "k4_q_hany",
+    "k4_q_evre",
+    "k4_ogy_what",
+    "k4_ogy_199",
+    "k4_ogy_4",
+    "k4_ogy_house",
+    "k4_ogy_law",
+    "k4_ogy_budget",
+    "k4_ogy_pm"
+   ],
+   "blocks": [
+    {
+     "type": "story",
+     "title": "Собрание страны",
+     "img": "img/w_parliament.jpg",
+     "text": "Венгерский парламент называется [[Országgyűlés]]: [[ország]] (страна) + [[gyűlés]] (собрание) = **«собрание страны»**.\n\nМетодичка называет его **высшим органом народного представительства**: здесь сидят люди, которых выбрал народ. Слово [[népképviseleti]] только выглядит страшно: [[nép]] = народ, [[képviselő]] = представитель, депутат.\n\nЗаседает Парламент в [[Országház]] на берегу Дуная — это то самое здание с куполом, которое ты видела на фото и где хранится Святая корона. Это дополнение к методичке: его знает каждый в Будапеште."
+    },
+    {
+     "type": "phrase",
+     "hu": "Az Országgyűlés Magyarország legfőbb{t4_legfobb} népképviseleti szerve.",
+     "ru": "Парламент — высший орган народного представительства Венгрии."
+    },
+    {
+     "type": "words",
+     "title": "Слова о Парламенте",
+     "items": [
+      {
+       "hu": "Országgyűlés",
+       "ru": "Парламент (как орган)",
+       "tip": "Országház — здание, Országgyűlés — сами депутаты и их работа."
+      },
+      {
+       "hu": "képviselő",
+       "ru": "депутат, представитель",
+       "tip": "országgyűlési képviselő — депутат Парламента."
+      },
+      {
+       "hu": "tag",
+       "ru": "член",
+       "tip": "Tagjait = его членов (кого?). Как «член клуба»."
+      },
+      {
+       "hu": "választ",
+       "ru": "избирать, выбирать",
+       "tip": "választják — (их) избирают."
+      },
+      {
+       "hu": "törvény",
+       "ru": "закон",
+       "tip": "törvényeket alkot — создаёт законы."
+      },
+      {
+       "hu": "költségvetés",
+       "ru": "бюджет",
+       "tip": "költség (расход) + vetés (расчёт): «расчёт расходов»."
+      },
+      {
+       "hu": "Hány?",
+       "ru": "Сколько?",
+       "tip": "Hány képviselő? — Сколько депутатов? Ответ — число."
+      }
+     ]
+    },
+    {
+     "type": "phrase",
+     "hu": "Az országgyűlési képviselők száma 199 fő.",
+     "ru": "Число депутатов Парламента — 199 человек."
+    },
+    {
+     "type": "phrase",
+     "hu": "Tagjait 4 évre választják.",
+     "ru": "Его членов избирают на 4 года."
+    },
+    {
+     "type": "grammar",
+     "id": "G_T4_RA"
+    },
+    {
+     "type": "mnemo",
+     "text": "**199** — «почти 200, но одного не хватает». Представь зал на 200 кресел, где одно всегда пустое. Нечётное число удобно запомнить так: при голосовании не бывает ничьей 100 на 100.\n\n**4 года** — как чемпионат мира по футболу: выборы в Парламент раз в 4 года."
+    },
+    {
+     "type": "story",
+     "title": "Что делает Парламент",
+     "text": "У Парламента четыре главные задачи ([[legfőbb{t4_legfobb} feladatai]]):\n\n1. **создаёт и изменяет Основной закон** — [[megalkotja és módosítja az Alaptörvényt]];\n2. **создаёт законы** — [[törvényeket alkot]];\n3. **принимает государственный бюджет** и одобряет его исполнение — [[elfogadja a központi költségvetést]];\n4. **избирает премьер-министра** и решает вопросы доверия правительству — [[megválasztja a miniszterelnököt]].\n\nПарламент пишет правила, а выполняет их правительство. Об этом следующий урок."
+    },
+    {
+     "type": "phrase",
+     "hu": "Az Országgyűlés törvényeket alkot.",
+     "ru": "Парламент создаёт законы."
+    },
+    {
+     "type": "phrase",
+     "hu": "Az Országgyűlés megválasztja a miniszterelnököt.",
+     "ru": "Парламент избирает премьер-министра."
+    },
+    {
+     "type": "grammar",
+     "id": "G_T4_NAK"
+    },
+    {
+     "type": "mnemo",
+     "text": "Задачи Парламента — **«Правила, Деньги, Капитан»**:\n\n**Правила** — Основной закон и законы (Alaptörvény, törvények);\n**Деньги** — бюджет (költségvetés);\n**Капитан** — премьер-министр (miniszterelnök).\n\nПарламент как собрание команды: пишет правила игры, делит кошелёк и выбирает капитана."
+    }
+   ],
+   "practice": [
+    "t4_p2_1",
+    "t4_p2_2",
+    "t4_p2_3",
+    "t4_p2_4",
+    "t4_p2_5",
+    "t4_p2_6",
+    "t4_p2_7",
+    "t4_p2_9",
+    "t4_p2_10"
+   ]
+  },
+  {
+   "id": "t4l3",
+   "title": "Правительство и министерства",
+   "hu": "A Kormány és a minisztériumok",
+   "min": 20,
+   "kus": [
+    "k4_q_valaszt",
+    "k4_korm_exec",
+    "k4_korm_members",
+    "k4_pm_name",
+    "k4_pm_head",
+    "k4_pm_eu",
+    "k4_korm_tasks",
+    "k4_min_state",
+    "k4_min_people",
+    "k4_min_economy"
+   ],
+   "blocks": [
+    {
+     "type": "story",
+     "title": "Новое правительство, новые имена",
+     "text": "В 2026 году в Венгрии сменилось правительство. Поэтому в старых учебниках и на старых сайтах ты встретишь другие имена и другие министерства. **Экзамен проверяет по новой методичке, сентябрь 2026 года.** Учи только то, что здесь.\n\nПравительство называется [[Kormány]]. Его члены — **премьер-министр и министры** ([[a miniszterelnök és a miniszterek]]). Премьер-министра ещё называют [[kormányfő]], «глава правительства».\n\nПарламент пишет законы, а правительство их **исполняет**. Поэтому методичка говорит: правительство вместе с подчинённым ему госуправлением ([[közigazgatás]]) составляет **исполнительную власть** — [[végrehajtó hatalom{t4_hatalom}]]."
+    },
+    {
+     "type": "phrase",
+     "hu": "A Kormány tagjai a miniszterelnök és a miniszterek.",
+     "ru": "Члены правительства — премьер-министр и министры."
+    },
+    {
+     "type": "phrase",
+     "hu": "A Kormány és a neki alárendelt közigazgatás alkotja a végrehajtó hatalmat.",
+     "ru": "Правительство и подчинённое ему госуправление составляют исполнительную власть."
+    },
+    {
+     "type": "words",
+     "title": "Слова о правительстве",
+     "items": [
+      {
+       "hu": "Kormány",
+       "ru": "правительство",
+       "tip": "В методичке с большой буквы, когда речь о правительстве Венгрии."
+      },
+      {
+       "hu": "miniszterelnök",
+       "ru": "премьер-министр",
+       "tip": "miniszter + elnök (председатель) = «председатель министров»."
+      },
+      {
+       "hu": "kormányfő",
+       "ru": "глава правительства",
+       "tip": "kormány + fő (голова, главный)."
+      },
+      {
+       "hu": "miniszter",
+       "ru": "министр",
+       "tip": "Мн. ч.: miniszterek."
+      },
+      {
+       "hu": "minisztérium",
+       "ru": "министерство",
+       "tip": "Почти как по-русски."
+      },
+      {
+       "hu": "végrehajtó hatalom{t4_hatalom}",
+       "ru": "исполнительная власть",
+       "tip": "végrehajt = исполнять, hatalom = власть."
+      }
+     ]
+    },
+    {
+     "type": "phrase",
+     "hu": "Magyarország miniszterelnöke Magyar{t4_magyar_nev} Péter.",
+     "ru": "Премьер-министр Венгрии — Петер Мадьяр."
+    },
+    {
+     "type": "mnemo",
+     "text": "Фамилия премьер-министра **Magyar** значит **«венгр»**. Получается: премьер-министр Венгрии — **господин Венгр**. Такое не забудешь.\n\nПорядок как всегда: сначала фамилия, потом имя — **Magyar Péter** (Пётр). В ответе пиши именно так."
+    },
+    {
+     "type": "phrase",
+     "hu": "A miniszterelnököt az Országgyűlés választja meg.",
+     "ru": "Премьер-министра избирает Парламент."
+    },
+    {
+     "type": "story",
+     "title": "Что делают премьер и правительство",
+     "text": "**Премьер-министр** ([[miniszterelnök]]):\n• его избирает Парламент — [[az Országgyűlés választja meg]];\n• он глава правительства — [[a Kormány feje]];\n• он представляет Венгрию в **Европейском совете** — [[az Európai Tanácsban]], где встречаются лидеры стран ЕС.\n\n**Правительство** ([[Kormány]]) делает три главных дела:\n• руководит работой госуправления — [[irányítja a közigazgatás munkáját]];\n• издаёт правовые нормы — [[jogszabályokat alkot]];\n• обеспечивает работу государственных систем — [[működteti az állami ellátórendszereket]]: оборона ([[honvédelem]]), правопорядок, образование ([[oktatás]]), здравоохранение ([[egészségügy]])."
+    },
+    {
+     "type": "grammar",
+     "id": "G_T4_UGY"
+    },
+    {
+     "type": "words",
+     "title": "Министерства, которые легко узнать",
+     "items": [
+      {
+       "hu": "Belügyminisztérium",
+       "ru": "Министерство внутренних дел",
+       "tip": "bel = внутри, ügy = дело."
+      },
+      {
+       "hu": "Külügyminisztérium",
+       "ru": "Министерство иностранных дел",
+       "tip": "kül = снаружи. Bel и kül — пара: внутри и снаружи."
+      },
+      {
+       "hu": "Pénzügyminisztérium",
+       "ru": "Министерство финансов",
+       "tip": "pénz = деньги. Ты видишь это слово на каждом банкомате."
+      },
+      {
+       "hu": "Honvédelmi Minisztérium",
+       "ru": "Министерство обороны",
+       "tip": "hon (родина) + védelem (защита) = «защита родины»."
+      },
+      {
+       "hu": "Igazságügyi Minisztérium",
+       "ru": "Министерство юстиции",
+       "tip": "igazság = правда, справедливость. Igaz = «верно» из заданий igaz/hamis."
+      },
+      {
+       "hu": "Egészségügyi Minisztérium",
+       "ru": "Министерство здравоохранения",
+       "tip": "egészség = здоровье."
+      },
+      {
+       "hu": "Oktatási és Gyermekügyi Minisztérium",
+       "ru": "Министерство образования и по делам детей",
+       "tip": "oktatás = обучение, gyermek = ребёнок."
+      },
+      {
+       "hu": "Miniszterelnökség",
+       "ru": "Канцелярия премьер-министра",
+       "tip": "Тоже в списке министерств: miniszterelnök + -ség."
+      }
+     ]
+    },
+    {
+     "type": "story",
+     "title": "Все министерства: три семьи",
+     "text": "В методичке 16 пунктов. Не учи их подряд — разложи на **три семьи**.\n\n**Государство** (6): [[Belügyminisztérium]], [[Külügyminisztérium]], [[Pénzügyminisztérium]], [[Honvédelmi Minisztérium]], [[Igazságügyi Minisztérium]], [[Miniszterelnökség]].\n\n**Люди** (4): [[Egészségügyi Minisztérium]] (здоровье), [[Oktatási és Gyermekügyi Minisztérium]] (школа и дети), [[Szociális és Családügyi Minisztérium]] (соцзащита и семья), [[Társadalmi kapcsolatokért és Kultúráért felelős Minisztérium]] (общество и культура).\n\n**Экономика и земля** (6): [[Agrár- és Élelmiszergazdaságért Felelős Minisztérium]] (сельское хозяйство и продукты), [[Gazdasági és Energetikai Minisztérium]] (экономика и энергия), [[Közlekedési és Beruházási Minisztérium]] (транспорт и инвестиции), [[Vidék- és Településfejlesztési Minisztérium]] (развитие сёл и посёлков), [[Élő Környezetért Felelős Minisztérium]] (живая природа), [[Tudományos és Technológiai Minisztérium]] (наука и технологии).\n\nНа экзамене не надо писать весь список: достаточно **узнать** настоящие министерства среди выдуманных."
+    },
+    {
+     "type": "mnemo",
+     "text": "Как отличить настоящее министерство от выдуманного:\n\n**Моря нет — морского министерства нет.** У Венгрии нет моря, поэтому «Tengerészeti Minisztérium» (морское) — ловушка.\n**Космоса нет.** «Űrkutatási Minisztérium» (космических исследований) — тоже ловушка.\n**Спорт и туризм** важны, но отдельных министерств с такими названиями в списке нет.\n\nНастоящие названия часто **двойные**, через **és** («и»): Oktatási **és** Gyermekügyi, Gazdasági **és** Energetikai, Közlekedési **és** Beruházási."
+    }
+   ],
+   "practice": [
+    "t4_p3_1",
+    "t4_p3_2",
+    "t4_p3_3",
+    "t4_p3_4",
+    "t4_p3_5",
+    "t4_p3_6",
+    "t4_p3_7",
+    "t4_p3_8",
+    "t4_p3_9",
+    "t4_p3_10"
+   ]
+  },
+  {
+   "id": "t4l4",
+   "title": "Президент республики",
+   "hu": "A köztársasági elnök",
+   "min": 20,
+   "kus": [
+    "k4_q_feladat",
+    "k4_ke_what",
+    "k4_ke_unity",
+    "k4_ke_name",
+    "k4_ke_elect",
+    "k4_ke_5",
+    "k4_ke_secret",
+    "k4_ke_once",
+    "k4_ke_army",
+    "k4_ke_session",
+    "k4_ke_dissolve"
+   ],
+   "blocks": [
+    {
+     "type": "story",
+     "title": "Глава государства",
+     "text": "Правительством руководит премьер-министр, а **глава государства** ([[államfő]]) — это **президент республики**, [[köztársasági elnök]]. [[köztársaság]] = республика, [[elnök]] = президент, председатель.\n\nПрезидент не управляет каждый день. Методичка описывает его роль так: он **выражает единство нации** и **следит за тем, чтобы государство работало демократически**. Он как судья на поле: сам не играет, но следит за правилами.\n\nПрезидент Венгрии по новой методичке — [[Baka András]] (Бака Андраш)."
+    },
+    {
+     "type": "phrase",
+     "hu": "A köztársasági elnök Magyarország államfője.",
+     "ru": "Президент республики — глава государства Венгрии."
+    },
+    {
+     "type": "quote",
+     "hu": "Kifejezi a nemzet egységét és őrködik az államszervezet demokratikus működése felett.",
+     "ru": "Он выражает единство нации и стоит на страже демократической работы государственной системы.",
+     "src": "Segédanyag BFKH, 40. dia"
+    },
+    {
+     "type": "phrase",
+     "hu": "Magyarország köztársasági elnöke Baka András.",
+     "ru": "Президент Венгрии — Андраш Бака."
+    },
+    {
+     "type": "words",
+     "title": "Слова о президенте",
+     "items": [
+      {
+       "hu": "köztársasági elnök",
+       "ru": "президент республики",
+       "tip": "köztársaság (республика) + -i + elnök (президент)."
+      },
+      {
+       "hu": "államfő",
+       "ru": "глава государства",
+       "tip": "állam (государство) + fő (голова). Сравни: kormányfő — глава правительства."
+      },
+      {
+       "hu": "titkos szavazás",
+       "ru": "тайное голосование",
+       "tip": "titkos = тайный, szavazás = голосование."
+      },
+      {
+       "hu": "újraválasztható",
+       "ru": "может быть переизбран",
+       "tip": "újra (снова) + választ (избирать) + -ható (можно)."
+      },
+      {
+       "hu": "főparancsnok",
+       "ru": "главнокомандующий",
+       "tip": "fő (главный) + parancsnok (командир)."
+      },
+      {
+       "hu": "Magyar Honvédség",
+       "ru": "Венгерская армия (Силы обороны)",
+       "tip": "hon (родина) + véd (защищать): «защитники родины»."
+      },
+      {
+       "hu": "alakuló ülés",
+       "ru": "учредительное (первое) заседание",
+       "tip": "alakul = складываться, образоваться; ülés = заседание."
+      },
+      {
+       "hu": "feloszlat",
+       "ru": "распустить",
+       "tip": "feloszlathatja = может распустить."
+      }
+     ]
+    },
+    {
+     "type": "phrase",
+     "hu": "Az Országgyűlés választja 5 évre, titkos szavazással.",
+     "ru": "Его избирает Парламент на 5 лет тайным голосованием."
+    },
+    {
+     "type": "phrase",
+     "hu": "Legfeljebb egy alkalommal újraválasztható.",
+     "ru": "Его можно переизбрать не больше одного раза."
+    },
+    {
+     "type": "mnemo",
+     "text": "**Baka** в разговорном венгерском — «солдат, рядовой пехотинец». А президент — **главнокомандующий армии**. Солдат Бака командует всеми солдатами. Так связались имя и одно из полномочий.\n\n**5 лет — на год дольше, чем Парламент (4).** Президент «пересиживает» выборы, поэтому именно он **созывает первое заседание** нового Парламента.\n\n**Один раз можно повторить**: максимум 5 + 5 = 10 лет."
+    },
+    {
+     "type": "grammar",
+     "id": "G_T4_HAT"
+    },
+    {
+     "type": "story",
+     "title": "Три полномочия президента",
+     "text": "Методичка называет три задачи ([[feladat]]) президента, которые стоит знать:\n\n1. он **главнокомандующий** Венгерской армии — [[a Magyar Honvédség főparancsnoka]];\n2. он **созывает учредительное заседание** Парламента, то есть самое первое заседание после выборов — [[összehívja az Országgyűlés alakuló ülését]];\n3. он **может распустить Парламент**, но только в случаях, которые определяет Основной закон — [[feloszlathatja az Országgyűlést]].\n\nОбрати внимание: **избирает президента Парламент**, а не народ напрямую. И голосование тайное."
+    },
+    {
+     "type": "phrase",
+     "hu": "A köztársasági elnök a Magyar Honvédség főparancsnoka.",
+     "ru": "Президент — главнокомандующий Венгерской армии."
+    },
+    {
+     "type": "duo",
+     "title": "Сравни три института. Нажми, чтобы перевернуть",
+     "cards": [
+      {
+       "hu": "Országgyűlés",
+       "ru": "Парламент",
+       "img": "img/w_parliament.jpg",
+       "rows": [
+        [
+         "Кто это",
+         "legfőbb{t4_legfobb} népképviseleti szerv"
+        ],
+        [
+         "Сколько",
+         "199 képviselő"
+        ],
+        [
+         "На сколько",
+         "4 évre"
+        ],
+        [
+         "Главное",
+         "törvényeket alkot"
+        ]
+       ],
+       "note": "Пишет законы и избирает премьер-министра."
+      },
+      {
+       "hu": "Kormány",
+       "ru": "Правительство",
+       "rows": [
+        [
+         "Кто это",
+         "végrehajtó hatalom{t4_hatalom}"
+        ],
+        [
+         "Члены",
+         "miniszterelnök és miniszterek"
+        ],
+        [
+         "Премьер",
+         "Magyar{t4_magyar_nev} Péter"
+        ],
+        [
+         "Кто избирает премьера",
+         "az Országgyűlés"
+        ]
+       ],
+       "note": "Исполняет законы, руководит министерствами."
+      },
+      {
+       "hu": "köztársasági elnök",
+       "ru": "Президент",
+       "rows": [
+        [
+         "Кто это",
+         "államfő"
+        ],
+        [
+         "Сейчас",
+         "Baka András"
+        ],
+        [
+         "Кто избирает",
+         "az Országgyűlés"
+        ],
+        [
+         "На сколько",
+         "5 évre"
+        ]
+       ],
+       "note": "Главнокомандующий, созывает первое заседание Парламента."
+      }
+     ]
+    },
+    {
+     "type": "mnemo",
+     "text": "Числа темы по порядку: **199 — 4 — 5**.\n\n199 депутатов → на **4** года → президент на **5** лет.\n\nИ одно правило: **всех главных людей выбирает Парламент.** Ki választja a miniszterelnököt? — az Országgyűlés. Ki választja a köztársasági elnököt? — az Országgyűlés. Если сомневаешься в вопросе «Ki választja…?», ответ почти наверняка **az Országgyűlés**."
+    }
+   ],
+   "practice": [
+    "t4_p4_1",
+    "t4_p4_2",
+    "t4_p4_3",
+    "t4_p4_4",
+    "t4_p4_5",
+    "t4_p4_6",
+    "t4_p4_7",
+    "t4_p4_8",
+    "t4_p4_9",
+    "t4_p4_10"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "t4_d1",
+   "mode": "diag",
+   "kus": [
+    "k4_alap_what"
+   ],
+   "type": "mcq",
+   "q": "What is the Alaptörvény (Fundamental Law) of Hungary?",
+   "opts": [
+    "The annual state budget",
+    "Hungary's constitution, the norm with the highest legal force",
+    "The government's programme",
+    "A decree of the President"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_d2",
+   "mode": "diag",
+   "kus": [
+    "k4_alap_jogrend"
+   ],
+   "type": "mcq",
+   "q": "According to the official guide, the Fundamental Law is the basis of Hungary's…",
+   "opts": [
+    "legal order",
+    "banking system",
+    "school system",
+    "tax offices"
+   ],
+   "a": 0
+  },
+  {
+   "id": "t4_d3",
+   "mode": "diag",
+   "kus": [
+    "k4_alap_who"
+   ],
+   "type": "mcq",
+   "q": "Which body adopted the Fundamental Law?",
+   "opts": [
+    "The Government",
+    "The President of the Republic",
+    "The National Assembly (Országgyűlés)",
+    "The Ministry of Justice"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_d4",
+   "mode": "diag",
+   "kus": [
+    "k4_alap_adopted"
+   ],
+   "type": "mcq",
+   "q": "When was the Fundamental Law adopted?",
+   "opts": [
+    "1 January 2012",
+    "15 March 2010",
+    "23 October 1989",
+    "18 April 2011"
+   ],
+   "a": 3
+  },
+  {
+   "id": "t4_d5",
+   "mode": "diag",
+   "kus": [
+    "k4_alap_force"
+   ],
+   "type": "mcq",
+   "q": "When did the Fundamental Law come into force?",
+   "opts": [
+    "18 April 2011",
+    "1 January 2012",
+    "1 May 2004",
+    "20 August 2000"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_d6",
+   "mode": "diag",
+   "kus": [
+    "k4_alap_values"
+   ],
+   "type": "mcq",
+   "q": "Which of these was NOT among the goals the legislators kept in mind when creating the Fundamental Law?",
+   "opts": [
+    "Preserving Christian values and European culture",
+    "Preserving national independence and sovereignty",
+    "Restoring royal power",
+    "Respecting Hungary's constitutional traditions"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_d7",
+   "mode": "diag",
+   "kus": [
+    "k4_alap_protect"
+   ],
+   "type": "mcq",
+   "q": "Whose protection did the legislators keep in mind in the Fundamental Law?",
+   "opts": [
+    "Foreign investors",
+    "Families and Hungarian communities beyond the borders",
+    "The royal family",
+    "Big companies"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_d8",
+   "mode": "diag",
+   "kus": [
+    "k4_ogy_what"
+   ],
+   "type": "mcq",
+   "q": "What is the Országgyűlés?",
+   "opts": [
+    "Hungary's supreme body of popular representation (the parliament)",
+    "The government",
+    "The office of the President",
+    "A ministry"
+   ],
+   "a": 0
+  },
+  {
+   "id": "t4_d9",
+   "mode": "diag",
+   "kus": [
+    "k4_ogy_199"
+   ],
+   "type": "mcq",
+   "q": "How many members does the Hungarian National Assembly have?",
+   "opts": [
+    "200",
+    "386",
+    "199",
+    "150"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_d10",
+   "mode": "diag",
+   "kus": [
+    "k4_ogy_4"
+   ],
+   "type": "mcq",
+   "q": "For how many years are members of the National Assembly elected?",
+   "opts": [
+    "3",
+    "5",
+    "6",
+    "4"
+   ],
+   "a": 3
+  },
+  {
+   "id": "t4_d11",
+   "mode": "diag",
+   "kus": [
+    "k4_ogy_law"
+   ],
+   "type": "mcq",
+   "q": "Which body makes and amends the Fundamental Law and passes laws?",
+   "opts": [
+    "The National Assembly",
+    "The Government",
+    "The President",
+    "The ministries"
+   ],
+   "a": 0
+  },
+  {
+   "id": "t4_d12",
+   "mode": "diag",
+   "kus": [
+    "k4_ogy_budget"
+   ],
+   "type": "mcq",
+   "q": "Who adopts the central state budget?",
+   "opts": [
+    "The President",
+    "The National Assembly",
+    "The Minister of Finance alone",
+    "The National Bank"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_d13",
+   "mode": "diag",
+   "kus": [
+    "k4_ogy_pm"
+   ],
+   "type": "mcq",
+   "q": "Who elects the Prime Minister of Hungary?",
+   "opts": [
+    "The people directly",
+    "The President",
+    "The National Assembly",
+    "The ministers"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_d14",
+   "mode": "diag",
+   "kus": [
+    "k4_korm_exec"
+   ],
+   "type": "mcq",
+   "q": "What forms the executive power in Hungary?",
+   "opts": [
+    "The National Assembly",
+    "The President",
+    "The courts",
+    "The Government and the public administration subordinate to it"
+   ],
+   "a": 3
+  },
+  {
+   "id": "t4_d15",
+   "mode": "diag",
+   "kus": [
+    "k4_korm_members"
+   ],
+   "type": "mcq",
+   "q": "Who are the members of the Government?",
+   "opts": [
+    "The Prime Minister and the ministers",
+    "The 199 MPs",
+    "The President and the Prime Minister",
+    "The mayors of big cities"
+   ],
+   "a": 0
+  },
+  {
+   "id": "t4_d16",
+   "mode": "diag",
+   "kus": [
+    "k4_pm_name"
+   ],
+   "type": "mcq",
+   "q": "Who is the Prime Minister of Hungary, according to the September 2026 guide?",
+   "opts": [
+    "András Baka",
+    "Péter Magyar",
+    "Ferenc Deák",
+    "Lajos Kossuth"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_d17",
+   "mode": "diag",
+   "kus": [
+    "k4_pm_head"
+   ],
+   "type": "mcq",
+   "q": "What is the Prime Minister's role?",
+   "opts": [
+    "Head of state",
+    "Speaker of parliament",
+    "Head of the Government",
+    "Commander-in-chief of the army"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_d18",
+   "mode": "diag",
+   "kus": [
+    "k4_pm_eu"
+   ],
+   "type": "mcq",
+   "q": "Where does the Prime Minister represent Hungary?",
+   "opts": [
+    "In the Olympic Committee",
+    "In the National Bank",
+    "At the UN Security Council",
+    "In the European Council"
+   ],
+   "a": 3
+  },
+  {
+   "id": "t4_d19",
+   "mode": "diag",
+   "kus": [
+    "k4_korm_tasks"
+   ],
+   "type": "mcq",
+   "q": "Which of these is NOT a task of the Government?",
+   "opts": [
+    "Directing the public administration",
+    "Making legal regulations",
+    "Running state services (defence, education, healthcare)",
+    "Electing the President of the Republic"
+   ],
+   "a": 3
+  },
+  {
+   "id": "t4_d20",
+   "mode": "diag",
+   "kus": [
+    "k4_min_state"
+   ],
+   "type": "mcq",
+   "q": "Which of these is a ministry of the current Hungarian Government?",
+   "opts": [
+    "Ministry of the Interior",
+    "Ministry of the Navy",
+    "Ministry of Space Research",
+    "Ministry of Sport"
+   ],
+   "a": 0
+  },
+  {
+   "id": "t4_d21",
+   "mode": "diag",
+   "kus": [
+    "k4_min_people"
+   ],
+   "type": "mcq",
+   "q": "Which of these ministries exists in the current Hungarian Government?",
+   "opts": [
+    "Ministry of Tourism",
+    "Ministry of Education and Children's Affairs",
+    "Ministry of Fashion",
+    "Ministry of Space Research"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_d22",
+   "mode": "diag",
+   "kus": [
+    "k4_min_economy"
+   ],
+   "type": "mcq",
+   "q": "Which of these ministries exists in the current Hungarian Government?",
+   "opts": [
+    "Ministry of Mining",
+    "Ministry of the Navy",
+    "Ministry of Science and Technology",
+    "Ministry of Tourism"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_d23",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_what"
+   ],
+   "type": "mcq",
+   "q": "Who is Hungary's head of state?",
+   "opts": [
+    "The President of the Republic",
+    "The Prime Minister",
+    "The Minister of the Interior",
+    "The oldest member of parliament"
+   ],
+   "a": 0
+  },
+  {
+   "id": "t4_d24",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_unity"
+   ],
+   "type": "mcq",
+   "q": "According to the guide, what does the President express?",
+   "opts": [
+    "The will of the Government",
+    "The unity of the nation",
+    "The interests of the EU",
+    "The royal tradition"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_d25",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_name"
+   ],
+   "type": "mcq",
+   "q": "Who is the President of Hungary, according to the September 2026 guide?",
+   "opts": [
+    "Péter Magyar",
+    "Ferenc Deák",
+    "András Baka",
+    "Ferenc Kölcsey"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_d26",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_elect"
+   ],
+   "type": "mcq",
+   "q": "Who elects the President of Hungary?",
+   "opts": [
+    "The people directly",
+    "The Government",
+    "The Prime Minister",
+    "The National Assembly"
+   ],
+   "a": 3
+  },
+  {
+   "id": "t4_d27",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_5"
+   ],
+   "type": "mcq",
+   "q": "For how many years is the President elected?",
+   "opts": [
+    "5",
+    "4",
+    "6",
+    "7"
+   ],
+   "a": 0
+  },
+  {
+   "id": "t4_d28",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_secret"
+   ],
+   "type": "mcq",
+   "q": "How does the National Assembly vote when it elects the President?",
+   "opts": [
+    "By a show of hands",
+    "By secret ballot",
+    "By open roll call",
+    "Online"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_d29",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_once"
+   ],
+   "type": "mcq",
+   "q": "How many times can the President be re-elected?",
+   "opts": [
+    "Never",
+    "At most twice",
+    "At most once",
+    "Without limit"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_d30",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_army"
+   ],
+   "type": "mcq",
+   "q": "Who is the commander-in-chief of the Hungarian Defence Forces?",
+   "opts": [
+    "The Prime Minister",
+    "The Minister of Defence",
+    "The Speaker of Parliament",
+    "The President of the Republic"
+   ],
+   "a": 3
+  },
+  {
+   "id": "t4_d31",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_session"
+   ],
+   "type": "mcq",
+   "q": "Who convenes the inaugural session of a newly elected National Assembly?",
+   "opts": [
+    "The President of the Republic",
+    "The Prime Minister",
+    "The Minister of the Interior",
+    "The Government"
+   ],
+   "a": 0
+  },
+  {
+   "id": "t4_d32",
+   "mode": "diag",
+   "kus": [
+    "k4_ke_dissolve"
+   ],
+   "type": "mcq",
+   "q": "Who can dissolve the National Assembly, in cases defined by the Fundamental Law?",
+   "opts": [
+    "The Prime Minister",
+    "The President of the Republic",
+    "The Minister of Justice",
+    "Nobody, ever"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_p1_1",
+   "mode": "practice",
+   "kus": [
+    "k4_alap_what",
+    "k4_alap_jogrend"
+   ],
+   "type": "mcq",
+   "q": "Что такое [[Alaptörvény]]?",
+   "opts": [
+    "Закон о бюджете на год",
+    "Конституция Венгрии, основа её правового порядка",
+    "Программа правительства",
+    "Указ президента"
+   ],
+   "a": 1,
+   "ex": "[[alap]] = основа, [[törvény]] = закон. [[Alaptörvény]] — конституция, стоит над всеми законами."
+  },
+  {
+   "id": "t4_p1_2",
+   "mode": "practice",
+   "kus": [
+    "k4_alap_adopted",
+    "k4_alap_force"
+   ],
+   "type": "match",
+   "q": "Дата → что произошло",
+   "pairs": [
+    [
+     "2011. április 18.",
+     "az Országgyűlés elfogadta az Alaptörvényt"
+    ],
+    [
+     "2012. január 1.",
+     "az Alaptörvény hatályba lépett"
+    ]
+   ]
+  },
+  {
+   "id": "t4_p1_3",
+   "mode": "practice",
+   "kus": [
+    "k4_alap_force"
+   ],
+   "type": "tf",
+   "q": "Az Alaptörvény 2011. április 18-án lépett hatályba.",
+   "a": false,
+   "ex": "Неверно: 18 апреля 2011 года его **приняли** ([[elfogadta]]), а в силу он вступил 1 января 2012 года."
+  },
+  {
+   "id": "t4_p1_4",
+   "mode": "practice",
+   "kus": [
+    "k4_alap_force",
+    "k4_q_hatalyba"
+   ],
+   "type": "type",
+   "q": "Mikor lépett hatályba az Alaptörvény?",
+   "accept": [
+    "2012. január 1.",
+    "2012. január 1",
+    "2012. január 1-jén",
+    "2012. 01. 01.",
+    "2012.01.01."
+   ],
+   "ex": "[[hatályba lépett]] = вступил в силу. Ответ: 2012. január 1."
+  },
+  {
+   "id": "t4_p1_5",
+   "mode": "practice",
+   "kus": [
+    "k4_alap_who",
+    "k4_q_elfogad"
+   ],
+   "type": "mcq",
+   "q": "Ki fogadta el az Alaptörvényt?",
+   "opts": [
+    "a Kormány",
+    "az Országgyűlés",
+    "a köztársasági elnök"
+   ],
+   "a": 1,
+   "ex": "[[fogadta el]] = принял. Законы принимает Парламент — [[az Országgyűlés]]."
+  },
+  {
+   "id": "t4_p1_6",
+   "mode": "practice",
+   "kus": [
+    "k4_alap_values"
+   ],
+   "type": "multi",
+   "q": "Отметь, что Парламент держал в уме, создавая Основной закон",
+   "opts": [
+    "az alkotmányos{t4_alkotmanyos} hagyományok tiszteletben tartását",
+    "a keresztény értékek megőrzését",
+    "a királyi hatalom visszaállítását",
+    "az európai kultúra megőrzését",
+    "a nemzeti függetlenség és szuverenitás megőrzését",
+    "a forint eltörlését"
+   ],
+   "a": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "ex": "Ловушки: [[a királyi hatalom visszaállítását]] (восстановление королевской власти) и [[a forint eltörlését]] (отмена форинта)."
+  },
+  {
+   "id": "t4_p1_7",
+   "mode": "practice",
+   "kus": [
+    "k4_alap_what"
+   ],
+   "type": "tiles",
+   "q": "Собери: «Основной закон — конституция Венгрии».",
+   "answer": [
+    "Az",
+    "Alaptörvény",
+    "Magyarország",
+    "alkotmánya."
+   ],
+   "extra": [
+    "Kormány",
+    "törvényeket"
+   ]
+  },
+  {
+   "id": "t4_p1_8",
+   "mode": "practice",
+   "kus": [
+    "k4_alap_adopted",
+    "k4_q_elfogad"
+   ],
+   "type": "type",
+   "q": "Mikor fogadta el az Országgyűlés az Alaptörvényt?",
+   "accept": [
+    "2011. április 18.",
+    "2011. április 18",
+    "2011. április 18-án",
+    "2011. 04. 18.",
+    "2011.04.18."
+   ],
+   "ex": "Весна 2011 года: 2011. április 18."
+  },
+  {
+   "id": "t4_p1_9",
+   "mode": "practice",
+   "kus": [
+    "k4_q_elfogad",
+    "k4_q_hatalyba"
+   ],
+   "type": "match",
+   "q": "Соедини выражения с переводом",
+   "pairs": [
+    [
+     "fogadta el",
+     "принял"
+    ],
+    [
+     "lépett hatályba",
+     "вступил в силу"
+    ],
+    [
+     "tartotta szem előtt",
+     "держал в уме"
+    ]
+   ]
+  },
+  {
+   "id": "t4_p1_10",
+   "mode": "practice",
+   "kus": [
+    "k4_alap_protect"
+   ],
+   "type": "mcq",
+   "q": "Kiknek a védelmét tartotta szem előtt az Országgyűlés?",
+   "opts": [
+    "a családok és a határon túli magyar közösségek védelmét",
+    "a királyok védelmét",
+    "a turisták védelmét"
+   ],
+   "a": 0,
+   "ex": "[[családok]] = семьи, [[határon túli]] = «по ту сторону границы»."
+  },
+  {
+   "id": "t4_p2_1",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_199"
+   ],
+   "type": "mcq",
+   "q": "Сколько депутатов в [[Országgyűlés]]?",
+   "opts": [
+    "200",
+    "199",
+    "386",
+    "150"
+   ],
+   "a": 1,
+   "ex": "199 — «почти 200, одного не хватает»."
+  },
+  {
+   "id": "t4_p2_2",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_199",
+    "k4_q_hany"
+   ],
+   "type": "type",
+   "q": "Hány képviselője van az Országgyűlésnek?",
+   "accept": [
+    "199",
+    "199 fő",
+    "199 képviselő",
+    "199 képviselője"
+   ],
+   "ex": "[[Hány]] = сколько. Ответ: 199 fő."
+  },
+  {
+   "id": "t4_p2_3",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_4",
+    "k4_q_evre"
+   ],
+   "type": "mcq",
+   "q": "Hány évre választják az Országgyűlés tagjait?",
+   "opts": [
+    "2 évre",
+    "4 évre",
+    "5 évre",
+    "6 évre"
+   ],
+   "a": 1,
+   "ex": "[[Hány évre]] = на сколько лет. Парламент — 4 года, президент — 5 лет."
+  },
+  {
+   "id": "t4_p2_4",
+   "mode": "practice",
+   "kus": [
+    "k4_q_hany",
+    "k4_q_evre",
+    "k4_q_valaszt"
+   ],
+   "type": "match",
+   "q": "Соедини вопросы с переводом",
+   "pairs": [
+    [
+     "Hány?",
+     "Сколько?"
+    ],
+    [
+     "Hány évre?",
+     "На сколько лет?"
+    ],
+    [
+     "Ki választja?",
+     "Кто избирает?"
+    ]
+   ]
+  },
+  {
+   "id": "t4_p2_5",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_law",
+    "k4_ogy_budget",
+    "k4_ogy_pm"
+   ],
+   "type": "multi",
+   "q": "Отметь задачи Парламента",
+   "opts": [
+    "megalkotja és módosítja az Alaptörvényt",
+    "törvényeket alkot",
+    "a Magyar Honvédség főparancsnoka",
+    "elfogadja a központi költségvetést",
+    "megválasztja a miniszterelnököt",
+    "képviseli Magyarországot az Európai Tanácsban"
+   ],
+   "a": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "ex": "Главнокомандующий — это президент, а в Европейском совете Венгрию представляет премьер-министр."
+  },
+  {
+   "id": "t4_p2_6",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_what"
+   ],
+   "type": "tf",
+   "q": "Az Országgyűlés Magyarország legfőbb{t4_legfobb} népképviseleti szerve.",
+   "a": true,
+   "ex": "Верно: Парламент — высший орган народного представительства."
+  },
+  {
+   "id": "t4_p2_7",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_law"
+   ],
+   "type": "tiles",
+   "q": "Собери: «Парламент создаёт законы».",
+   "answer": [
+    "Az",
+    "Országgyűlés",
+    "törvényeket",
+    "alkot."
+   ],
+   "extra": [
+    "Kormány",
+    "zászlót"
+   ]
+  },
+  {
+   "id": "t4_p2_9",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_house"
+   ],
+   "type": "type",
+   "q": "В каком здании заседает Парламент? Напиши по-венгерски.",
+   "accept": [
+    "Országház",
+    "az Országházban",
+    "Országházban",
+    "Parlament",
+    "a Parlamentben",
+    "Parlamentben"
+   ],
+   "ex": "[[az Országházban]] — в здании Парламента."
+  },
+  {
+   "id": "t4_p2_10",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_law",
+    "k4_ogy_budget",
+    "k4_ogy_pm"
+   ],
+   "type": "list",
+   "q": "Sorolja fel az Országgyűlés legfőbb{t4_legfobb} feladatait!",
+   "items": [
+    [
+     "alaptörvényt",
+     "alaptörvény",
+     "alaptörvényét"
+    ],
+    [
+     "törvényeket",
+     "törvényt",
+     "törvény",
+     "törvények"
+    ],
+    [
+     "költségvetést",
+     "költségvetés",
+     "költségvetését"
+    ],
+    [
+     "miniszterelnököt",
+     "miniszterelnök"
+    ]
+   ],
+   "ex": "Пример ответа: megalkotja az Alaptörvényt, törvényeket alkot, elfogadja a költségvetést, megválasztja a miniszterelnököt."
+  },
+  {
+   "id": "t4_p3_1",
+   "mode": "practice",
+   "kus": [
+    "k4_korm_members"
+   ],
+   "type": "mcq",
+   "q": "Кто входит в правительство ([[Kormány]])?",
+   "opts": [
+    "199 депутатов",
+    "премьер-министр и министры",
+    "президент и судьи"
+   ],
+   "a": 1,
+   "ex": "[[a miniszterelnök és a miniszterek]]."
+  },
+  {
+   "id": "t4_p3_2",
+   "mode": "practice",
+   "kus": [
+    "k4_pm_name"
+   ],
+   "type": "type",
+   "q": "Ki Magyarország miniszterelnöke?",
+   "accept": [
+    "Magyar Péter",
+    "Magyar"
+   ],
+   "ex": "Сначала фамилия, потом имя. Фамилия Magyar значит «венгр»."
+  },
+  {
+   "id": "t4_p3_3",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_pm",
+    "k4_q_valaszt"
+   ],
+   "type": "tf",
+   "q": "A miniszterelnököt a köztársasági elnök választja meg.",
+   "a": false,
+   "ex": "Неверно: премьер-министра избирает Парламент — [[az Országgyűlés választja meg]]."
+  },
+  {
+   "id": "t4_p3_4",
+   "mode": "practice",
+   "kus": [
+    "k4_korm_members",
+    "k4_korm_exec"
+   ],
+   "type": "match",
+   "q": "Слово → перевод",
+   "pairs": [
+    [
+     "miniszterelnök",
+     "премьер-министр"
+    ],
+    [
+     "miniszter",
+     "министр"
+    ],
+    [
+     "minisztérium",
+     "министерство"
+    ],
+    [
+     "közigazgatás",
+     "госуправление"
+    ],
+    [
+     "végrehajtó hatalom{t4_hatalom}",
+     "исполнительная власть"
+    ]
+   ]
+  },
+  {
+   "id": "t4_p3_5",
+   "mode": "practice",
+   "kus": [
+    "k4_pm_eu"
+   ],
+   "type": "mcq",
+   "q": "Hol képviseli Magyarországot a miniszterelnök?",
+   "opts": [
+    "az Országgyűlés alakuló ülésén",
+    "az Európai Tanácsban",
+    "a Magyar Honvédségben"
+   ],
+   "a": 1,
+   "ex": "[[az Európai Tanácsban]] — в Европейском совете, где встречаются лидеры стран ЕС."
+  },
+  {
+   "id": "t4_p3_6",
+   "mode": "practice",
+   "kus": [
+    "k4_min_state"
+   ],
+   "type": "multi",
+   "q": "Отметь настоящие министерства",
+   "opts": [
+    "Belügyminisztérium",
+    "Tengerészeti Minisztérium",
+    "Külügyminisztérium",
+    "Pénzügyminisztérium",
+    "Sportminisztérium",
+    "Honvédelmi Minisztérium"
+   ],
+   "a": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "ex": "Моря нет — морского министерства нет. Спортивного министерства в списке тоже нет."
+  },
+  {
+   "id": "t4_p3_7",
+   "mode": "practice",
+   "kus": [
+    "k4_min_people"
+   ],
+   "type": "multi",
+   "q": "Отметь настоящие министерства",
+   "opts": [
+    "Egészségügyi Minisztérium",
+    "Űrkutatási Minisztérium",
+    "Oktatási és Gyermekügyi Minisztérium",
+    "Turisztikai Minisztérium",
+    "Szociális és Családügyi Minisztérium"
+   ],
+   "a": [
+    0,
+    2,
+    4
+   ],
+   "ex": "Космического и туристического министерств в списке нет."
+  },
+  {
+   "id": "t4_p3_8",
+   "mode": "practice",
+   "kus": [
+    "k4_min_economy"
+   ],
+   "type": "multi",
+   "q": "Отметь настоящие министерства",
+   "opts": [
+    "Gazdasági és Energetikai Minisztérium",
+    "Bányászati Minisztérium",
+    "Közlekedési és Beruházási Minisztérium",
+    "Tudományos és Technológiai Minisztérium",
+    "Divat- és Szépségügyi Minisztérium"
+   ],
+   "a": [
+    0,
+    2,
+    3
+   ],
+   "ex": "Горнодобывающего министерства ([[Bányászati]]) и министерства моды и красоты ([[Divat- és Szépségügyi]]) нет."
+  },
+  {
+   "id": "t4_p3_9",
+   "mode": "practice",
+   "kus": [
+    "k4_korm_tasks"
+   ],
+   "type": "list",
+   "q": "Sorolja fel a Kormány főbb feladatait!",
+   "items": [
+    [
+     "közigazgatás",
+     "közigazgatást",
+     "közigazgatás munkáját"
+    ],
+    [
+     "jogszabályokat",
+     "jogszabály",
+     "jogszabályt",
+     "jogszabályokat alkot"
+    ],
+    [
+     "ellátórendszereket",
+     "ellátórendszer",
+     "ellátórendszerek",
+     "ellátórendszereket működteti"
+    ]
+   ],
+   "ex": "Пример ответа: irányítja a közigazgatás munkáját, jogszabályokat alkot, működteti az állami ellátórendszereket."
+  },
+  {
+   "id": "t4_p3_10",
+   "mode": "practice",
+   "kus": [
+    "k4_pm_head"
+   ],
+   "type": "tiles",
+   "q": "Собери: «Премьер-министр — глава правительства».",
+   "answer": [
+    "A",
+    "miniszterelnök",
+    "a",
+    "Kormány",
+    "feje."
+   ],
+   "extra": [
+    "Országgyűlés",
+    "tagjai"
+   ]
+  },
+  {
+   "id": "t4_p4_1",
+   "mode": "practice",
+   "kus": [
+    "k4_ke_what"
+   ],
+   "type": "mcq",
+   "q": "Кто глава государства ([[államfő]]) в Венгрии?",
+   "opts": [
+    "a miniszterelnök",
+    "a köztársasági elnök",
+    "a Belügyminisztérium"
+   ],
+   "a": 1,
+   "ex": "Глава государства — президент республики. Премьер — глава правительства."
+  },
+  {
+   "id": "t4_p4_2",
+   "mode": "practice",
+   "kus": [
+    "k4_ke_name"
+   ],
+   "type": "type",
+   "q": "Ki Magyarország köztársasági elnöke?",
+   "accept": [
+    "Baka András",
+    "Baka"
+   ],
+   "ex": "[[Baka András]]: фамилия Baka, имя András."
+  },
+  {
+   "id": "t4_p4_3",
+   "mode": "practice",
+   "kus": [
+    "k4_ogy_199",
+    "k4_ogy_4",
+    "k4_ke_5"
+   ],
+   "type": "match",
+   "q": "Число → что оно значит",
+   "pairs": [
+    [
+     "199",
+     "az országgyűlési képviselők száma"
+    ],
+    [
+     "4 év",
+     "ennyi időre választják az Országgyűlést"
+    ],
+    [
+     "5 év",
+     "ennyi időre választják a köztársasági elnököt"
+    ]
+   ]
+  },
+  {
+   "id": "t4_p4_4",
+   "mode": "practice",
+   "kus": [
+    "k4_ke_secret"
+   ],
+   "type": "tf",
+   "q": "A köztársasági elnököt titkos szavazással választják.",
+   "a": true,
+   "ex": "Верно: [[titkos szavazással]] — тайным голосованием."
+  },
+  {
+   "id": "t4_p4_5",
+   "mode": "practice",
+   "kus": [
+    "k4_ke_once"
+   ],
+   "type": "mcq",
+   "q": "Hányszor választható újra a köztársasági elnök?",
+   "opts": [
+    "legfeljebb egy alkalommal",
+    "legfeljebb két alkalommal",
+    "nem választható újra"
+   ],
+   "a": 0,
+   "ex": "[[legfeljebb egy alkalommal]] — не больше одного раза. Максимум 10 лет."
+  },
+  {
+   "id": "t4_p4_6",
+   "mode": "practice",
+   "kus": [
+    "k4_ke_army",
+    "k4_ke_session",
+    "k4_ke_dissolve",
+    "k4_q_feladat"
+   ],
+   "type": "multi",
+   "q": "Mi a köztársasági elnök feladata? Отметь все верные варианты.",
+   "opts": [
+    "a Magyar Honvédség főparancsnoka",
+    "elfogadja a központi költségvetést",
+    "összehívja az Országgyűlés alakuló ülését",
+    "a Kormány feje",
+    "feloszlathatja az Országgyűlést"
+   ],
+   "a": [
+    0,
+    2,
+    4
+   ],
+   "ex": "[[feladata]] = его задача. Бюджет принимает Парламент, глава правительства — премьер."
+  },
+  {
+   "id": "t4_p4_7",
+   "mode": "practice",
+   "kus": [
+    "k4_ke_army"
+   ],
+   "type": "tiles",
+   "q": "Собери: «Президент — главнокомандующий Венгерской армии».",
+   "answer": [
+    "A",
+    "köztársasági",
+    "elnök",
+    "a",
+    "Magyar",
+    "Honvédség",
+    "főparancsnoka."
+   ],
+   "extra": [
+    "miniszterelnök",
+    "Kormány"
+   ]
+  },
+  {
+   "id": "t4_p4_8",
+   "mode": "practice",
+   "kus": [
+    "k4_ke_elect",
+    "k4_q_valaszt"
+   ],
+   "type": "type",
+   "q": "Ki választja a köztársasági elnököt?",
+   "accept": [
+    "az Országgyűlés",
+    "Országgyűlés",
+    "a Parlament",
+    "Parlament"
+   ],
+   "ex": "[[Ki választja]] = кто избирает. Ответ: [[az Országgyűlés]]."
+  },
+  {
+   "id": "t4_p4_9",
+   "mode": "practice",
+   "kus": [
+    "k4_ke_unity"
+   ],
+   "type": "mcq",
+   "q": "Mit fejez ki{t4_ki_fejez} a köztársasági elnök?",
+   "opts": [
+    "a Kormány akaratát",
+    "a nemzet egységét",
+    "a királyi hatalmat"
+   ],
+   "a": 1,
+   "ex": "[[a nemzet egységét]] — единство нации."
+  },
+  {
+   "id": "t4_p4_10",
+   "mode": "practice",
+   "kus": [
+    "k4_ke_dissolve",
+    "k4_ke_session"
+   ],
+   "type": "flash",
+   "front": "feloszlathatja az Országgyűlést",
+   "back": "может распустить Парламент (в случаях, определённых Основным законом). А созывает первое заседание нового Парламента тоже президент: összehívja az alakuló ülést."
+  },
+  {
+   "id": "t4_c1",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_alap_what"
+   ],
+   "type": "mcq",
+   "q": "Mi az Alaptörvény?",
+   "opts": [
+    "a központi költségvetés",
+    "Magyarország alkotmánya",
+    "a Kormány programja",
+    "egy nemzeti ünnep"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_c2",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_alap_what"
+   ],
+   "type": "tf",
+   "q": "Az Alaptörvény a többi törvény felett áll.",
+   "a": true
+  },
+  {
+   "id": "t4_c3",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_alap_jogrend"
+   ],
+   "type": "tf",
+   "q": "Az Alaptörvény Magyarország jogrendjének alapja.",
+   "a": true
+  },
+  {
+   "id": "t4_c4",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_alap_who"
+   ],
+   "type": "type",
+   "q": "Ki fogadta el az Alaptörvényt?",
+   "accept": [
+    "az Országgyűlés",
+    "Országgyűlés",
+    "a Parlament",
+    "Parlament"
+   ]
+  },
+  {
+   "id": "t4_c5",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_alap_adopted"
+   ],
+   "type": "type",
+   "q": "Mikor fogadta el az Országgyűlés az Alaptörvényt?",
+   "accept": [
+    "2011. április 18.",
+    "2011. április 18",
+    "2011. április 18-án",
+    "2011. 04. 18.",
+    "2011.04.18."
+   ]
+  },
+  {
+   "id": "t4_c6",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_alap_force"
+   ],
+   "type": "type",
+   "q": "Mikor lépett hatályba az Alaptörvény?",
+   "accept": [
+    "2012. január 1.",
+    "2012. január 1",
+    "2012. január 1-jén",
+    "2012. 01. 01.",
+    "2012.01.01."
+   ]
+  },
+  {
+   "id": "t4_c7",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k4_alap_values"
+   ],
+   "type": "multi",
+   "q": "Mit tartott szem előtt az Országgyűlés az Alaptörvény megalkotásakor? Jelölje meg a helyes válaszokat!",
+   "opts": [
+    "a keresztény értékek megőrzését",
+    "a királyi hatalom visszaállítását",
+    "az európai kultúra megőrzését",
+    "az alkotmányos{t4_alkotmanyos} hagyományok tiszteletben tartását",
+    "a forint eltörlését",
+    "a nemzeti függetlenség és szuverenitás megőrzését"
+   ],
+   "a": [
+    0,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "id": "t4_c8",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_alap_protect"
+   ],
+   "type": "type",
+   "q": "Egészítse ki{ki_pv}!\nAz Országgyűlés a családok és a határon túli magyar ___ védelmét tartotta szem előtt.",
+   "accept": [
+    "közösségek"
+   ]
+  },
+  {
+   "id": "t4_c9",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_ogy_what"
+   ],
+   "type": "mcq",
+   "q": "Mi Magyarország legfőbb{t4_legfobb} népképviseleti szerve?",
+   "opts": [
+    "a Kormány",
+    "a köztársasági elnök",
+    "az Országgyűlés",
+    "a Belügyminisztérium"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_c10",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_ogy_199"
+   ],
+   "type": "type",
+   "q": "Hány képviselője van az Országgyűlésnek?",
+   "accept": [
+    "199",
+    "199 fő",
+    "199 képviselő",
+    "199 képviselője"
+   ]
+  },
+  {
+   "id": "t4_c11",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_ogy_4"
+   ],
+   "type": "type",
+   "q": "Hány évre választják az országgyűlési képviselőket?",
+   "accept": [
+    "4 évre",
+    "4",
+    "4 év",
+    "négy évre",
+    "négy"
+   ]
+  },
+  {
+   "id": "t4_c12",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_ogy_house"
+   ],
+   "type": "tf",
+   "q": "Az Országgyűlés az Országházban ülésezik.",
+   "a": true
+  },
+  {
+   "id": "t4_c14",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k4_ogy_law",
+    "k4_ogy_budget",
+    "k4_ogy_pm"
+   ],
+   "type": "list",
+   "q": "Sorolja fel az Országgyűlés legfőbb{t4_legfobb} feladatait!",
+   "items": [
+    [
+     "alaptörvényt",
+     "alaptörvény",
+     "alaptörvényét"
+    ],
+    [
+     "törvényeket",
+     "törvényt",
+     "törvény",
+     "törvények"
+    ],
+    [
+     "költségvetést",
+     "költségvetés",
+     "költségvetését"
+    ],
+    [
+     "miniszterelnököt",
+     "miniszterelnök"
+    ]
+   ]
+  },
+  {
+   "id": "t4_c15",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_ogy_budget"
+   ],
+   "type": "tf",
+   "q": "A központi költségvetést a köztársasági elnök fogadja el.",
+   "a": false
+  },
+  {
+   "id": "t4_c16",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_ogy_law"
+   ],
+   "type": "tf",
+   "q": "Az Országgyűlés megalkotja és módosítja Magyarország Alaptörvényét.",
+   "a": true
+  },
+  {
+   "id": "t4_c17",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_ogy_pm"
+   ],
+   "type": "type",
+   "q": "Ki választja meg a miniszterelnököt?",
+   "accept": [
+    "az Országgyűlés",
+    "Országgyűlés",
+    "a Parlament",
+    "Parlament"
+   ]
+  },
+  {
+   "id": "t4_c18",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_korm_exec"
+   ],
+   "type": "mcq",
+   "q": "Mi alkotja a végrehajtó hatalmat?",
+   "opts": [
+    "az Országgyűlés",
+    "a Kormány és a neki alárendelt közigazgatás",
+    "a köztársasági elnök"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_c19",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_korm_members"
+   ],
+   "type": "list",
+   "q": "Kik a Kormány tagjai?",
+   "items": [
+    [
+     "miniszterelnök",
+     "kormányfő",
+     "a miniszterelnök"
+    ],
+    [
+     "miniszterek",
+     "miniszter",
+     "a miniszterek"
+    ]
+   ]
+  },
+  {
+   "id": "t4_c20",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_pm_name"
+   ],
+   "type": "type",
+   "q": "Ki Magyarország miniszterelnöke?",
+   "accept": [
+    "Magyar Péter",
+    "Magyar"
+   ]
+  },
+  {
+   "id": "t4_c21",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_pm_head"
+   ],
+   "type": "tf",
+   "q": "A miniszterelnök a Kormány feje.",
+   "a": true
+  },
+  {
+   "id": "t4_c22",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_pm_eu"
+   ],
+   "type": "mcq",
+   "q": "Hol képviseli Magyarországot a miniszterelnök?",
+   "opts": [
+    "a Magyar Honvédségben",
+    "az Országgyűlés alakuló ülésén",
+    "az Európai Tanácsban"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_c23",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k4_korm_tasks"
+   ],
+   "type": "multi",
+   "q": "Jelölje meg a Kormány főbb feladatait!",
+   "opts": [
+    "irányítja a közigazgatás munkáját",
+    "megválasztja a köztársasági elnököt",
+    "jogszabályokat alkot",
+    "összehívja az Országgyűlés alakuló ülését",
+    "működteti az állami ellátórendszereket"
+   ],
+   "a": [
+    0,
+    2,
+    4
+   ]
+  },
+  {
+   "id": "t4_c24",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k4_min_state"
+   ],
+   "type": "multi",
+   "q": "Jelölje meg a minisztériumokat!",
+   "opts": [
+    "Belügyminisztérium",
+    "Tengerészeti Minisztérium",
+    "Külügyminisztérium",
+    "Igazságügyi Minisztérium",
+    "Sportminisztérium",
+    "Pénzügyminisztérium"
+   ],
+   "a": [
+    0,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "id": "t4_c25",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k4_min_people"
+   ],
+   "type": "multi",
+   "q": "Jelölje meg a minisztériumokat!",
+   "opts": [
+    "Turisztikai Minisztérium",
+    "Egészségügyi Minisztérium",
+    "Oktatási és Gyermekügyi Minisztérium",
+    "Űrkutatási Minisztérium",
+    "Társadalmi kapcsolatokért és Kultúráért felelős Minisztérium"
+   ],
+   "a": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "id": "t4_c26",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k4_min_economy"
+   ],
+   "type": "multi",
+   "q": "Jelölje meg a minisztériumokat!",
+   "opts": [
+    "Agrár- és Élelmiszergazdaságért Felelős Minisztérium",
+    "Bányászati Minisztérium",
+    "Vidék- és Településfejlesztési Minisztérium",
+    "Élő Környezetért Felelős Minisztérium",
+    "Tengerészeti Minisztérium",
+    "Gazdasági és Energetikai Minisztérium"
+   ],
+   "a": [
+    0,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "id": "t4_c27",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_ke_what"
+   ],
+   "type": "type",
+   "q": "Ki Magyarország államfője?",
+   "accept": [
+    "a köztársasági elnök",
+    "köztársasági elnök",
+    "az elnök",
+    "elnök",
+    "Baka András",
+    "Baka"
+   ]
+  },
+  {
+   "id": "t4_c28",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_ke_unity"
+   ],
+   "type": "mcq",
+   "q": "Mit fejez ki{t4_ki_fejez} a köztársasági elnök?",
+   "opts": [
+    "a nemzet egységét",
+    "a Kormány akaratát",
+    "a királyi hatalmat",
+    "az Európai Uniót"
+   ],
+   "a": 0
+  },
+  {
+   "id": "t4_c29",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_ke_name"
+   ],
+   "type": "type",
+   "q": "Ki Magyarország köztársasági elnöke?",
+   "accept": [
+    "Baka András",
+    "Baka"
+   ]
+  },
+  {
+   "id": "t4_c30",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_ke_elect"
+   ],
+   "type": "type",
+   "q": "Ki választja a köztársasági elnököt?",
+   "accept": [
+    "az Országgyűlés",
+    "Országgyűlés",
+    "a Parlament",
+    "Parlament"
+   ]
+  },
+  {
+   "id": "t4_c31",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_ke_5"
+   ],
+   "type": "type",
+   "q": "Hány évre választják a köztársasági elnököt?",
+   "accept": [
+    "5 évre",
+    "5",
+    "5 év",
+    "öt évre",
+    "öt"
+   ]
+  },
+  {
+   "id": "t4_c32",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_ke_secret"
+   ],
+   "type": "tf",
+   "q": "A köztársasági elnököt nyílt szavazással választják.",
+   "a": false
+  },
+  {
+   "id": "t4_c33",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_ke_once"
+   ],
+   "type": "mcq",
+   "q": "Hányszor választható újra a köztársasági elnök?",
+   "opts": [
+    "nem választható újra",
+    "legfeljebb egy alkalommal",
+    "legfeljebb két alkalommal",
+    "korlátlanul"
+   ],
+   "a": 1
+  },
+  {
+   "id": "t4_c34",
+   "mode": "check",
+   "pts": 2,
+   "kus": [
+    "k4_ke_army"
+   ],
+   "type": "type",
+   "q": "Ki a Magyar Honvédség főparancsnoka?",
+   "accept": [
+    "a köztársasági elnök",
+    "köztársasági elnök",
+    "az államfő",
+    "államfő",
+    "Baka András",
+    "Baka"
+   ]
+  },
+  {
+   "id": "t4_c35",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_ke_session"
+   ],
+   "type": "mcq",
+   "q": "Ki hívja össze az Országgyűlés alakuló ülését?",
+   "opts": [
+    "a miniszterelnök",
+    "a Belügyminisztérium",
+    "a köztársasági elnök",
+    "a Kormány"
+   ],
+   "a": 2
+  },
+  {
+   "id": "t4_c36",
+   "mode": "check",
+   "pts": 1,
+   "kus": [
+    "k4_ke_dissolve"
+   ],
+   "type": "tf",
+   "q": "A köztársasági elnök az Alaptörvényben meghatározott esetekben feloszlathatja az Országgyűlést.",
+   "a": true
+  },
+  {
+   "id": "t4_c37",
+   "mode": "check",
+   "pts": 3,
+   "kus": [
+    "k4_ogy_199",
+    "k4_ogy_4",
+    "k4_ke_5"
+   ],
+   "type": "match",
+   "q": "Párosítsa a számokat a jelentésükkel!",
+   "pairs": [
+    [
+     "199",
+     "az országgyűlési képviselők száma"
+    ],
+    [
+     "4 év",
+     "ennyi időre választják az Országgyűlést"
+    ],
+    [
+     "5 év",
+     "ennyi időre választják a köztársasági elnököt"
+    ]
+   ]
+  }
+ ]
+}

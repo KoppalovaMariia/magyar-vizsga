@@ -1,0 +1,277 @@
+{
+  "id": "t5",
+  "n": 5,
+  "title": "Права и обязанности",
+  "hu": "Alapvető állampolgári jogok és kötelezettségek",
+  "source": "Segédanyag BFKH, 2026. szeptember, 41–43. dia",
+  "kus": [
+    {"id": "k5_q_jog", "lang": true, "ru": "jog — право; jogok — права"},
+    {"id": "k5_q_valo", "lang": true, "ru": "…hoz / hez / höz való jog — право на …"},
+    {"id": "k5_q_szabadsag", "lang": true, "ru": "szabadság — свобода"},
+    {"id": "k5_q_egyenlo", "lang": true, "ru": "egyenlő — равный; egyenlőség — равенство"},
+    {"id": "k5_q_generacio", "lang": true, "ru": "első / második / harmadik generációs — первого / второго / третьего поколения"},
+    {"id": "k5_q_hanyadik", "lang": true, "ru": "Hányadik? — Который по счёту? (какого поколения?)"},
+    {"id": "k5_q_kotelesseg", "lang": true, "ru": "kötelesség, kötelezettség — обязанность; köteles — обязан"},
+
+    {"id": "k5_roots", "ru": "Идея прав человека в Европе — итог многовекового развития, корни уходят в Античность", "hu": "több száz éves fejlődési folyamat, ókori előzmények"},
+    {"id": "k5_magna", "ru": "Английская Великая хартия вольностей (Magna Charta Libertatum) — 1215 год", "hu": "angol, 1215"},
+    {"id": "k5_aranybulla", "ru": "Венгерская Золотая булла (Aranybulla) — 1222 год", "hu": "magyar, 1222"},
+    {"id": "k5_francia", "ru": "Французская Декларация прав человека и гражданина — 1789 год", "hu": "Emberi és Polgári Jogok Nyilatkozata, francia, 1789"},
+    {"id": "k5_polgari", "ru": "В XVII–XVIII веках гражданские общества всё сильнее боролись за равноправие", "hu": "a 17–18. században, polgári társadalmak"},
+    {"id": "k5_jogegyenloseg", "ru": "Равноправие: государство даёт всем гражданам равные права, и перед законом все граждане равны", "hu": "egyenlő jogok, a törvény előtt minden állampolgár egyenlő"},
+    {"id": "k5_echr", "ru": "Европейская конвенция о защите прав человека — 1950 год, веха в этом процессе", "hu": "Emberi Jogok Európai Egyezménye, 1950"},
+    {"id": "k5_echr_duty", "ru": "Конвенция обязывает государства обеспечивать закреплённые в ней свободы всем, кто живёт под их юрисдикцией", "hu": "a szabadságjogokat biztosítsák a joghatóságuk alatt élő egyének számára"},
+
+    {"id": "k5_gen_order", "ru": "Поколения основных прав различают по порядку их появления; поколений три", "hu": "kialakulásuk sorrendje szerint, három generáció"},
+    {"id": "k5_gen1", "ru": "Права первого поколения: на жизнь, на личную свободу, свобода объединений и собраний, свобода совести и вероисповедания, свобода слова и печати", "hu": "élethez való jog, személyi szabadság, egyesülési és gyülekezési szabadság, lelkiismereti és vallásszabadság, szólás- és sajtószabadság"},
+    {"id": "k5_gen2", "ru": "Права второго поколения: на труд, на забастовку, на образование, на социальную защищённость", "hu": "munkához, sztrájkhoz, oktatáshoz, szociális biztonsághoz való jog"},
+    {"id": "k5_gen3", "ru": "Права третьего поколения: на здоровую окружающую среду, права детей, права пациентов, права людей с инвалидностью", "hu": "egészséges környezethez való jog, gyermekek jogai, betegjogok, fogyatékkal élők jogai"},
+
+    {"id": "k5_recognize", "ru": "Венгрия признаёт неприкосновенные и неотчуждаемые основные права человека", "hu": "sérthetetlen és elidegeníthetetlen alapvető jogok"},
+    {"id": "k5_state_duty", "ru": "Уважать и защищать эти права — первостепенная обязанность государства", "hu": "az állam elsőrendű kötelessége"},
+    {"id": "k5_restrict", "ru": "Основное право можно ограничить только ради защиты другого основного права или конституционной ценности", "hu": "csak másik alapvető jog vagy alkotmányos érték védelme érdekében"},
+    {"id": "k5_alap_list", "ru": "Главные права в Основном законе: равенство перед законом; жизнь и человеческое достоинство; справедливое разбирательство; свобода мысли, совести и вероисповедания; свобода выражения мнений; свобода собраний; собственность и наследование; защита персональных данных", "hu": "törvény előtti egyenlőség, élethez és emberi méltósághoz való jog, tisztességes eljáráshoz való jog, gondolat-, lelkiismeret- és vallásszabadság, véleménynyilvánítás szabadsága, gyülekezési szabadság, tulajdonjog és örökléshez való jog, személyes adatok védelméhez való jog"},
+    {"id": "k5_death", "ru": "Смертную казнь в Венгрии отменили в 1990 году", "hu": "1990-ben"},
+    {"id": "k5_death_ab", "ru": "Её отменили после того, как Конституционный суд признал её неконституционной", "hu": "az Alkotmánybíróság alkotmányellenesnek nyilvánította"},
+
+    {"id": "k5_x_kozteher", "extra": true, "ru": "Дополнительно (Основной закон): каждый участвует в общих расходах по своим возможностям — прежде всего платит налоги", "hu": "közteherviselés, adófizetés"},
+    {"id": "k5_x_honvedelem", "extra": true, "ru": "Дополнительно (Основной закон): каждый гражданин Венгрии обязан защищать родину", "hu": "a haza védelme"},
+    {"id": "k5_x_szulok", "extra": true, "ru": "Дополнительно (Основной закон): родители обязаны обеспечить обучение своих несовершеннолетних детей", "hu": "a gyermek taníttatása"},
+    {"id": "k5_x_ab", "extra": true, "ru": "Дополнительно (Основной закон): Конституционный суд — главный орган защиты Основного закона", "hu": "Alkotmánybíróság"},
+    {"id": "k5_x_ombudsman", "extra": true, "ru": "Дополнительно (Основной закон): основные права защищает Уполномоченный по основным правам (омбудсмен), обратиться к нему может любой", "hu": "az alapvető jogok biztosa"}
+  ],
+
+  "lessons": [
+    {
+      "id": "t5l1",
+      "title": "Как Европа пришла к правам человека",
+      "hu": "Az emberi jogok története",
+      "min": 20,
+      "kus": ["k5_q_jog","k5_q_egyenlo","k5_roots","k5_magna","k5_aranybulla","k5_francia","k5_polgari","k5_jogegyenloseg","k5_echr","k5_echr_duty"],
+      "blocks": [
+        {"type": "story", "title": "Король, которого заставили подписать", "text": "Англия, **1215 год**. Бароны устали от короля Иоанна Безземельного: налоги по его прихоти, аресты без суда. Они берут оружие и ставят королю условие: подпиши, что даже ты не можешь бросить свободного человека в тюрьму без закона. Король подписывает. Так появилась [[Magna Charta Libertatum]], Великая хартия вольностей.\n\nВсего через 7 лет, в **1222 году**, похожее случилось в Венгрии: король [[II. András]] выпустил [[Aranybulla]], Золотую буллу. «Золотая» из-за золотой печати. Методичка пишет, что она закрепила права дворян.\n\nЗапомни главное слово темы: [[jog]] — право, [[jogok]] — права."},
+        {"type": "phrase", "hu": "Európában az emberi jogok eszméje több száz éves fejlődési folyamat eredménye.", "ru": "В Европе идея прав человека — итог развития длиной в несколько сотен лет."},
+        {"type": "timeline", "title": "Путь к правам человека. Нажимай на события", "events": [
+          {"year": "Античность", "hu": "ókori előzmények", "ru": "Корни идеи уходят в Античность: методичка называет это [[ókori előzmények]], «античные предпосылки»."},
+          {"year": "1215", "hu": "Magna Charta Libertatum (angol)", "ru": "Англия: Великая хартия вольностей. Король впервые признал, что и он подчиняется закону. [[angol]] = английский."},
+          {"year": "1222", "hu": "Aranybulla (magyar)", "ru": "Венгрия: Золотая булла короля Андраша II. Права дворян записаны на бумаге. [[magyar]] = венгерский."},
+          {"year": "XVII–XVIII век", "hu": "polgári társadalmak, jogegyenlőség", "ru": "Гражданские общества всё громче требуют [[jogegyenlőség]], равноправия: одни права для всех, а не только для знати."},
+          {"year": "1789", "hu": "Emberi és Polgári Jogok Nyilatkozata (francia)", "ru": "Франция: Декларация прав человека и гражданина, год Великой французской революции. [[francia]] = французский."},
+          {"year": "1950", "hu": "Emberi Jogok Európai Egyezménye", "ru": "Европейская конвенция о защите прав человека. Методичка называет её «вехой», [[mérföldkő]]."}
+        ]},
+        {"type": "mnemo", "text": "**1215 и 1222 — ровно неделя разницы.** Представь календарь: 15-е число — Англия, 22-е — Венгрия. От 15-го до 22-го ровно 7 дней, а между документами ровно 7 лет.\n\n**1789** — цифры 7, 8, 9 идут подряд, как шаги толпы к Бастилии: раз-два-три!\n**1950** — ровно середина века, пять лет после войны."},
+        {"type": "words", "title": "Слова этого урока", "items": [
+          {"hu": "jog", "ru": "право", "tip": "Короткое, как удар молотка судьи: «ЙОГ!». Мн. число: [[jogok]]."},
+          {"hu": "emberi jogok", "ru": "права человека", "tip": "[[ember]] = человек, [[emberi]] = человеческий."},
+          {"hu": "szabadság", "ru": "свобода", "tip": "[[szabad]] = свободный (в кафе «szabad?» = «свободно?»)."},
+          {"hu": "egyenlő", "ru": "равный", "tip": "Всё поровну: [[egyenlőség]] = равенство."},
+          {"hu": "törvény", "ru": "закон", "tip": "Тот же корень, что в [[Alaptörvény]] = Основной закон."},
+          {"hu": "állampolgár", "ru": "гражданин", "tip": "[[állam]] (государство) + [[polgár]] (гражданин, горожанин)."},
+          {"hu": "nyilatkozat", "ru": "декларация, заявление", "tip": "Французский документ 1789 года — это [[Nyilatkozat]]."},
+          {"hu": "egyezmény", "ru": "конвенция, соглашение", "tip": "Европейский документ 1950 года — это [[Egyezmény]]."}
+        ]},
+        {"type": "grammar", "id": "G_T5_SAG"},
+        {"type": "story", "title": "Одни правила для всех", "text": "Золотая булла защищала только дворян. Крестьянин и граф жили по разным законам. В XVII–XVIII веках появились [[polgári társadalmak]], гражданские общества: торговцы, ремесленники, врачи. Они потребовали простого: **одни права для всех**.\n\nТак родилось слово [[jogegyenlőség]] = [[jog]] (право) + [[egyenlőség]] (равенство). Сегодня это обычная жизнь: штраф за парковку в Будапеште одинаковый и для министра, и для студентки."},
+        {"type": "phrase", "hu": "A jogegyenlőség azt jelenti, hogy az állam minden polgárát egyenlő jogok illetik meg.", "ru": "Равноправие означает, что всем гражданам государства положены равные права."},
+        {"type": "phrase", "hu": "A törvény előtt minden állampolgár egyenlő.", "ru": "Перед законом все граждане равны."},
+        {"type": "story", "title": "1950: обещание всей Европы", "text": "После Второй мировой войны европейские страны договорились: права человека больше не внутреннее дело одного государства. Так в **1950 году** появилась [[Emberi Jogok Európai Egyezménye]], Европейская конвенция о защите прав человека.\n\nМетодичка объясняет, что конвенция **обязывает** государства обеспечивать свободы каждому, кто живёт под их властью (юрисдикцией). Не только гражданам, а всем, кто там живёт. Значит, и тебе в Венгрии."},
+        {"type": "phrase", "hu": "Az egyezmény arra kötelezi az államokat, hogy biztosítsák a szabadságjogokat.", "ru": "Конвенция обязывает государства обеспечивать права на свободу."},
+        {"type": "mnemo", "text": "**Четыре документа — четыре прилагательных «чей?», по порядку: A-A-F-E.**\n**A**ngol (английская) — 1215\n**A**ranybulla — magyar (венгерская) — 1222\n**F**rancia (французская) — 1789\n**E**urópai (европейская) — 1950\n\nФраза-ключ: «**А**нгличане **А**ндрашу **Ф**рак **Е**вропейский сшили»."}
+      ],
+      "practice": ["t5_p1_1","t5_p1_2","t5_p1_3","t5_p1_4","t5_p1_5","t5_p1_6","t5_p1_7","t5_p1_8","t5_p1_9","t5_p1_10"]
+    },
+
+    {
+      "id": "t5l2",
+      "title": "Три поколения прав",
+      "hu": "Az alapjogok generációi",
+      "min": 20,
+      "kus": ["k5_q_valo","k5_q_szabadsag","k5_q_generacio","k5_q_hanyadik","k5_gen_order","k5_gen1","k5_gen2","k5_gen3"],
+      "blocks": [
+        {"type": "story", "title": "Три волны", "text": "Права появлялись не все сразу, а волнами. Поэтому их делят на **поколения** ([[generációk]]) — по порядку, в котором они возникли.\n\n**Первая волна**: «государство, не трогай меня». Не убивай, не сажай без суда, дай говорить, верить и собираться.\n**Вторая волна** пришла с заводами: рабочие потребовали работу, право бастовать, школу для детей и помощь в беде.\n**Третья волна** — XX век: забота о планете и о самых уязвимых: детях, больных, людях с инвалидностью."},
+        {"type": "phrase", "hu": "Kialakulásuk sorrendje szerint az alapjogok három generációját különböztetjük meg.", "ru": "По порядку появления различают три поколения основных прав."},
+        {"type": "grammar", "id": "G_T5_VALO"},
+        {"type": "phrase", "hu": "Az élethez való jog első generációs jog.", "ru": "Право на жизнь — право первого поколения."},
+        {"type": "duo", "title": "Три поколения. Нажми на карточку, чтобы перевернуть", "cards": [
+          {"hu": "első generációs jogok", "ru": "первое поколение: «не трогай меня»", "rows": [["жизнь", "élethez való jog"], ["личная свобода", "személyi szabadsághoz való jog"], ["объединения и собрания", "egyesülési és gyülekezési szabadság"], ["совесть и вера", "lelkiismereti és vallásszabadság"], ["слово и печать", "szólás- és sajtószabadság"]], "note": "Пять пунктов: тело, ноги, руки, душа, рот."},
+          {"hu": "második generációs jogok", "ru": "второе поколение: «работа и защита»", "rows": [["труд", "munkához való jog"], ["забастовка", "sztrájkhoz való jog"], ["образование", "oktatáshoz való jog"], ["социальная защита", "szociális biztonsághoz való jog"]], "note": "Четыре пункта: M-SOS."},
+          {"hu": "harmadik generációs jogok", "ru": "третье поколение: «забота»", "rows": [["здоровая среда", "egészséges környezethez való jog"], ["дети", "gyermekek jogai"], ["пациенты", "betegjogok"], ["люди с инвалидностью", "fogyatékkal élők jogai"]], "note": "Четыре пункта: парк у больницы."}
+        ]},
+        {"type": "mnemo", "text": "**Первое поколение — пять частей тела:**\n— сердце бьётся — [[élethez való jog]] (жизнь)\n— ноги идут куда хотят — [[személyi szabadság]] (личная свобода)\n— руки берут друзей за руки — [[egyesülési és gyülekezési szabadság]] (объединения и собрания)\n— душа верит — [[lelkiismereti és vallásszabadság]] (совесть и вера)\n— рот говорит и пишет — [[szólás- és sajtószabadság]] (слово и печать)"},
+        {"type": "grammar", "id": "G_T5_HYPHEN"},
+        {"type": "phrase", "hu": "A munkához való jog második generációs jog.", "ru": "Право на труд — право второго поколения."},
+        {"type": "mnemo", "text": "**Второе поколение — сигнал «M-SOS»** рабочего человека:\n**M** — [[munkához]] (труд)\n**S** — [[sztrájkhoz]] (забастовка)\n**O** — [[oktatáshoz]] (образование)\n**S** — [[szociális biztonsághoz]] (социальная защита)\nВсе четыре заканчиваются на «…hoz való jog»."},
+        {"type": "phrase", "hu": "Az egészséges környezethez való jog harmadik generációs jog.", "ru": "Право на здоровую окружающую среду — право третьего поколения."},
+        {"type": "mnemo", "text": "**Третье поколение — картинка «парк у детской больницы»:**\n— зелёный чистый парк — [[egészséges környezethez való jog]]\n— в нём играют дети — [[gyermekek jogai]]\n— из окон смотрят пациенты — [[betegjogok]]\n— к входу ведёт пандус — [[fogyatékkal élők jogai]]\n\nИ общий ключ ко всем трём: девиз Французской революции **«свобода — равенство — братство»**. 1 — свобода, 2 — равенство возможностей (работа, школа), 3 — братство, забота друг о друге."},
+        {"type": "words", "title": "Порядковые числа в вопросах", "items": [
+          {"hu": "első", "ru": "первый", "tip": "[[első generációs]] = первого поколения."},
+          {"hu": "második", "ru": "второй", "tip": "[[második]] ≈ «МА-шо-дик» (s = ш) ≈ «МАШина номер два»."},
+          {"hu": "harmadik", "ru": "третий", "tip": "[[három]] = три → [[harmadik]] = третий."},
+          {"hu": "Hányadik?", "ru": "Который по счёту?", "tip": "[[Hányadik generációs jog…?]] — «Права какого поколения…?» Ответ: [[első]], [[második]] или [[harmadik]]."}
+        ]}
+      ],
+      "practice": ["t5_p2_1","t5_p2_2","t5_p2_3","t5_p2_4","t5_p2_5","t5_p2_6","t5_p2_7","t5_p2_8","t5_p2_9","t5_p2_10"]
+    },
+
+    {
+      "id": "t5l3",
+      "title": "Права в Основном законе",
+      "hu": "Az Alaptörvényben biztosított alapvető jogok",
+      "min": 20,
+      "kus": ["k5_recognize","k5_state_duty","k5_restrict","k5_alap_list","k5_death","k5_death_ab"],
+      "blocks": [
+        {"type": "story", "title": "Что тебе обещает Основной закон", "text": "Конституция Венгрии называется [[Alaptörvény]], Основной закон. О правах человека в нём сказано два сильных слова: они [[sérthetetlen]] и [[elidegeníthetetlen]].\n\n[[sérthetetlen]] — **неприкосновенные**: их нельзя «ранить». [[elidegeníthetetlen]] — **неотчуждаемые**: их нельзя отнять, продать или подарить. Даже если ты сама захочешь.\n\nИ ещё: беречь эти права — не просьба, а **первостепенная обязанность государства**."},
+        {"type": "quote", "hu": "Magyarország elismeri az ember sérthetetlen és elidegeníthetetlen alapvető jogait, ezek tiszteletben tartása és védelme az állam elsőrendű kötelessége.", "ru": "Венгрия признаёт неприкосновенные и неотчуждаемые основные права человека; уважать и защищать их — первостепенная обязанность государства.", "src": "Segédanyag BFKH, 43. dia"},
+        {"type": "mnemo", "text": "**sérthetetlen** = [[sért]] (ранить, обижать) + -hetetlen (нельзя). «Нельзя ранить» = неприкосновенный. Читается «ШЕРТ-хететлен» (s = ш). Представь: «ШЕРсть не тронь!» — неприкосновенно.\n\n**elidegeníthetetlen** = el + [[idegen]] (чужой!) + -ít (сделать) + -hetetlen (нельзя). «Нельзя сделать чужим» = неотчуждаемый. Слово [[idegen]] ты увидишь на табличках: «idegenvezető» — гид для чужаков-туристов."},
+        {"type": "grammar", "id": "G_T5_CAN"},
+        {"type": "phrase", "hu": "Alapvető jogot korlátozni csak másik alapvető jog vagy valamely alkotmányos érték védelme érdekében lehet.", "ru": "Основное право можно ограничить только ради защиты другого основного права или какой-либо конституционной ценности."},
+        {"type": "story", "title": "Право против права", "text": "Когда же право можно ограничить? Методичка отвечает: **только ради другого основного права или конституционной ценности**. Не потому что так удобно чиновнику.\n\nПример: у тебя есть свобода мнения. Но призыв избить соседа она не защищает: здесь её ограничивает **право соседа на жизнь и достоинство**. Право уступает только праву."},
+        {"type": "mnemo", "text": "**Один день из жизни — все 8 прав Основного закона:**\n— Утром ты проснулась живой и тебя уважают — [[élethez és emberi méltósághoz való jog]]\n— В очереди все равны — [[törvény előtti egyenlőség]]\n— Думаешь и молишься как хочешь — [[gondolat-, lelkiismeret- és vallásszabadság]]\n— Говоришь своё мнение — [[véleménynyilvánítás szabadsága]]\n— Вечером идёшь на мирный митинг — [[gyülekezési szabadság]]\n— Возвращаешься в свою квартиру, которую когда-нибудь оставишь детям — [[tulajdonjog és örökléshez való jog]]\n— Твой телефон никто не читает — [[személyes adatok védelméhez való jog]]\n— А если спор, тебя ждёт честный суд — [[tisztességes eljáráshoz való jog]]"},
+        {"type": "words", "title": "Ключевые слова списка", "items": [
+          {"hu": "méltóság", "ru": "достоинство", "tip": "[[méltó]] = достойный + -ság. Человеческое достоинство: [[emberi méltóság]]."},
+          {"hu": "tisztességes eljárás", "ru": "справедливое (честное) разбирательство", "tip": "[[tisztességes]] = честный, порядочный; [[eljárás]] = процесс, процедура."},
+          {"hu": "vélemény", "ru": "мнение", "tip": "[[véleménynyilvánítás]] = [[vélemény]] (мнение) + [[nyilvánítás]] (объявление): высказывание мнения."},
+          {"hu": "gyülekezés", "ru": "собрание", "tip": "[[gyülekezési szabadság]] = свобода собраний."},
+          {"hu": "tulajdon", "ru": "собственность", "tip": "[[tulajdonjog]] = право собственности (одно слово)."},
+          {"hu": "öröklés", "ru": "наследование", "tip": "[[örökség]] = наследство. «ÖРÖК» ≈ «вовек» — остаётся в семье навсегда."},
+          {"hu": "személyes adatok", "ru": "персональные данные", "tip": "[[adat]] = данные (как «дата» в английском data)."}
+        ]},
+        {"type": "story", "title": "1990: последний приговор остался в прошлом", "text": "Долгое время в Венгрии существовала смертная казнь, [[halálbüntetés]] = [[halál]] (смерть) + [[büntetés]] (наказание).\n\nВ **1990 году** её отменили. Решение принял не парламент, а [[Alkotmánybíróság]], Конституционный суд: он объявил смертную казнь **неконституционной**, [[alkotmányellenes]] = [[alkotmány]] (конституция) + [[ellenes]] (против).\n\n1990 год легко запомнить: это год первых свободных выборов в Венгрии, начало новой страны."},
+        {"type": "phrase", "hu": "A halálbüntetést 1990-ben törölték el, miután az Alkotmánybíróság alkotmányellenesnek nyilvánította.", "ru": "Смертную казнь отменили в 1990 году, после того как Конституционный суд признал её неконституционной."},
+        {"type": "mnemo", "text": "**1990 = 19 + 90.** Представь, что Конституционный суд перечёркивает виселицу, и она превращается в **ноль** в конце числа 199**0**: казней стало ноль.\n\nЦепочка для ответа: **1990 → Alkotmánybíróság → alkotmányellenes** («против конституции»)."}
+      ],
+      "practice": ["t5_p3_1","t5_p3_2","t5_p3_3","t5_p3_4","t5_p3_5","t5_p3_6","t5_p3_7","t5_p3_8","t5_p3_9","t5_p3_10"]
+    },
+
+    {
+      "id": "t5l4",
+      "title": "Обязанности и защита прав",
+      "hu": "Állampolgári kötelezettségek és a jogok védelme",
+      "min": 15,
+      "kus": ["k5_q_kotelesseg","k5_x_kozteher","k5_x_honvedelem","k5_x_szulok","k5_x_ab","k5_x_ombudsman"],
+      "blocks": [
+        {"type": "story", "title": "Обратная сторона медали", "text": "В названии темы есть второе слово: [[kötelezettségek]], обязанности. В методичке о них почти ничего нет, но в официальном списке тем экзамена они названы. Поэтому этот урок **дополнительный**: факты взяты прямо из Основного закона.\n\nТри обязанности легко представить: ты платишь налоги, граждане защищают страну, родители отправляют детей учиться. А кто защищает твои права? Два «стража»: Конституционный суд и омбудсмен."},
+        {"type": "words", "title": "Обязанности", "items": [
+          {"hu": "kötelesség", "ru": "обязанность", "tip": "Синоним: [[kötelezettség]]. Оба значат «обязанность»."},
+          {"hu": "köteles", "ru": "обязан", "tip": "[[köteles a haza védelmére]] = обязан защищать родину."},
+          {"hu": "adófizetés", "ru": "уплата налогов", "tip": "[[adó]] (налог) + [[fizetés]] (оплата). В магазине: «Fizetés kártyával» — оплата картой."},
+          {"hu": "közteherviselés", "ru": "участие в общих расходах", "tip": "[[köz]] (общий) + [[teher]] (груз, бремя) + [[viselés]] (ношение): «несём общий груз вместе»."},
+          {"hu": "honvédelem", "ru": "защита родины", "tip": "[[hon]] (родина) + [[védelem]] (защита). Армия Венгрии — [[Magyar Honvédség]]."},
+          {"hu": "taníttatás", "ru": "обучение (детей)", "tip": "[[tanít]] = учить; [[taníttatni]] = «дать выучить», отправить учиться."}
+        ]},
+        {"type": "mnemo", "text": "**köt** = вязать, связывать. [[kötél]] = верёвка. **köteles** = «связанный» = обязан. **kötelesség** = обязанность.\n\nПредставь: обязанность — это верёвка, которая привязывает тебя к делу. Нельзя просто уйти."},
+        {"type": "phrase", "hu": "Az adófizetés állampolgári kötelezettség.", "ru": "Уплата налогов — обязанность гражданина."},
+        {"type": "phrase", "hu": "Minden magyar állampolgár köteles a haza védelmére.", "ru": "Каждый гражданин Венгрии обязан защищать родину."},
+        {"type": "phrase", "hu": "A szülők kötelesek kiskorú gyermeküket taníttatni.", "ru": "Родители обязаны дать своему несовершеннолетнему ребёнку образование."},
+        {"type": "story", "title": "Два стража прав", "text": "Помнишь суд, который отменил смертную казнь? Это [[Alkotmánybíróság]], Конституционный суд. По Основному закону он **главный орган защиты Основного закона**: проверяет, не нарушает ли закон конституцию.\n\nВторой страж — [[az alapvető jogok biztosa]], Уполномоченный по основным правам. В мире его называют **омбудсмен** ([[ombudsman]]). Его главная черта: **обратиться к нему может любой** человек."},
+        {"type": "phrase", "hu": "Az Alkotmánybíróság az Alaptörvény védelmének legfőbb szerve.", "ru": "Конституционный суд — главный орган защиты Основного закона."},
+        {"type": "phrase", "hu": "Az alapvető jogok biztosának eljárását bárki kezdeményezheti.", "ru": "Обратиться к Уполномоченному по основным правам может любой."},
+        {"type": "mnemo", "text": "**Alkotmány + bíróság**: alkotmány — конституция, [[bíró]] — судья («БИРО» ≈ «бюро судьи»).\n\n**biztos** = надёжный, уверенный. Основной закон **biztosít** (обеспечивает) права, а **biztos** (уполномоченный) следит, чтобы обещание было надёжным. Одно корневое слово — «страховщик прав»."}
+      ],
+      "practice": ["t5_p4_1","t5_p4_2","t5_p4_3","t5_p4_4","t5_p4_5","t5_p4_6","t5_p4_7","t5_p4_8","t5_p4_9","t5_p4_10"]
+    }
+  ],
+
+  "items": [
+    {"id": "t5_d1", "mode": "diag", "kus": ["k5_roots"], "type": "mcq", "q": "According to the guide, how did the idea of human rights develop in Europe?", "opts": ["It was invented in 1950 by the EU", "It is the result of a development of several hundred years, with roots in antiquity", "It came from the United States in the 20th century", "It started with the fall of communism in 1989"], "a": 1},
+    {"id": "t5_d2", "mode": "diag", "kus": ["k5_magna"], "type": "mcq", "q": "The Magna Charta Libertatum is an English document. When was it issued?", "opts": ["1215", "1222", "1789", "1848"], "a": 0},
+    {"id": "t5_d3", "mode": "diag", "kus": ["k5_aranybulla"], "type": "mcq", "q": "When was the Hungarian Golden Bull (Aranybulla) issued?", "opts": ["1000", "1215", "1222", "1526"], "a": 2},
+    {"id": "t5_d4", "mode": "diag", "kus": ["k5_francia"], "type": "mcq", "q": "Which country adopted the Declaration of the Rights of Man and of the Citizen in 1789?", "opts": ["England", "France", "Hungary", "Austria"], "a": 1},
+    {"id": "t5_d5", "mode": "diag", "kus": ["k5_polgari"], "type": "mcq", "q": "In which centuries did civil (bourgeois) societies fight ever harder for equality before the law?", "opts": ["5th–6th centuries", "12th–13th centuries", "17th–18th centuries", "20th–21st centuries"], "a": 2},
+    {"id": "t5_d6", "mode": "diag", "kus": ["k5_jogegyenloseg"], "type": "mcq", "q": "What does 'equality of rights' (jogegyenlőség) mean?", "opts": ["Everyone earns the same salary", "Only nobles have full rights", "The state grants equal rights to all citizens, and all citizens are equal before the law", "Men and women vote in separate elections"], "a": 2},
+    {"id": "t5_d7", "mode": "diag", "kus": ["k5_echr"], "type": "mcq", "q": "When was the European Convention on Human Rights created?", "opts": ["1789", "1919", "1950", "1990"], "a": 2},
+    {"id": "t5_d8", "mode": "diag", "kus": ["k5_echr_duty"], "type": "mcq", "q": "What does the European Convention on Human Rights oblige states to do?", "opts": ["To use a common currency", "To secure the freedoms defined in it for everyone living under their jurisdiction", "To abolish their armies", "To join the European Union"], "a": 1},
+    {"id": "t5_d9", "mode": "diag", "kus": ["k5_gen_order"], "type": "mcq", "q": "On what basis are fundamental rights divided into generations?", "opts": ["By their importance", "By the order in which they developed", "By the country that invented them", "By alphabetical order"], "a": 1},
+    {"id": "t5_d10", "mode": "diag", "kus": ["k5_gen1"], "type": "mcq", "q": "Which of these is a FIRST-generation right?", "opts": ["The right to strike", "The right to a healthy environment", "Freedom of speech and of the press", "Patients' rights"], "a": 2},
+    {"id": "t5_d11", "mode": "diag", "kus": ["k5_gen2"], "type": "mcq", "q": "Which of these is a SECOND-generation right?", "opts": ["The right to life", "The right to work", "Children's rights", "Freedom of religion"], "a": 1},
+    {"id": "t5_d12", "mode": "diag", "kus": ["k5_gen3"], "type": "mcq", "q": "Which of these is a THIRD-generation right?", "opts": ["The right to education", "Freedom of assembly", "The right to social security", "The rights of people living with disabilities"], "a": 3},
+    {"id": "t5_d13", "mode": "diag", "kus": ["k5_recognize"], "type": "mcq", "q": "How does the Hungarian Fundamental Law describe the fundamental rights of the human being?", "opts": ["Temporary and conditional", "Inviolable and inalienable", "Granted only to citizens who pay taxes", "Valid only in peacetime"], "a": 1},
+    {"id": "t5_d14", "mode": "diag", "kus": ["k5_state_duty"], "type": "mcq", "q": "Whose primary duty is it to respect and protect fundamental rights?", "opts": ["The Church", "The family", "The state", "The European Union"], "a": 2},
+    {"id": "t5_d15", "mode": "diag", "kus": ["k5_restrict"], "type": "mcq", "q": "When may a fundamental right be restricted in Hungary?", "opts": ["Whenever the government wishes", "Never, under any circumstances", "Only to protect another fundamental right or a constitutional value", "Only during elections"], "a": 2},
+    {"id": "t5_d16", "mode": "diag", "kus": ["k5_alap_list"], "type": "mcq", "q": "Which of these is listed in the guide among the main fundamental rights of the Fundamental Law?", "opts": ["The right to protection of personal data", "The right to a free car", "The right to carry weapons", "The right not to pay taxes"], "a": 0},
+    {"id": "t5_d17", "mode": "diag", "kus": ["k5_death"], "type": "mcq", "q": "When was the death penalty abolished in Hungary?", "opts": ["1956", "1968", "1990", "2004"], "a": 2},
+    {"id": "t5_d18", "mode": "diag", "kus": ["k5_death_ab"], "type": "mcq", "q": "Which body declared the death penalty unconstitutional in Hungary?", "opts": ["The Parliament", "The Constitutional Court", "The President of the Republic", "The European Court of Human Rights"], "a": 1},
+
+    {"id": "t5_p1_1", "mode": "practice", "kus": ["k5_q_jog","k5_q_egyenlo","k5_q_szabadsag"], "type": "match", "q": "Соедини слово с переводом", "pairs": [["jog", "право"], ["egyenlő", "равный"], ["szabadság", "свобода"], ["törvény", "закон"], ["állampolgár", "гражданин"]]},
+    {"id": "t5_p1_2", "mode": "practice", "kus": ["k5_magna","k5_aranybulla","k5_francia"], "type": "match", "q": "Документ → страна", "pairs": [["Magna Charta Libertatum", "angol"], ["Aranybulla", "magyar"], ["Emberi és Polgári Jogok Nyilatkozata", "francia"]]},
+    {"id": "t5_p1_3", "mode": "practice", "kus": ["k5_magna","k5_aranybulla","k5_francia","k5_echr"], "type": "order", "q": "Расставь документы по времени, от самого раннего", "items": ["Magna Charta Libertatum", "Aranybulla", "Emberi és Polgári Jogok Nyilatkozata", "Emberi Jogok Európai Egyezménye"]},
+    {"id": "t5_p1_4", "mode": "practice", "kus": ["k5_magna","k5_aranybulla","k5_francia","k5_echr"], "type": "match", "q": "Документ → год", "pairs": [["Magna Charta Libertatum", "1215"], ["Aranybulla", "1222"], ["Emberi és Polgári Jogok Nyilatkozata", "1789"], ["Emberi Jogok Európai Egyezménye", "1950"]]},
+    {"id": "t5_p1_5", "mode": "practice", "kus": ["k5_jogegyenloseg","k5_q_jog"], "type": "mcq", "q": "Что значит «[[jogegyenlőség]]»?", "opts": ["все получают одинаковую зарплату", "у всех граждан равные права, и перед законом все равны", "права есть только у дворян"], "a": 1, "ex": "[[jog]] (право) + [[egyenlőség]] (равенство) = равноправие."},
+    {"id": "t5_p1_6", "mode": "practice", "kus": ["k5_jogegyenloseg","k5_q_egyenlo"], "type": "tiles", "q": "Собери: «Перед законом все граждане равны».", "answer": ["A", "törvény", "előtt", "minden", "állampolgár", "egyenlő."], "extra": ["szabad", "jog"], "ex": "[[a törvény előtt]] = «перед законом»: послелог [[előtt]] стоит после слова."},
+    {"id": "t5_p1_7", "mode": "practice", "kus": ["k5_aranybulla"], "type": "tf", "q": "Az Aranybulla angol dokumentum.", "a": false, "ex": "Неверно: Золотая булла — [[magyar]], венгерская (1222). Английская — [[Magna Charta Libertatum]]."},
+    {"id": "t5_p1_8", "mode": "practice", "kus": ["k5_echr","k5_q_jog"], "type": "type", "q": "Mikor jött létre az Emberi Jogok Európai Egyezménye?", "accept": ["1950", "1950-ben"], "ex": "Середина века: 1950."},
+    {"id": "t5_p1_9", "mode": "practice", "kus": ["k5_polgari"], "type": "mcq", "q": "Когда гражданские общества всё сильнее боролись за равноправие?", "opts": ["az ókorban", "a 17–18. században", "a 20. században"], "a": 1, "ex": "[[a 17–18. században]] — в XVII–XVIII веках. -ban/-ben = «в»."},
+    {"id": "t5_p1_10", "mode": "practice", "kus": ["k5_roots","k5_echr_duty"], "type": "multi", "q": "Отметь верные утверждения", "opts": ["Идея прав человека в Европе складывалась несколько сотен лет", "Корни этой идеи уходят в Античность", "Конвенция 1950 года обязывает государства обеспечивать свободы людям под их юрисдикцией", "Права человека придумали в 1990 году"], "a": [0,1,2]},
+
+    {"id": "t5_p2_1", "mode": "practice", "kus": ["k5_q_generacio","k5_q_hanyadik","k5_q_szabadsag"], "type": "match", "q": "Соедини слово с переводом", "pairs": [["első", "первый"], ["második", "второй"], ["harmadik", "третий"], ["hányadik?", "который по счёту?"], ["szabadság", "свобода"]]},
+    {"id": "t5_p2_2", "mode": "practice", "kus": ["k5_q_valo","k5_gen2"], "type": "mcq", "q": "«[[munkához való jog]]» — это…", "opts": ["право на жизнь", "право на труд", "право на забастовку"], "a": 1, "ex": "[[munka]] (работа) + -hoz = «к работе»; [[való jog]] = право. «Право на труд»."},
+    {"id": "t5_p2_3", "mode": "practice", "kus": ["k5_gen1","k5_gen2","k5_gen3"], "type": "match", "q": "Право → поколение", "pairs": [["az élethez való jog", "első generációs"], ["a sztrájkhoz való jog", "második generációs"], ["a betegjogok", "harmadik generációs"]]},
+    {"id": "t5_p2_4", "mode": "practice", "kus": ["k5_gen1"], "type": "multi", "q": "Отметь права ПЕРВОГО поколения", "opts": ["az élethez való jog", "a munkához való jog", "a gyülekezési szabadság", "a gyermekek jogai", "a szólás- és sajtószabadság", "a lelkiismereti és vallásszabadság"], "a": [0,2,4,5], "ex": "Первое поколение: сердце, ноги, руки, душа, рот. Работа — второе, дети — третье."},
+    {"id": "t5_p2_5", "mode": "practice", "kus": ["k5_q_valo","k5_gen2"], "type": "tiles", "q": "Собери: «право на образование»", "answer": ["az", "oktatáshoz", "való", "jog"], "extra": ["oktatás", "munkához"], "ex": "[[oktatás]] + -hoz → [[oktatáshoz]]: «к образованию»."},
+    {"id": "t5_p2_6", "mode": "practice", "kus": ["k5_q_valo","k5_gen1"], "type": "type", "q": "Впиши по-венгерски «право на жизнь»: élet + окончание\n___ való jog", "accept": ["élethez", "az élethez"], "ex": "[[élet]] — гласные передние (е), поэтому -hez: [[élethez]]."},
+    {"id": "t5_p2_7", "mode": "practice", "kus": ["k5_gen3"], "type": "tf", "q": "A betegjogok harmadik generációs jogok.", "a": true, "ex": "Верно: пациенты у окна больницы — третье поколение, «забота»."},
+    {"id": "t5_p2_8", "mode": "practice", "kus": ["k5_gen2","k5_q_hanyadik"], "type": "type", "q": "Hányadik generációs jog a sztrájkhoz való jog?", "accept": ["második", "második generációs", "második generációs jog", "a második", "2.", "második generációhoz"], "ex": "Забастовка — S из «M-SOS»: [[második]], второе поколение."},
+    {"id": "t5_p2_9", "mode": "practice", "kus": ["k5_gen_order"], "type": "mcq", "q": "По какому принципу права делят на поколения?\nKialakulásuk sorrendje szerint.", "opts": ["по важности", "по порядку появления", "по странам"], "a": 1, "ex": "[[kialakulásuk sorrendje szerint]] = «по порядку их появления»."},
+    {"id": "t5_p2_10", "mode": "practice", "kus": ["k5_gen3"], "type": "list", "q": "Sorolja fel a harmadik generációs jogokat!", "items": [["egészséges környezethez való jog", "környezethez", "környezet", "egészséges"], ["gyermekek jogai", "gyermekek", "gyermek", "gyerekek"], ["betegjogok", "betegek", "beteg"], ["fogyatékkal élők jogai", "fogyatékkal", "fogyatékosok"]], "ex": "Парк у детской больницы: среда, дети, пациенты, пандус."},
+
+    {"id": "t5_p3_1", "mode": "practice", "kus": ["k5_recognize"], "type": "mcq", "q": "«[[sérthetetlen]]» значит…", "opts": ["неприкосновенный", "временный", "платный"], "a": 0, "ex": "[[sért]] (ранить) + -hetetlen (нельзя) = «нельзя ранить»."},
+    {"id": "t5_p3_2", "mode": "practice", "kus": ["k5_alap_list"], "type": "match", "q": "Слово → перевод", "pairs": [["méltóság", "достоинство"], ["tulajdon", "собственность"], ["öröklés", "наследование"], ["vélemény", "мнение"], ["személyes adatok", "персональные данные"]]},
+    {"id": "t5_p3_3", "mode": "practice", "kus": ["k5_restrict"], "type": "tf", "q": "Alapvető jogot bármikor lehet korlátozni.", "a": false, "ex": "Неверно: только ради другого основного права или конституционной ценности. [[bármikor]] = когда угодно."},
+    {"id": "t5_p3_4", "mode": "practice", "kus": ["k5_restrict"], "type": "mcq", "q": "Когда можно ограничить основное право?", "opts": ["когда этого хочет правительство", "только ради защиты другого основного права или конституционной ценности", "никогда"], "a": 1, "ex": "Право уступает только праву."},
+    {"id": "t5_p3_5", "mode": "practice", "kus": ["k5_death"], "type": "tiles", "q": "Собери: «Смертную казнь отменили в 1990 году».", "answer": ["A", "halálbüntetést", "1990-ben", "törölték", "el."], "extra": ["1956-ban", "nyilvánította"], "ex": "[[törölték el]] = «отменили» (они). Приставка [[el]] оторвалась и стоит после глагола."},
+    {"id": "t5_p3_6", "mode": "practice", "kus": ["k5_death"], "type": "type", "q": "Mikor törölték el a halálbüntetést Magyarországon?", "accept": ["1990", "1990-ben"], "ex": "199**0** — казней стало ноль."},
+    {"id": "t5_p3_7", "mode": "practice", "kus": ["k5_death_ab"], "type": "type", "q": "Melyik szerv nyilvánította alkotmányellenesnek a halálbüntetést?", "accept": ["Alkotmánybíróság", "az Alkotmánybíróság", "Alkotmánybíróságnak"], "ex": "[[Alkotmánybíróság]] = [[alkotmány]] (конституция) + [[bíróság]] (суд)."},
+    {"id": "t5_p3_8", "mode": "practice", "kus": ["k5_state_duty"], "type": "mcq", "q": "Az alapvető jogok tiszteletben tartása és védelme … elsőrendű kötelessége.", "opts": ["az állam", "a család", "az egyház"], "a": 0, "ex": "[[az állam elsőrendű kötelessége]] — первостепенная обязанность государства."},
+    {"id": "t5_p3_9", "mode": "practice", "kus": ["k5_alap_list"], "type": "list", "q": "Sorolja fel az Alaptörvényben biztosított legfőbb alapvető jogokat!", "items": [["törvény előtti egyenlőség", "egyenlőség"], ["élethez és emberi méltósághoz való jog", "élethez", "méltósághoz", "méltóság"], ["tisztességes eljáráshoz való jog", "eljáráshoz", "tisztességes"], ["gondolat-, lelkiismeret- és vallásszabadság", "vallásszabadság", "gondolatszabadság", "vallás", "gondolat", "lelkiismeret"], ["véleménynyilvánítás szabadsága", "véleménynyilvánítás", "véleménynyilvánítási", "vélemény"], ["gyülekezési szabadság", "gyülekezési", "gyülekezés"], ["tulajdonjog és örökléshez való jog", "tulajdonjog", "tulajdon", "örökléshez", "öröklés"], ["személyes adatok védelméhez való jog", "személyes", "adatok", "adatvédelem"]], "ex": "Пройди по своему дню: жизнь и достоинство, равенство, мысль и вера, мнение, митинг, квартира, телефон, суд."},
+    {"id": "t5_p3_10", "mode": "practice", "kus": ["k5_recognize"], "type": "flash", "front": "elidegeníthetetlen", "back": "неотчуждаемый: el + idegen (чужой) + -ít + -hetetlen = «нельзя сделать чужим»"},
+
+    {"id": "t5_p4_1", "mode": "practice", "kus": ["k5_x_kozteher","k5_x_honvedelem","k5_x_szulok"], "type": "match", "q": "Обязанность → перевод", "pairs": [["adófizetés", "уплата налогов"], ["a haza védelme", "защита родины"], ["a gyermek taníttatása", "обучение ребёнка"]]},
+    {"id": "t5_p4_2", "mode": "practice", "kus": ["k5_x_ab"], "type": "mcq", "q": "«[[Alkotmánybíróság]]» — это…", "opts": ["Конституционный суд", "Парламент", "Правительство"], "a": 0},
+    {"id": "t5_p4_3", "mode": "practice", "kus": ["k5_x_honvedelem"], "type": "tf", "q": "Minden magyar állampolgár köteles a haza védelmére.", "a": true, "ex": "Верно: [[köteles]] = обязан, [[a haza védelmére]] = «на защиту родины»."},
+    {"id": "t5_p4_4", "mode": "practice", "kus": ["k5_x_ombudsman"], "type": "mcq", "q": "Как Основной закон называет омбудсмена?", "opts": ["az alapvető jogok biztosa", "a köztársasági elnök", "a miniszterelnök"], "a": 0, "ex": "[[biztos]] = уполномоченный; [[az alapvető jogok biztosa]] = «уполномоченный основных прав»."},
+    {"id": "t5_p4_5", "mode": "practice", "kus": ["k5_x_szulok","k5_q_kotelesseg"], "type": "tiles", "q": "Собери: «Родители обязаны дать детям образование».", "answer": ["A", "szülők", "kötelesek", "kiskorú", "gyermeküket", "taníttatni."], "extra": ["köteles", "állam"], "ex": "Родителей много, поэтому [[kötelesek]] с -k (мн. число)."},
+    {"id": "t5_p4_6", "mode": "practice", "kus": ["k5_x_ab"], "type": "type", "q": "Mi az Alaptörvény védelmének legfőbb szerve?", "accept": ["Alkotmánybíróság", "az Alkotmánybíróság"], "ex": "Тот же суд, что отменил смертную казнь в 1990 году."},
+    {"id": "t5_p4_7", "mode": "practice", "kus": ["k5_x_ombudsman"], "type": "tf", "q": "Az alapvető jogok biztosának eljárását csak a Kormány kezdeményezheti.", "a": false, "ex": "Неверно: обратиться может [[bárki]], любой человек. [[csak a Kormány]] = только правительство."},
+    {"id": "t5_p4_8", "mode": "practice", "kus": ["k5_x_kozteher"], "type": "mcq", "q": "Что значит «[[közteherviselés]]»?", "opts": ["участие в общих расходах, прежде всего уплата налогов", "служба в армии", "голосование на выборах"], "a": 0, "ex": "[[köz]] (общий) + [[teher]] (груз) + [[viselés]] (ношение): несём общий груз."},
+    {"id": "t5_p4_9", "mode": "practice", "kus": ["k5_q_kotelesseg"], "type": "flash", "front": "kötelesség", "back": "обязанность. köt = связывать, kötél = верёвка: обязанность «привязывает» к делу"},
+    {"id": "t5_p4_10", "mode": "practice", "kus": ["k5_x_kozteher","k5_x_honvedelem","k5_x_szulok"], "type": "multi", "q": "Отметь обязанности по Основному закону", "opts": ["adófizetés", "a haza védelme", "a gyermek taníttatása", "nyaralás", "sportolás"], "a": [0,1,2], "ex": "[[nyaralás]] (отпуск) и [[sportolás]] (спорт) — не обязанности."},
+
+    {"id": "t5_c1", "mode": "check", "pts": 2, "kus": ["k5_magna"], "type": "type", "q": "Mikor keletkezett az angol Magna Charta Libertatum?", "accept": ["1215", "1215-ben"]},
+    {"id": "t5_c2", "mode": "check", "pts": 2, "kus": ["k5_aranybulla"], "type": "type", "q": "Melyik évben adták ki{t5_ki} az Aranybullát?", "accept": ["1222", "1222-ben"]},
+    {"id": "t5_c3", "mode": "check", "pts": 2, "kus": ["k5_francia"], "type": "type", "q": "Melyik ország dokumentuma az Emberi és Polgári Jogok Nyilatkozata (1789)?", "accept": ["francia", "Franciaország", "Franciaországé", "a francia", "francia dokumentum"]},
+    {"id": "t5_c4", "mode": "check", "pts": 3, "kus": ["k5_magna","k5_aranybulla","k5_francia","k5_echr"], "type": "match", "q": "Párosítsa a dokumentumokat az évszámokkal!", "pairs": [["Magna Charta Libertatum", "1215"], ["Aranybulla", "1222"], ["Emberi és Polgári Jogok Nyilatkozata", "1789"], ["Emberi Jogok Európai Egyezménye", "1950"]]},
+    {"id": "t5_c5", "mode": "check", "pts": 1, "kus": ["k5_aranybulla"], "type": "tf", "q": "Az Aranybulla angol dokumentum.", "a": false},
+    {"id": "t5_c6", "mode": "check", "pts": 2, "kus": ["k5_echr"], "type": "type", "q": "Mikor jött létre az Emberi Jogok Európai Egyezménye?", "accept": ["1950", "1950-ben"]},
+    {"id": "t5_c7", "mode": "check", "pts": 1, "kus": ["k5_jogegyenloseg"], "type": "mcq", "q": "Mit jelent a jogegyenlőség?", "opts": ["Mindenki ugyanannyit keres.", "Az állam minden polgárát egyenlő jogok illetik meg, és a törvény előtt minden állampolgár egyenlő.", "Csak a nemeseknek vannak jogaik.", "Csak a férfiak szavazhatnak."], "a": 1},
+    {"id": "t5_c8", "mode": "check", "pts": 2, "kus": ["k5_jogegyenloseg"], "type": "type", "q": "Egészítse ki{ki_pv}!\nA törvény előtt minden állampolgár ___.", "accept": ["egyenlő"]},
+    {"id": "t5_c9", "mode": "check", "pts": 1, "kus": ["k5_polgari"], "type": "mcq", "q": "Mikor léptek fel{t5_fel} egyre erőteljesebben a polgári társadalmak a jogegyenlőség elérése érdekében?", "opts": ["az ókorban", "a 13. században", "a 17–18. században", "a 20. században"], "a": 2},
+    {"id": "t5_c10", "mode": "check", "pts": 1, "kus": ["k5_echr_duty"], "type": "mcq", "q": "Mire kötelezi az államokat az Emberi Jogok Európai Egyezménye?", "opts": ["hogy közös pénzt használjanak", "hogy biztosítsák a szabadságjogokat a joghatóságuk alatt élő egyének számára", "hogy csatlakozzanak az Európai Unióhoz", "hogy eltöröljék a hadseregüket"], "a": 1},
+    {"id": "t5_c11", "mode": "check", "pts": 1, "kus": ["k5_roots"], "type": "tf", "q": "Európában az emberi jogok eszméje több száz éves fejlődési folyamat eredménye.", "a": true},
+
+    {"id": "t5_c12", "mode": "check", "pts": 1, "kus": ["k5_gen_order"], "type": "mcq", "q": "Mi szerint különböztetjük meg az alapjogok generációit?", "opts": ["fontosságuk szerint", "kialakulásuk sorrendje szerint", "az országok szerint", "ábécésorrend szerint"], "a": 1},
+    {"id": "t5_c13", "mode": "check", "pts": 3, "kus": ["k5_gen1"], "type": "list", "q": "Sorolja fel az első generációs jogokat!", "items": [["élethez való jog", "élethez", "élet"], ["személyi szabadsághoz való jog", "személyi", "személyes szabadság"], ["egyesülési és gyülekezési szabadság", "egyesülési", "gyülekezési", "egyesülés", "gyülekezés"], ["lelkiismereti és vallásszabadság", "lelkiismereti", "vallásszabadság", "vallás", "lelkiismeret"], ["szólás- és sajtószabadság", "sajtószabadság", "szólásszabadság", "szólás", "sajtó"]]},
+    {"id": "t5_c14", "mode": "check", "pts": 3, "kus": ["k5_gen2"], "type": "list", "q": "Sorolja fel a második generációs jogokat!", "items": [["munkához való jog", "munkához", "munka"], ["sztrájkhoz való jog", "sztrájkhoz", "sztrájk"], ["oktatáshoz való jog", "oktatáshoz", "oktatás"], ["szociális biztonsághoz való jog", "szociális", "biztonsághoz", "biztonság"]]},
+    {"id": "t5_c15", "mode": "check", "pts": 3, "kus": ["k5_gen3"], "type": "list", "q": "Sorolja fel a harmadik generációs jogokat!", "items": [["egészséges környezethez való jog", "környezethez", "környezet", "egészséges"], ["gyermekek jogai", "gyermekek", "gyermek", "gyerekek"], ["betegjogok", "betegek", "beteg"], ["fogyatékkal élők jogai", "fogyatékkal", "fogyatékosok"]]},
+    {"id": "t5_c16", "mode": "check", "pts": 3, "kus": ["k5_gen1","k5_gen2","k5_gen3"], "type": "match", "q": "Párosítsa a jogokat a generációkkal!", "pairs": [["a szólás- és sajtószabadság", "első generációs"], ["az oktatáshoz való jog", "második generációs"], ["a fogyatékkal élők jogai", "harmadik generációs"]]},
+    {"id": "t5_c17", "mode": "check", "pts": 2, "kus": ["k5_gen2"], "type": "type", "q": "Hányadik generációs jog a munkához való jog?", "accept": ["második", "második generációs", "második generációs jog", "a második", "2.", "második generációhoz"]},
+    {"id": "t5_c18", "mode": "check", "pts": 1, "kus": ["k5_gen3"], "type": "tf", "q": "A betegjogok első generációs jogok.", "a": false},
+    {"id": "t5_c19", "mode": "check", "pts": 2, "kus": ["k5_gen1"], "type": "multi", "q": "Jelölje meg az első generációs jogokat!", "opts": ["az élethez való jog", "a sztrájkhoz való jog", "a gyülekezési szabadság", "az oktatáshoz való jog", "a szólás- és sajtószabadság", "a betegjogok"], "a": [0,2,4]},
+
+    {"id": "t5_c20", "mode": "check", "pts": 2, "kus": ["k5_recognize"], "type": "type", "q": "Egészítse ki{ki_pv}!\nMagyarország elismeri az ember sérthetetlen és ___ alapvető jogait.", "accept": ["elidegeníthetetlen"]},
+    {"id": "t5_c21", "mode": "check", "pts": 2, "kus": ["k5_state_duty"], "type": "type", "q": "Kinek az elsőrendű kötelessége az alapvető jogok tiszteletben tartása és védelme?", "accept": ["az állam", "állam", "az államé", "államé", "az állam elsőrendű kötelessége", "államnak"]},
+    {"id": "t5_c22", "mode": "check", "pts": 1, "kus": ["k5_restrict"], "type": "mcq", "q": "Mikor lehet alapvető jogot korlátozni?", "opts": ["bármikor", "soha", "csak másik alapvető jog vagy valamely alkotmányos érték védelme érdekében", "ha a miniszterelnök kéri"], "a": 2},
+    {"id": "t5_c23", "mode": "check", "pts": 3, "kus": ["k5_alap_list"], "type": "list", "q": "Sorolja fel az Alaptörvényben biztosított legfőbb alapvető jogokat!", "items": [["törvény előtti egyenlőség", "egyenlőség"], ["élethez és emberi méltósághoz való jog", "élethez", "méltósághoz", "méltóság"], ["tisztességes eljáráshoz való jog", "eljáráshoz", "tisztességes"], ["gondolat-, lelkiismeret- és vallásszabadság", "vallásszabadság", "gondolatszabadság", "vallás", "gondolat", "lelkiismeret"], ["véleménynyilvánítás szabadsága", "véleménynyilvánítás", "véleménynyilvánítási", "vélemény"], ["gyülekezési szabadság", "gyülekezési", "gyülekezés"], ["tulajdonjog és örökléshez való jog", "tulajdonjog", "tulajdon", "örökléshez", "öröklés"], ["személyes adatok védelméhez való jog", "személyes", "adatok", "adatvédelem"]]},
+    {"id": "t5_c24", "mode": "check", "pts": 1, "kus": ["k5_alap_list"], "type": "tf", "q": "Az Alaptörvény biztosítja a személyes adatok védelméhez való jogot.", "a": true},
+    {"id": "t5_c25", "mode": "check", "pts": 2, "kus": ["k5_death"], "type": "type", "q": "Mikor törölték el a halálbüntetést Magyarországon?", "accept": ["1990", "1990-ben"]},
+    {"id": "t5_c26", "mode": "check", "pts": 2, "kus": ["k5_death_ab"], "type": "type", "q": "Melyik szerv nyilvánította alkotmányellenesnek a halálbüntetést?", "accept": ["Alkotmánybíróság", "az Alkotmánybíróság", "Alkotmánybíróságnak"]},
+    {"id": "t5_c27", "mode": "check", "pts": 1, "kus": ["k5_death"], "type": "tf", "q": "Magyarországon ma is van halálbüntetés.", "a": false},
+
+    {"id": "t5_c28", "mode": "check", "pts": 2, "kus": ["k5_x_ab"], "type": "type", "q": "Mi az Alaptörvény védelmének legfőbb szerve?", "accept": ["Alkotmánybíróság", "az Alkotmánybíróság"]},
+    {"id": "t5_c29", "mode": "check", "pts": 1, "kus": ["k5_x_ombudsman"], "type": "mcq", "q": "Hogyan nevezi az Alaptörvény az ombudsmant?", "opts": ["a köztársasági elnök", "az alapvető jogok biztosa", "a miniszterelnök", "az Országgyűlés elnöke"], "a": 1},
+    {"id": "t5_c30", "mode": "check", "pts": 1, "kus": ["k5_x_ombudsman"], "type": "tf", "q": "Az alapvető jogok biztosának eljárását bárki kezdeményezheti.", "a": true},
+    {"id": "t5_c31", "mode": "check", "pts": 1, "kus": ["k5_x_honvedelem"], "type": "tf", "q": "Minden magyar állampolgár köteles a haza védelmére.", "a": true},
+    {"id": "t5_c32", "mode": "check", "pts": 1, "kus": ["k5_x_kozteher"], "type": "mcq", "q": "Melyik állampolgári kötelezettség tartozik a közteherviseléshez?", "opts": ["a sportolás", "az adófizetés", "a nyaralás"], "a": 1},
+    {"id": "t5_c33", "mode": "check", "pts": 1, "kus": ["k5_x_szulok"], "type": "tf", "q": "A szülők kötelesek kiskorú gyermeküket taníttatni.", "a": true},
+    {"id": "t5_c34", "mode": "check", "pts": 3, "kus": ["k5_x_kozteher","k5_x_honvedelem","k5_x_szulok"], "type": "multi", "q": "Jelölje meg az állampolgári kötelezettségeket!", "opts": ["az adófizetés", "a nyaralás", "a haza védelme", "a sportolás", "a gyermek taníttatása"], "a": [0,2,4]}
+  ]
+}

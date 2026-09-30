@@ -1,0 +1,1751 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Бесплатный тренажёр к венгерскому экзамену по культуре (magyar kulturális ismereti vizsga): 6 тем, разбор каждого венгерского слова, практика и пробные экзамены.">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Magyar Vizsga Tréner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Onest:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: one calm column like an exam workbook; the loud part is the tricolour stitch and the crown-gold of mastery. */
+:root {
+  --bg: #F1F4EF;
+  --card: #FFFFFF;
+  --ink: #17231D;
+  --muted: #5B6B62;
+  --line: #D8DFD8;
+  --soft: #E6ECE5;
+  --paprika: #C0392B;
+  --paprika-soft: #F8E3DF;
+  --meadow: #2E6A4C;
+  --meadow-soft: #DDEEE3;
+  --gold: #B8860B;
+  --gold-soft: #F6EBCB;
+  --blue: #2F5D8A;
+  --blue-soft: #DDE8F3;
+  --shadow: 0 1px 2px rgba(23,35,29,.06), 0 6px 20px rgba(23,35,29,.06);
+  /* Figtree has no Cyrillic: Russian letters fall through to Onest, a close geometric match */
+  --f-display: "Figtree", "Onest", system-ui, sans-serif;
+  --f-body: "Figtree", "Onest", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --r: 14px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0F1512; --card: #18211C; --ink: #E6ECE7; --muted: #9AAAA0; --line: #2A362F; --soft: #202B25;
+    --paprika: #E9705E; --paprika-soft: #3A211D; --meadow: #63B78C; --meadow-soft: #1C3328;
+    --gold: #E2B64B; --gold-soft: #3A3019; --blue: #7FA9D6; --blue-soft: #1B2A3A;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0F1512; --card: #18211C; --ink: #E6ECE7; --muted: #9AAAA0; --line: #2A362F; --soft: #202B25;
+  --paprika: #E9705E; --paprika-soft: #3A211D; --meadow: #63B78C; --meadow-soft: #1C3328;
+  --gold: #E2B64B; --gold-soft: #3A3019; --blue: #7FA9D6; --blue-soft: #1B2A3A;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.5; margin: 0; }
+#app { max-width: 680px; margin: 0 auto; padding-inline: 16px; padding-block: 12px 64px; display: flex; flex-direction: column; gap: 16px; }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.2; margin: 0; text-wrap: balance; letter-spacing: -.015em; }
+h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; font-weight: 700; } h3 { font-size: 1rem; }
+p { margin: 0; }
+button { font: inherit; color: inherit; }
+img { max-width: 100%; display: block; }
+.muted { color: var(--muted); }
+.small { font-size: .875rem; }
+.eyebrow { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.stack { display: flex; flex-direction: column; gap: 12px; }
+.spacer { flex: 1; }
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* stitch: the tricolour cross-stitch band */
+.stitch { height: 6px; border-radius: 3px; background:
+  repeating-linear-gradient(90deg, var(--paprika) 0 10px, transparent 10px 14px, var(--line) 14px 24px, transparent 24px 28px, var(--meadow) 28px 38px, transparent 38px 42px); opacity: .9; }
+
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; box-shadow: var(--shadow); min-width: 0; }
+.card.flat { box-shadow: none; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 10px 18px; font-weight: 600; cursor: pointer; min-height: 44px; transition: transform .08s ease, background .15s; }
+.btn:hover { background: var(--soft); }
+.btn:active { transform: scale(.98); }
+.btn.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.btn.primary:hover { opacity: .92; background: var(--ink); }
+.btn.go { background: var(--meadow); color: #fff; border-color: var(--meadow); }
+.btn.ghost { border-color: transparent; background: transparent; }
+.btn.ghost:hover { background: var(--soft); }
+.btn[disabled] { opacity: .45; cursor: not-allowed; }
+.btn.sm { min-height: 34px; padding: 6px 12px; font-size: .875rem; }
+.iconbtn { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); display: inline-grid; place-items: center; cursor: pointer; flex: none; }
+.iconbtn:hover { background: var(--soft); }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+
+/* top bar */
+.top { display: flex; align-items: center; gap: 12px; padding-block: 4px; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand-mark { width: 30px; height: 30px; border-radius: 8px; overflow: hidden; display: grid; grid-template-rows: 1fr 1fr 1fr; border: 1px solid var(--line); }
+.brand-mark i:nth-child(1){ background:#CD2A3E } .brand-mark i:nth-child(2){ background:#fff } .brand-mark i:nth-child(3){ background:#436F4D }
+.brand b { font-family: var(--f-display); font-weight: 600; font-size: 1.05rem; }
+.pill { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 4px 10px; font-size: .8rem; font-weight: 600; background: var(--soft); color: var(--ink); white-space: nowrap; }
+.pill.gold { background: var(--gold-soft); color: var(--gold); }
+.pill.green { background: var(--meadow-soft); color: var(--meadow); }
+.pill.red { background: var(--paprika-soft); color: var(--paprika); }
+.pill.blue { background: var(--blue-soft); color: var(--blue); }
+
+/* hero */
+.hero { display: flex; flex-direction: column; gap: 14px; padding: 20px; }
+.hero h1 { font-size: 1.45rem; }
+.hero .meta { display: flex; gap: 8px; flex-wrap: wrap; }
+.todo { display: flex; flex-direction: column; gap: 8px; }
+.todo-item { display: flex; gap: 12px; align-items: center; padding: 10px 12px; border-radius: 12px; background: var(--soft); }
+.todo-item .dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--muted); flex: none; display: grid; place-items: center; }
+.todo-item.done .dot { background: var(--meadow); border-color: var(--meadow); color: #fff; }
+.todo-item.done span.t { color: var(--muted); text-decoration: line-through; }
+
+/* route */
+.route { display: flex; gap: 3px; height: 14px; border-radius: 7px; overflow: hidden; position: relative; }
+.route i { display: block; height: 100%; background: var(--soft); position: relative; }
+.route i.on { background: var(--meadow-soft); }
+.route i.done { background: var(--meadow); }
+.route i.fin { background: var(--gold-soft); }
+.route-now { position: absolute; top: -4px; width: 3px; height: 22px; background: var(--paprika); border-radius: 2px; }
+.route-labels { display: flex; gap: 3px; font-size: .7rem; color: var(--muted); }
+.route-labels span { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+/* topics */
+.topics { display: flex; flex-direction: column; gap: 10px; }
+.topic { display: grid; grid-template-columns: 58px 1fr auto; gap: 14px; align-items: center; padding: 14px; border-radius: var(--r); background: var(--card); border: 1px solid var(--line); cursor: pointer; text-align: left; width: 100%; }
+.topic:hover { border-color: var(--muted); }
+.topic.locked { cursor: default; opacity: .6; }
+.topic.locked:hover { border-color: var(--line); }
+.topic .t-title { font-weight: 600; }
+.topic .t-hu { font-size: .8rem; color: var(--muted); }
+.ring { width: 58px; height: 58px; position: relative; }
+.ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.ring b { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--f-display); font-size: .8rem; font-weight: 600; }
+
+/* stats */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.stat { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; min-width: 0; }
+.stat b { display: block; font-family: var(--f-display); font-size: 1.3rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.stat span { font-size: .75rem; color: var(--muted); }
+@media (max-width: 520px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+.heat { display: grid; grid-template-columns: repeat(14, 1fr); gap: 4px; }
+.heat i { aspect-ratio: 1; border-radius: 4px; background: var(--soft); display: block; }
+.heat i.l1 { background: var(--meadow-soft); } .heat i.l2 { background: color-mix(in srgb, var(--meadow) 55%, var(--meadow-soft)); } .heat i.l3 { background: var(--meadow); }
+.heat i.today { outline: 2px solid var(--paprika); outline-offset: 1px; }
+
+.tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+.tool { padding: 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); cursor: pointer; text-align: left; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.tool:hover { border-color: var(--muted); }
+.tool b { font-size: .95rem; }
+.tool span { font-size: .8rem; color: var(--muted); }
+@media (max-width: 520px) { .tools { grid-template-columns: 1fr; } }
+
+/* lesson */
+.bar { height: 6px; border-radius: 3px; background: var(--soft); overflow: hidden; flex: 1; }
+.bar i { display: block; height: 100%; background: var(--meadow); border-radius: 3px; transition: width .3s ease; }
+.lesson-head { display: flex; align-items: center; gap: 12px; position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); padding-block: 8px; z-index: 5; }
+.block { display: flex; flex-direction: column; gap: 14px; }
+.block img.ill { border-radius: 10px; max-height: 340px; object-fit: contain; margin-inline: auto; background: var(--soft); }
+.rich p + p { margin-top: 10px; }
+.rich strong { font-weight: 700; }
+.hu-big { font-size: 1.35rem; line-height: 1.55; font-weight: 500; }
+.tr { color: var(--muted); border-top: 1px dashed var(--line); padding-top: 10px; }
+.reveal { background: var(--soft); border: 1px dashed var(--line); border-radius: 10px; padding: 10px 12px; cursor: pointer; color: var(--muted); text-align: left; width: 100%; }
+.mnemo { background: var(--gold-soft); border-color: transparent; }
+.mnemo .eyebrow { color: var(--gold); }
+.grammar { background: var(--blue-soft); border-color: transparent; }
+.grammar .eyebrow { color: var(--blue); }
+.wordlist { display: flex; flex-direction: column; gap: 8px; }
+.wordrow { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; padding: 10px 12px; border-radius: 10px; background: var(--soft); align-items: baseline; }
+.wordrow .hu { font-weight: 600; font-size: 1.05rem; }
+.wordrow .tip { grid-column: 1 / -1; font-size: .85rem; color: var(--muted); }
+.quote { border-left: 4px solid var(--gold); padding-left: 14px; }
+
+/* gloss */
+.w { border-bottom: 2px dotted color-mix(in srgb, var(--meadow) 60%, transparent); cursor: help; border-radius: 2px; }
+.w:hover, .w.on { background: var(--meadow-soft); }
+.hu-term { font-weight: 600; }
+#tip { position: fixed; z-index: 50; max-width: 340px; width: calc(100vw - 32px); background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 10px 40px rgba(0,0,0,.18); padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; font-size: .92rem; }
+#tip .tw { font-family: var(--f-display); font-size: 1.05rem; font-weight: 600; }
+#tip .tt { font-size: 1.05rem; font-weight: 600; color: var(--meadow); }
+#tip .tl { color: var(--muted); font-size: .85rem; }
+#tip .tp { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .82rem; background: var(--soft); padding: 4px 8px; border-radius: 6px; align-self: flex-start; }
+#tip .tai { background: var(--blue-soft); border-radius: 10px; padding: 8px 10px; white-space: pre-wrap; }
+@media (max-width: 560px) {
+  #tip { left: 8px !important; right: 8px; top: auto !important; bottom: calc(8px + env(safe-area-inset-bottom, 0px)); max-width: none; width: auto; max-height: 60vh; overflow: auto; }
+}
+
+/* flag block */
+.flag { width: 100%; max-width: 420px; aspect-ratio: 2 / 1; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); display: grid; grid-template-rows: 1fr 1fr 1fr; margin-inline: auto; }
+.flag button { border: 0; cursor: pointer; font-weight: 700; font-size: .95rem; display: grid; place-items: center; color: transparent; transition: filter .15s; }
+.flag button.open { color: rgba(0,0,0,.72); }
+.flag button.open.dk { color: rgba(255,255,255,.92); }
+.flag button:hover { filter: brightness(1.05); }
+
+/* hotspots */
+.spot-wrap { position: relative; margin-inline: auto; width: 100%; }
+.spot-wrap img { width: 100%; height: auto; border-radius: 10px; }
+.spot { position: absolute; transform: translate(-50%, -50%); width: 32px; height: 32px; border-radius: 50%; border: 3px solid #fff; background: var(--paprika); color: #fff; font-weight: 700; font-size: .85rem; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.35); display: grid; place-items: center; }
+.spot.seen { background: var(--meadow); }
+.spot.pick { background: var(--blue); outline: 3px solid var(--gold); }
+.spot.ok { background: var(--meadow); } .spot.bad { background: var(--paprika); }
+.spot-label { position: absolute; transform: translate(-50%, 18px); background: var(--card); color: var(--ink); font-size: .72rem; font-weight: 600; padding: 2px 6px; border-radius: 6px; white-space: nowrap; border: 1px solid var(--line); pointer-events: none; }
+@keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(192,57,43,.5); } 50% { box-shadow: 0 0 0 8px rgba(192,57,43,0); } }
+.spot:not(.seen):not(.ok):not(.bad) { animation: pulse 2s infinite; }
+
+/* duo flip */
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 480px) { .duo { grid-template-columns: 1fr; } }
+.flip { perspective: 1000px; cursor: pointer; min-height: 290px; border: 0; background: none; padding: 0; text-align: left; }
+.flip-in { position: relative; width: 100%; height: 100%; min-height: 290px; transition: transform .5s; transform-style: preserve-3d; }
+.flip.on .flip-in { transform: rotateY(180deg); }
+.face { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 14px; border: 1px solid var(--line); background: var(--card); padding: 14px; display: flex; flex-direction: column; gap: 8px; overflow: hidden; }
+.face.back { transform: rotateY(180deg); background: var(--soft); }
+.face img { width: 100%; height: 190px; object-fit: cover; object-position: top; border-radius: 10px; }
+.face .big { font-family: var(--f-display); font-size: 1.2rem; font-weight: 600; }
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; }
+.kv span { color: var(--muted); font-size: .85rem; }
+.kv b { font-weight: 600; }
+@media (prefers-reduced-motion: reduce) { .flip-in { transition: none; } .spot { animation: none !important; } }
+
+/* calendar */
+.cal { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+@media (max-width: 520px) { .cal { grid-template-columns: 1fr; } }
+.leaf { border: 1px solid var(--line); border-radius: 12px; background: var(--card); overflow: hidden; cursor: pointer; text-align: left; padding: 0; display: flex; flex-direction: column; }
+.leaf .lt { background: var(--paprika); color: #fff; padding: 6px 10px; font-size: .75rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.leaf .ld { padding: 12px; display: flex; flex-direction: column; gap: 6px; }
+.leaf .num { font-family: var(--f-display); font-size: 2rem; font-weight: 700; line-height: 1; }
+.leaf .more { display: none; flex-direction: column; gap: 8px; }
+.leaf.on .more { display: flex; }
+.leaf.on .hint { display: none; }
+canvas.fw { width: 100%; height: 120px; border-radius: 10px; background: #0d1b2a; display: block; }
+
+/* timeline */
+.tl { display: flex; flex-direction: column; gap: 0; position: relative; padding-left: 8px; }
+.tl::before { content: ""; position: absolute; left: 49px; top: 8px; bottom: 8px; width: 3px; background: var(--soft); border-radius: 2px; }
+.tl-ev { display: grid; grid-template-columns: 84px 1fr; gap: 12px; align-items: start; padding-block: 8px; position: relative; }
+.tl-year { justify-self: center; z-index: 1; background: var(--paprika); color: #fff; font-weight: 800; font-size: .82rem; padding: 4px 8px; border-radius: 999px; font-variant-numeric: tabular-nums; white-space: nowrap; max-width: 84px; overflow: hidden; text-overflow: ellipsis; }
+.tl-ev.seen .tl-year { background: var(--meadow); }
+.tl-body { background: var(--soft); border-radius: 12px; padding: 10px 12px; cursor: pointer; text-align: left; border: 0; width: 100%; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.tl-body .cap { font-weight: 700; }
+.tl-body .more { display: none; flex-direction: column; gap: 8px; }
+.tl-ev.open .tl-body .more { display: flex; }
+.tl-ev.open .tl-body .hint { display: none; }
+.tl-body img { border-radius: 8px; max-height: 220px; object-fit: contain; }
+.face .mono { height: 120px; border-radius: 10px; display: grid; place-items: center; font-family: var(--f-display); font-weight: 800; font-size: 2.4rem; color: var(--paprika); background: var(--paprika-soft); }
+/* poem */
+.poem { display: flex; flex-direction: column; gap: 10px; }
+.poem .ln { font-size: 1.15rem; font-weight: 500; }
+.poem .lr { font-size: .9rem; color: var(--muted); }
+
+/* runner */
+.qhead { display: flex; align-items: center; gap: 12px; }
+.q { font-size: 1.2rem; font-weight: 600; line-height: 1.45; white-space: pre-line; }
+.opts { display: flex; flex-direction: column; gap: 8px; }
+.opt { text-align: left; padding: 12px 14px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--card); cursor: pointer; min-height: 48px; display: flex; gap: 10px; align-items: center; }
+.opt:hover { border-color: var(--muted); }
+.opt.sel { border-color: var(--blue); background: var(--blue-soft); }
+.opt.ok { border-color: var(--meadow); background: var(--meadow-soft); }
+.opt.bad { border-color: var(--paprika); background: var(--paprika-soft); }
+.opt.dk { color: var(--muted); border-style: dashed; justify-content: center; }
+.opt .box { width: 20px; height: 20px; border-radius: 5px; border: 2px solid var(--muted); flex: none; display: grid; place-items: center; font-size: .75rem; }
+.opt.sel .box { background: var(--blue); border-color: var(--blue); color: #fff; }
+.tf { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.tf .opt { justify-content: center; flex-direction: column; gap: 0; font-weight: 700; }
+.tf .opt small { font-weight: 400; color: var(--muted); }
+.inp { width: 100%; font: inherit; font-size: 1.15rem; padding: 12px 14px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); }
+.inp:focus { outline: none; border-color: var(--blue); }
+.keys { display: flex; flex-wrap: wrap; gap: 6px; }
+.keys button { min-width: 38px; height: 38px; border-radius: 8px; border: 1px solid var(--line); background: var(--soft); cursor: pointer; font-size: 1rem; font-weight: 600; }
+.match { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.match .col { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.mchip { padding: 10px 12px; border-radius: 10px; border: 1.5px solid var(--line); background: var(--card); cursor: pointer; text-align: left; min-height: 48px; word-break: break-word; }
+.mchip.sel { border-color: var(--ink); box-shadow: 0 0 0 2px var(--ink) inset; }
+.mchip.ok { border-color: var(--meadow); } .mchip.bad { border-color: var(--paprika); }
+.pc0 { background: #FCE4E0 !important; } .pc1 { background: #DFF0E5 !important; } .pc2 { background: #DFE9F6 !important; } .pc3 { background: #F7ECCB !important; } .pc4 { background: #EDE2F5 !important; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .pc0 { background: #452823 !important; } :root:not([data-theme="light"]) .pc1 { background: #1F3A2B !important; } :root:not([data-theme="light"]) .pc2 { background: #1E3047 !important; } :root:not([data-theme="light"]) .pc3 { background: #423620 !important; } :root:not([data-theme="light"]) .pc4 { background: #37294A !important; } }
+:root[data-theme="dark"] .pc0 { background: #452823 !important; } :root[data-theme="dark"] .pc1 { background: #1F3A2B !important; } :root[data-theme="dark"] .pc2 { background: #1E3047 !important; } :root[data-theme="dark"] .pc3 { background: #423620 !important; } :root[data-theme="dark"] .pc4 { background: #37294A !important; }
+.tiles-ans { min-height: 58px; border-radius: 12px; border: 1.5px dashed var(--line); padding: 8px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.tiles-pool { display: flex; flex-wrap: wrap; gap: 6px; }
+.tile { padding: 8px 12px; border-radius: 10px; border: 1.5px solid var(--line); background: var(--card); cursor: pointer; font-weight: 600; font-size: 1rem; }
+.tile.used { visibility: hidden; }
+.palette { display: flex; flex-wrap: wrap; gap: 8px; }
+.sw { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 6px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); cursor: pointer; font-weight: 600; }
+.sw i { width: 24px; height: 24px; border-radius: 50%; border: 1px solid rgba(0,0,0,.2); display: block; }
+.sw.sel { border-color: var(--ink); box-shadow: 0 0 0 2px var(--ink) inset; }
+.pflag { width: 100%; max-width: 360px; aspect-ratio: 2 / 1; border: 2px solid var(--ink); border-radius: 6px; overflow: hidden; display: grid; grid-template-rows: 1fr 1fr 1fr; margin-inline: auto; }
+.pflag button { border: 0; border-bottom: 1px dashed rgba(0,0,0,.2); cursor: pointer; background: repeating-linear-gradient(45deg, var(--soft) 0 8px, var(--card) 8px 16px); font-weight: 600; color: var(--muted); }
+.flash { min-height: 180px; border-radius: 14px; border: 1.5px solid var(--line); background: var(--soft); display: grid; place-items: center; padding: 20px; text-align: center; cursor: pointer; font-size: 1.3rem; font-weight: 600; width: 100%; }
+.fb { border-radius: 14px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; }
+.fb.ok { background: var(--meadow-soft); }
+.fb.bad { background: var(--paprika-soft); }
+.fb.part { background: var(--gold-soft); }
+.fb .fh { font-weight: 700; font-family: var(--f-display); font-size: .95rem; }
+.foot { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+.exam-tag { font-family: var(--f-display); font-size: .8rem; color: var(--paprika); font-weight: 600; }
+.examsheet { border-top: 4px solid var(--paprika); }
+
+/* results */
+.score { font-family: var(--f-display); font-size: 3.2rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.reslist { display: flex; flex-direction: column; gap: 8px; }
+.resrow { display: grid; grid-template-columns: 28px 1fr; gap: 10px; padding: 10px 12px; border-radius: 10px; background: var(--soft); align-items: start; }
+.resrow .mk { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-size: .8rem; font-weight: 700; }
+.mk.ok { background: var(--meadow); } .mk.bad { background: var(--paprika); } .mk.dk { background: var(--muted); } .mk.part { background: var(--gold); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.crown-burst { font-size: 0; height: 90px; display: grid; place-items: center; }
+.toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: .9rem; z-index: 60; box-shadow: var(--shadow); }
+textarea.inp { min-height: 120px; resize: vertical; }
+.search { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 4; background: var(--bg); padding-block: 6px; }
+.dict { display: flex; flex-direction: column; gap: 6px; }
+.drow { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 10px; padding: 8px 12px; border-radius: 10px; background: var(--card); border: 1px solid var(--line); font-size: .92rem; }
+.drow b { word-break: break-word; }
+.confirm { background: var(--paprika-soft); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+</style>
+
+</head>
+<body>
+<div id="app"><div class="card"><p class="muted">Загружаю учебник…</p></div></div>
+<div id="tip" hidden></div>
+
+<script>
+"use strict";
+/* ============ constants ============ */
+const TOPICS = [
+  { id: "t1", n: 1, title: "Символы и праздники", hu: "Nemzeti jelképek és ünnepek", days: 6, ready: true },
+  { id: "t2", n: 2, title: "История Венгрии", hu: "Magyarország történelme", days: 12, ready: true },
+  { id: "t3", n: 3, title: "Литература и музыка", hu: "Irodalom és zenetörténet", days: 7, ready: true },
+  { id: "t4", n: 4, title: "Государственные институты", hu: "Az Alaptörvény intézményei", days: 6, ready: true },
+  { id: "t5", n: 5, title: "Права и обязанности", hu: "Állampolgári jogok és kötelezettségek", days: 4, ready: true },
+  { id: "t6", n: 6, title: "Венгрия и Европа в жизни", hu: "Európa és Magyarország a mindennapokban", days: 6, ready: true },
+];
+const FINAL_DAYS = 4;
+const PLAN_DAYS = 45;
+const MASTERY = 90;
+const INTERVALS = [0, 1, 3, 7, 14, 30];
+const LS_KEY = "magyar-vizsga-shared-v1";
+const REVIEW_MAX = 15;
+const AI_ALLOWED = false; /* the shared copy is built with false */
+
+/* ============ data ============ */
+const C = { topics: {}, lex: {}, lexT: {}, grammar: {}, credits: [] };
+const itemTopic = {};
+let CUR_TOPIC = null;
+function glossFor(key, tp) { return (tp && C.lexT[tp] && C.lexT[tp][key]) || C.lex[key]; }
+const itemById = {};
+const kuById = {};
+
+/* ============ state ============ */
+function freshState() {
+  return { v: 1, start: null, diag: {}, ku: {}, lessons: {}, checks: {}, remedial: {}, days: {}, looked: {}, here: null, lpos: {}, run: {}, updated: 0 };
+}
+let S = freshState();
+try { const raw = localStorage.getItem(LS_KEY); if (raw) S = Object.assign(freshState(), JSON.parse(raw)); } catch (e) {}
+
+let DOC = null, syncMode = "local", saveTimer = null, saving = false, dirty = false;
+function save() {
+  S.updated = Date.now();
+  try { localStorage.setItem(LS_KEY, JSON.stringify(S)); } catch (e) {}
+  dirty = true;
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(flush, 1500);
+}
+async function flush() {
+  if (!DOC || saving || !dirty) return;
+  saving = true; dirty = false;
+  try { await DOC.set(JSON.parse(JSON.stringify(S))); syncMode = "cloud"; }
+  catch (e) { dirty = true; if (e && (e.code === "revoked" || e.code === "not_granted" || e.code === "invalid_argument")) { DOC = null; syncMode = "local"; } }
+  saving = false;
+  if (dirty && DOC) saveTimer = setTimeout(flush, 4000);
+}
+async function initStore() {
+  if (!window.claude || !window.claude.use) return;
+  try {
+    const [db, user] = await Promise.all([window.claude.use("db"), window.claude.use("user")]);
+    if (!db || !user) return;
+    const id = await user.id();
+    if (!id) return;
+    DOC = db.doc("data/users/" + id + "/progress");
+    const snap = await DOC.get();
+    syncMode = "cloud";
+    if (snap.exists) {
+      const remote = snap.data();
+      if ((remote.updated || 0) > (S.updated || 0)) {
+        S = Object.assign(freshState(), JSON.parse(JSON.stringify(remote)));
+        try { localStorage.setItem(LS_KEY, JSON.stringify(S)); } catch (e) {}
+        if (route.name === "home") { if (!resumeHere()) render(); }
+      } else if ((S.updated || 0) > (remote.updated || 0)) { dirty = true; flush(); }
+    } else if (S.updated) { dirty = true; flush(); }
+  } catch (e) { DOC = null; syncMode = "local"; }
+}
+addEventListener("pagehide", () => { flush(); });
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(); });
+
+/* ============ utils ============ */
+const $ = (s, r = document) => r.querySelector(s);
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  if (attrs) for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.className = v;
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else if (k === "html") el.innerHTML = v;
+    else if (k === "style") el.setAttribute("style", v);
+    else el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat(Infinity)) {
+    if (kid == null || kid === false) continue;
+    el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+  }
+  return el;
+}
+function todayStr(d = new Date()) {
+  const y = d.getFullYear(), m = String(d.getMonth() + 1).padStart(2, "0"), dd = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${dd}`;
+}
+function addDays(str, n) { const [y, m, d] = str.split("-").map(Number); return todayStr(new Date(y, m - 1, d + n)); }
+function daysBetween(a, b) { const [y1, m1, d1] = a.split("-").map(Number); const [y2, m2, d2] = b.split("-").map(Number); return Math.round((new Date(y2, m2 - 1, d2) - new Date(y1, m1 - 1, d1)) / 864e5); }
+function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function plural(n, one, few, many) { const m10 = n % 10, m100 = n % 100; if (m10 === 1 && m100 !== 11) return one; if (m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20)) return few; return many; }
+const CYR = /[А-Яа-яЁё]/;
+function toast(msg) { const t = h("div", { class: "toast", role: "status" }, msg); document.body.append(t); setTimeout(() => t.remove(), 2600); }
+
+/* ============ text normalisation & grading ============ */
+function norm(s) {
+  return String(s || "").normalize("NFC").toLowerCase()
+    .replace(/[–—]/g, "-").replace(/[„”"'«»().,!?;:]/g, " ")
+    .replace(/\s+/g, " ").trim().replace(/^(a|az) /, "");
+}
+function deacc(s) { return s.normalize("NFD").replace(/[̀-ͯ]/g, "").normalize("NFC"); }
+function lev(a, b) {
+  const m = a.length, n = b.length; if (!m) return n; if (!n) return m;
+  let prev = Array.from({ length: n + 1 }, (_, i) => i);
+  for (let i = 1; i <= m; i++) {
+    const cur = [i];
+    for (let j = 1; j <= n; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    prev = cur;
+  }
+  return prev[n];
+}
+function gradeText(input, accepts) {
+  const n = norm(input);
+  if (!n) return { frac: 0, empty: true };
+  for (const a of accepts) if (norm(a) === n) return { frac: 1 };
+  for (const a of accepts) if (deacc(norm(a)) === deacc(n)) return { frac: 1, note: `Засчитано, но проверь значки над буквами: «${a}».` };
+  for (const a of accepts) {
+    const A = deacc(norm(a));
+    if (A.length >= 5 && lev(A, deacc(n)) <= 1) return { frac: 0, near: a, note: `Почти! Одна буква не та. Правильно: «${a}».` };
+  }
+  return { frac: 0 };
+}
+function gradeList(input, groups) {
+  const N = " " + norm(String(input || "").replace(/[,;\n]/g, " ")) + " ";
+  const D = deacc(N);
+  let accentNote = false;
+  const hits = groups.map(g => {
+    for (const v of g) { if (N.includes(" " + norm(v) + " ")) return true; }
+    for (const v of g) { if (D.includes(" " + deacc(norm(v)) + " ")) { accentNote = true; return true; } }
+    return false;
+  });
+  const frac = hits.filter(Boolean).length / groups.length;
+  return { frac, parts: hits, empty: N.trim() === "", note: accentNote ? "Засчитано, но проверь значки над буквами." : "" };
+}
+/* ============ SRS ============ */
+function kuState(id) { return S.ku[id] || (S.ku[id] = { s: 0, due: null, c: 0, w: 0 }); }
+function gradeKu(id, ok) {
+  const k = kuState(id);
+  const t = todayStr();
+  if (ok) { k.s = Math.min(5, k.s + 1); k.c++; k.due = addDays(t, INTERVALS[k.s]); }
+  else { k.s = Math.max(0, k.s - 2); k.w++; k.due = addDays(t, 1); }
+  k.last = t;
+}
+function creditItem(item, res) {
+  const kus = item.kus || [];
+  if (res.parts && res.parts.length === kus.length && kus.length > 1) kus.forEach((k, i) => gradeKu(k, !!res.parts[i]));
+  else kus.forEach(k => gradeKu(k, res.frac >= 0.999));
+}
+function logActivity() {
+  const t = todayStr();
+  if (!S.start) S.start = t;
+  const d = S.days[t] || (S.days[t] = { n: 0, ms: 0 });
+  const now = Date.now();
+  d.n++;
+  if (logActivity.last) d.ms += Math.min(now - logActivity.last, 120000);
+  logActivity.last = now;
+}
+function dueKus() {
+  const t = todayStr();
+  return Object.entries(S.ku).filter(([id, k]) => k.due && k.due <= t && kuById[id] && (k.c + k.w) > 0)
+    .sort((a, b) => (a[1].due < b[1].due ? -1 : a[1].due > b[1].due ? 1 : a[1].s - b[1].s)).map(([id]) => id);
+}
+function streak() {
+  let n = 0, d = todayStr();
+  if (!(S.days[d] && S.days[d].n)) d = addDays(d, -1);
+  while (S.days[d] && S.days[d].n) { n++; d = addDays(d, -1); }
+  return n;
+}
+
+/* ============ topic logic ============ */
+function topicData(id) { return C.topics[id]; }
+function factKus(t) { return t.kus.filter(k => !k.lang); }
+function trajLessons(t) { const d = S.diag[t.id]; if (!d) return []; return d.lessons.map(id => t.lessons.find(l => l.id === id)).filter(Boolean); }
+function topicStatus(meta) {
+  const t = topicData(meta.id);
+  if (!meta.ready || !t) return { st: "locked" };
+  if (!S.diag[meta.id]) return { st: "new" };
+  const checks = S.checks[meta.id] || [];
+  const last = checks[checks.length - 1];
+  if (last && last.pct >= MASTERY) return { st: "mastered", last };
+  const rem = S.remedial[meta.id];
+  if (rem && rem.length) return { st: "remedial", last, rem };
+  const pending = trajLessons(t).filter(l => !S.lessons[l.id]);
+  if (pending.length) return { st: "learn", lesson: pending[0], left: pending.length, last };
+  return { st: "check", last };
+}
+function topicReadiness(meta) {
+  const t = topicData(meta.id);
+  if (!t) return 0;
+  const st = topicStatus(meta);
+  if (st.last) return Math.round(st.last.pct);
+  const fk = factKus(t);
+  const sum = fk.reduce((a, k) => a + Math.min(kuState(k.id).s, 3) / 3, 0);
+  return Math.round(sum / fk.length * 100);
+}
+function activeTopic() { return TOPICS.find(m => { const s = topicStatus(m).st; return s !== "locked" && s !== "mastered"; }); }
+function allMastered() { return TOPICS.every(m => topicStatus(m).st === "mastered"); }
+
+/* ============ gloss / rich text ============ */
+const TOKRE = /(\d+(?:[–-]\d+)?(?:-\p{L}+|\.)?|\p{L}+(?:-\p{L}+)*(?:\{[^}]+\})?)/gu;
+function glossInto(el, text, opts = {}) {
+  const on = opts.gloss !== false;
+  const tp = opts.topic !== undefined ? opts.topic : CUR_TOPIC;
+  let last = 0;
+  const str = String(text);
+  for (const m of str.matchAll(TOKRE)) {
+    if (m.index > last) el.append(str.slice(last, m.index));
+    let tok = m[0], key;
+    const km = tok.match(/^(.*)\{(.+)\}$/);
+    if (km) { tok = km[1]; key = km[2]; } else key = tok.toLowerCase();
+    if (on && !glossFor(key, tp) && !km) { const ag = autoGloss(tok); if (ag) { C.lex[key] = ag; } }
+    if (on && glossFor(key, tp)) el.append(h("span", { class: "w", "data-k": key, "data-t": tp || "", tabindex: "0" }, tok));
+    else el.append(tok);
+    last = m.index + m[0].length;
+  }
+  if (last < str.length) el.append(str.slice(last));
+  if (on) el.dataset.s = str.replace(/\{[^}]+\}/g, "");
+  return el;
+}
+const HU_ONES = ["", "egy", "kettő", "három", "négy", "öt", "hat", "hét", "nyolc", "kilenc"];
+const HU_TENS = ["", "tíz", "húsz", "harminc", "negyven", "ötven", "hatvan", "hetven", "nyolcvan", "kilencven"];
+const HU_TENS_P = ["", "tizen", "huszon", "harminc", "negyven", "ötven", "hatvan", "hetven", "nyolcvan", "kilencven"];
+function huNum(n) {
+  n = Number(n); if (!Number.isFinite(n) || n < 0 || n > 9999) return "";
+  if (n === 0) return "nulla";
+  let out = "";
+  const th = Math.floor(n / 1000), hu = Math.floor(n % 1000 / 100), te = Math.floor(n % 100 / 10), on = n % 10;
+  if (th) out += (th === 1 ? "ezer" : HU_ONES[th] + "ezer");
+  if (hu) out += (hu === 1 ? "száz" : (hu === 2 ? "két" : HU_ONES[hu]) + "száz");
+  if (te) out += on ? HU_TENS_P[te] : HU_TENS[te];
+  if (on) out += HU_ONES[on];
+  return out;
+}
+function romanVal(r) { const v = { I: 1, V: 5, X: 10, L: 50, C: 100 }; let t = 0; for (let i = 0; i < r.length; i++) { const a = v[r[i]], b = v[r[i + 1]] || 0; t += a < b ? -a : a; } return t; }
+function autoGloss(tok) {
+  let m;
+  if (/^[IVXLC]+$/.test(tok)) { const n = romanVal(tok); return { t: `${n}-й`, l: `римская цифра ${n}`, w: `С точкой после неё это порядковый номер: «${tok}. András» = Андраш ${n}-й, «${tok}. század» = ${n}-й век.` }; }
+  if ((m = tok.match(/^(\d+)[–-](\d+)(?:-(\p{L}+))?$/u))) { const suf = m[3] || ""; return { t: `${m[1]}–${m[2]}` + (/^(e|o|a|ö)?s$/.test(suf) ? " годов" : ""), l: `с ${m[1]} по ${m[2]}`, p: suf ? `${m[1]}–${m[2]} + -${suf}` : "", w: suf ? "Окончание -es/-os превращает годы в прилагательное: «1848–49-es forradalom» = революция 1848–49 годов." : "", g: suf ? "G_YEAR" : "" }; }
+  if ((m = tok.match(/^(\d+)\.$/))) return { t: `${m[1]}-й / ${m[1]}-е`, l: `порядковое число (${huNum(m[1])} + -dik)`, w: "Точка после числа = порядковое: март 15. = 15-е марта, 1956. évi = 1956-го года.", g: "G_DATE" };
+  if ((m = tok.match(/^(\d+)$/))) { const r = huNum(m[1]); return { t: m[1], l: r ? `читается: ${r}` : "число" }; }
+  if ((m = tok.match(/^(\d+)-(\p{L}+)$/u))) {
+    const n = m[1], suf = m[2].toLowerCase(), r = huNum(n);
+    const read = r ? `читается: ${r}` : "число";
+    const T = [
+      [/^(ban|ben)$/, `в ${n} году`, "-ban / -ben = «в». Выбор зависит от того, как звучит конец числа: …három → -ban, …hét → -ben.", "G_YEAR"],
+      [/^(e|o|a|ö)?s$/, `${n}-го года (прилаг.)`, "-es / -os превращает год в прилагательное: «1956-os forradalom» = революция 1956 года.", "G_YEAR"],
+      [/^j?(á|é)n$/, `${n}-го числа`, "-án / -én = «в такой-то день»: október 23-án = 23 октября.", "G_DATE"],
+      [/^j?(á|é)t$/, `${n}-е (что?)`, "-át / -ét — винительный падеж даты: augusztus 20-át ünnepeljük.", "G_DATE"],
+      [/^ig$/, `до ${n}`, "-ig = «до»: 1541-ig = до 1541 года."],
+      [/^(tól|től|ától|étől|jától|jétől)$/, `с ${n}`, "-tól / -től = «от, с»: 1867-től = с 1867 года."],
+      [/^(ra|re|ára|ére)$/, `к ${n} / на ${n}`, "-ra / -re = «на, к»."],
+      [/^(ben|ban|ában|ében)$/, `в ${n}`, "-ban / -ben = «в»."],
+      [/^(ai|ei|i)$/, `${n}-х (относящийся к)`, "-i делает прилагательное «относящийся к»."],
+      [/^(as|es|os|ös)$/, `${n}-ый`, "-as/-es/-os — прилагательное или числительное «номер N».", "G_YEAR"],
+      [/^(szor|szer|ször)$/, `${n} раз`, "-szor / -szer = «… раз»."],
+      [/^(an|en)$/, `${n} (человек/штук)`, "-an / -en после числа = «в количестве»."]
+    ];
+    for (const [re, t, w, g] of T) if (re.test(suf)) return { t, l: read, p: `${n} + -${suf}`, w, g: g || "" };
+    return { t: tok, l: read, p: `${n} + -${suf}` };
+  }
+  return null;
+}
+function huSpan(text, opts) { return glossInto(h("span", { class: "hu-text" }), text, opts); }
+function inlineRich(el, text, opts = {}) {
+  const parts = String(text).split(/(\*\*[^*]+\*\*|\[\[[^\]]+\]\])/g);
+  for (const p of parts) {
+    if (!p) continue;
+    if (p.startsWith("**")) el.append(h("strong", null, p.slice(2, -2)));
+    else if (p.startsWith("[[")) { const s = glossInto(h("span", { class: "hu-term" }), p.slice(2, -2), opts); el.append(s); }
+    else el.append(p);
+  }
+  return el;
+}
+function rich(text, opts = {}) {
+  const wrap = h("div", { class: "rich" });
+  for (const para of String(text).split(/\n\n+/)) {
+    const p = h("p");
+    para.split("\n").forEach((line, i) => { if (i) p.append(h("br")); inlineRich(p, line, opts); });
+    wrap.append(p);
+  }
+  return wrap;
+}
+/* A line without Cyrillic is Hungarian and gets glossed; other lines get [[ ]] handling. */
+function smartText(text, opts = {}) {
+  const wrap = h("span");
+  String(text).split("\n").forEach((line, i) => {
+    if (i) wrap.append(h("br"));
+    if (!CYR.test(line) && opts.mode !== "diag") glossInto(wrap.appendChild(h("span")), line, opts);
+    else inlineRich(wrap, line, opts);
+  });
+  return wrap;
+}
+
+/* ============ tooltip ============ */
+const tip = $("#tip");
+let tipFor = null, tipTimer = null, pinned = false, aiCtl = null;
+const canHover = matchMedia("(hover: hover) and (pointer: fine)").matches;
+function showTip(el, pin) {
+  const key = el.dataset.k; const g = glossFor(key, el.dataset.t); if (!g) return;
+  clearTimeout(tipTimer);
+  if (tipFor && tipFor !== el) tipFor.classList.remove("on");
+  tipFor = el; pinned = !!pin; el.classList.add("on");
+  if (aiCtl) { aiCtl.abort(); aiCtl = null; }
+  S.looked[key] = (S.looked[key] || 0) + 1;
+  tip.replaceChildren();
+  tip.append(h("div", { class: "row" }, h("span", { class: "tw" }, el.textContent), h("span", { class: "spacer" }),
+    TTS.ok ? h("button", { class: "iconbtn", "aria-label": "Произнести", onclick: e => { e.stopPropagation(); TTS.say(el.textContent); } }, speakerIcon()) : null,
+    !canHover || pin ? h("button", { class: "iconbtn", "aria-label": "Закрыть", onclick: hideTip }, "✕") : null));
+  tip.append(h("div", { class: "tt" }, g.t));
+  if (g.l) tip.append(h("div", { class: "tl" }, g.l));
+  if (g.p) tip.append(h("div", { class: "tp" }, g.p));
+  if (g.w) tip.append(inlineRich(h("div"), g.w, { gloss: false }));
+  const row = h("div", { class: "row" });
+  if (g.g && C.grammar[g.g]) row.append(h("button", { class: "btn sm", onclick: e => { e.stopPropagation(); hideTip(); openGrammar(g.g); } }, "Правило: " + C.grammar[g.g].title));
+  if (AI.ok) {
+    const ai = h("div", { class: "tai", hidden: true });
+    row.append(h("button", { class: "btn sm ghost", onclick: e => { e.stopPropagation(); pinned = true; askWord(el, ai); } }, "Спросить ИИ"));
+    tip.append(row, ai);
+  } else if (row.childNodes.length) tip.append(row);
+  tip.hidden = false;
+  placeTip(el);
+}
+function placeTip(el) {
+  if (innerWidth <= 560) { tip.style.left = ""; tip.style.top = ""; return; }
+  const r = el.getBoundingClientRect();
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  let x = Math.min(Math.max(8, r.left + r.width / 2 - tw / 2), innerWidth - tw - 8);
+  let y = r.bottom + 8;
+  if (y + th > innerHeight - 8) y = Math.max(8, r.top - th - 8);
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip() {
+  tip.hidden = true; pinned = false;
+  if (tipFor) tipFor.classList.remove("on");
+  tipFor = null;
+  if (aiCtl) { aiCtl.abort(); aiCtl = null; }
+}
+document.addEventListener("click", e => {
+  const w = e.target.closest && e.target.closest(".w");
+  if (w) { e.preventDefault(); showTip(w, true); return; }
+  if (!tip.hidden && !tip.contains(e.target)) hideTip();
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") hideTip();
+  if ((e.key === "Enter" || e.key === " ") && e.target.classList && e.target.classList.contains("w")) { e.preventDefault(); showTip(e.target, true); }
+});
+if (canHover) {
+  document.addEventListener("pointerover", e => {
+    const w = e.target.closest && e.target.closest(".w");
+    if (w && !pinned) { clearTimeout(tipTimer); tipTimer = setTimeout(() => showTip(w, false), 120); }
+    else if (tip.contains(e.target)) clearTimeout(tipTimer);
+  });
+  document.addEventListener("pointerout", e => {
+    const w = e.target.closest && e.target.closest(".w");
+    if ((w || tip.contains(e.target)) && !pinned) { clearTimeout(tipTimer); tipTimer = setTimeout(hideTip, 250); }
+  });
+}
+addEventListener("scroll", () => { if (!tip.hidden && tipFor && innerWidth > 560) placeTip(tipFor); }, { passive: true });
+
+/* ============ speech ============ */
+const TTS = {
+  ok: false, voice: null,
+  init() {
+    if (!("speechSynthesis" in window)) return;
+    const pick = () => { const v = speechSynthesis.getVoices().find(v => /^hu/i.test(v.lang)); if (v) { this.voice = v; this.ok = true; } };
+    pick(); speechSynthesis.addEventListener?.("voiceschanged", pick);
+  },
+  say(text) {
+    if (!this.ok) return;
+    try { speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(String(text).replace(/\{[^}]+\}/g, "")); u.voice = this.voice; u.lang = this.voice.lang; u.rate = .85; speechSynthesis.speak(u); } catch (e) {}
+  }
+};
+TTS.init();
+function speakerIcon() { return h("span", { html: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a9 9 0 0 1 0 14"/></svg>' }); }
+
+/* ============ AI (sample) ============ */
+const AI = { ok: false, fn: null };
+async function initAI() {
+  if (!AI_ALLOWED || !window.claude || !window.claude.use) return;
+  /* AI is not part of the shared copy */
+}
+function aiErr(e) {
+  const c = e && e.code;
+  if (c === "not_granted" || c === "sampling_disabled" || c === "not_declared" || c === "capability_disabled" || c === "capability_removed") { AI.ok = false; return "ИИ-помощник недоступен в этом окне."; }
+  if (c === "rate_limited") return "Слишком много запросов подряд. Попробуй через минуту.";
+  if (c === "session_expired") return "Нужно заново войти в Claude.";
+  if (c === "cancelled") return "";
+  return "Не получилось получить ответ. Попробуй ещё раз.";
+}
+async function askWord(el, box) {
+  if (!AI.ok) return;
+  const word = el.textContent, sentence = el.closest("[data-s]")?.dataset.s || word;
+  const g = glossFor(el.dataset.k, el.dataset.t) || {};
+  box.hidden = false; box.textContent = "Думаю…";
+  aiCtl = new AbortController();
+  const prompt = `Ты репетитор венгерского для русскоязычной ученицы с нулевым уровнем. Она готовится к экзамену по венгерской культуре.
+Объясни слово «${word}» в предложении: «${sentence}».
+Уже известно: перевод «${g.t || ""}», словарная форма «${g.l || ""}», разбор «${g.p || ""}».
+Добавь то, чего здесь нет: как это слово читается (русскими буквами), почему в этом предложении именно такая форма, и один короткий пример с этим же словом из темы экзамена.
+Пиши по-русски, простыми словами, 3–5 коротких предложений, без заголовков и без Markdown.`;
+  try {
+    await AI.fn(prompt, { signal: aiCtl.signal, onText: ({ text }) => { box.textContent = text; placeTip(el); } });
+  } catch (e) { const m = aiErr(e); box.textContent = e && e.text ? e.text : m; if (!m && !(e && e.text)) box.hidden = true; }
+}
+
+/* ============ router ============ */
+let route = { name: "home", p: {} };
+const app = $("#app");
+function go(name, p = {}) { hideTip(); route = { name, p }; render(); scrollTo(0, 0); }
+const RESUMABLE = { lesson: 1, diag: 1, check: 1, remedial: 1, review: 1, final: 1 };
+function render() {
+  const f = SCREENS[route.name] || SCREENS.home;
+  CUR_TOPIC = (route.p && route.p.t) || null;
+  app.replaceChildren();
+  const out = f(route.p);
+  if (out) app.append(...[out].flat(Infinity).filter(Boolean));
+  rememberHere();
+}
+function rememberHere() {
+  const n = route.name, p = route.p || {};
+  if (!RESUMABLE[n] || ((n === "diag" || n === "check" || n === "final") && !p.started)) return;
+  const here = JSON.stringify({ name: n, p });
+  if (JSON.stringify(S.here) !== here) { S.here = JSON.parse(here); save(); }
+}
+function resumeValid(hr) {
+  if (!hr || !RESUMABLE[hr.name]) return false;
+  const p = hr.p || {};
+  if (p.t && !topicData(p.t)) return false;
+  if (hr.name === "lesson" && !topicData(p.t).lessons.find(l => l.id === p.l)) return false;
+  if (p.items && !p.items.every(id => itemById[id])) return false;
+  if (hr.name === "remedial" && !(S.remedial[p.t] || []).length) return false;
+  return true;
+}
+function resumeHere() {
+  if (!resumeValid(S.here)) { S.here = null; return false; }
+  route = { name: S.here.name, p: JSON.parse(JSON.stringify(S.here.p)) };
+  render(); scrollTo(0, 0);
+  return true;
+}
+function hereLabel(hr) {
+  const p = hr.p || {}, t = p.t && topicData(p.t);
+  const snap = (S.run || {})[runKey(hr.name, p)];
+  const q = snap ? ` · вопрос ${Math.min(snap.i + 1, snap.q.length)} из ${snap.q.length}` : "";
+  if (hr.name === "lesson") { const L = t.lessons.find(l => l.id === p.l); const i = p.i || 0; return i >= L.blocks.length ? `Урок «${L.title}»: практика${q}` : `Урок «${L.title}» · шаг ${i + 1} из ${L.blocks.length + 1}`; }
+  if (hr.name === "diag") return "Диагностика" + q;
+  if (hr.name === "check") return "Чек в формате экзамена" + q;
+  if (hr.name === "remedial") return "Работа над ошибками" + q;
+  if (hr.name === "final") return "Итоговый экзамен" + q;
+  return "Повторение" + q;
+}
+function runKey(name, p) { return [name, p.t || "", p.l || ""].join(":"); }
+function backBtn(label = "Назад", to = "home") { return h("button", { class: "iconbtn", "aria-label": label, onclick: () => go(to) }, "←"); }
+function topBar(extra) {
+  return h("div", { class: "top" },
+    h("div", { class: "brand" }, h("div", { class: "brand-mark", "aria-hidden": "true" }, h("i"), h("i"), h("i")), h("b", null, "Magyar Vizsga")),
+    h("span", { class: "spacer" }), extra || null);
+}
+
+/* ============ rings & small visuals ============ */
+function ring(pct, state) {
+  const r = 24, c = 2 * Math.PI * r, v = Math.max(0, Math.min(100, pct));
+  const col = state === "mastered" ? "var(--gold)" : v >= MASTERY ? "var(--gold)" : "var(--meadow)";
+  const tick = 2 * Math.PI * (MASTERY / 100);
+  const tx = 29 + r * Math.cos(tick), ty = 29 + r * Math.sin(tick);
+  return h("div", { class: "ring", html:
+    `<svg viewBox="0 0 58 58" aria-hidden="true"><circle cx="29" cy="29" r="${r}" fill="none" stroke="var(--soft)" stroke-width="6"/>` +
+    `<circle cx="29" cy="29" r="${r}" fill="none" stroke="${col}" stroke-width="6" stroke-linecap="round" stroke-dasharray="${c * v / 100} ${c}"/>` +
+    `<circle cx="${tx}" cy="${ty}" r="2.5" fill="var(--paprika)"/></svg><b>${state === "locked" ? "—" : v + "%"}</b>` });
+}
+function crownSvg(size = 64) {
+  return h("span", { html: `<svg width="${size}" height="${size}" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 46 L12 20 L24 32 L32 14 L40 32 L52 20 L56 46 Z" fill="var(--gold)"/><rect x="8" y="46" width="48" height="8" rx="2" fill="var(--gold)"/><path d="M32 4 v10 M27 8 h10" stroke="var(--gold)" stroke-width="3" transform="rotate(-12 32 9)"/><circle cx="20" cy="50" r="2.5" fill="var(--paprika)"/><circle cx="32" cy="50" r="2.5" fill="var(--meadow)"/><circle cx="44" cy="50" r="2.5" fill="var(--paprika)"/></svg>` });
+}
+function kokardaSvg(size = 84) {
+  return h("span", { html: `<svg width="${size}" height="${size}" viewBox="0 0 84 84" aria-hidden="true"><path d="M30 56 L22 82 L32 76 L38 84 L42 58 Z" fill="#436F4D"/><path d="M54 56 L62 82 L52 76 L46 84 L42 58 Z" fill="#CD2A3E"/><circle cx="42" cy="38" r="32" fill="#CD2A3E"/><circle cx="42" cy="38" r="22" fill="#fff"/><circle cx="42" cy="38" r="12" fill="#436F4D"/><circle cx="42" cy="38" r="32" fill="none" stroke="rgba(0,0,0,.15)" stroke-dasharray="3 3"/></svg>` });
+}
+function fireworks(canvas) {
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const ctx = canvas.getContext("2d");
+  const dpr = devicePixelRatio || 1;
+  const W = canvas.clientWidth || 300, H = canvas.clientHeight || 120;
+  canvas.width = W * dpr; canvas.height = H * dpr; ctx.scale(dpr, dpr);
+  const cols = ["#CD2A3E", "#ffffff", "#5FAF86", "#E2B64B"];
+  let parts = [], frames = 0, running = false;
+  function burst(x, y) { for (let i = 0; i < 46; i++) { const a = Math.random() * Math.PI * 2, s = 1 + Math.random() * 2.6; parts.push({ x, y, vx: Math.cos(a) * s, vy: Math.sin(a) * s, life: 60 + Math.random() * 30, c: cols[i % 4] }); } }
+  if (reduce) { for (let i = 0; i < 3; i++) { const x = W * (0.25 + i * .25), y = H * .45; cols.forEach((c, j) => { ctx.fillStyle = c; for (let k = 0; k < 12; k++) { const a = k / 12 * Math.PI * 2 + j; ctx.beginPath(); ctx.arc(x + Math.cos(a) * (10 + j * 8), y + Math.sin(a) * (10 + j * 8), 2, 0, 7); ctx.fill(); } }); } return; }
+  burst(W * .3, H * .45); setTimeout(() => burst(W * .7, H * .35), 400); setTimeout(() => burst(W * .5, H * .55), 800);
+  function tick() {
+    running = true;
+    ctx.fillStyle = "rgba(13,27,42,.28)"; ctx.fillRect(0, 0, W, H);
+    parts = parts.filter(p => p.life > 0);
+    for (const p of parts) { p.x += p.vx; p.y += p.vy; p.vy += .03; p.vx *= .985; p.life--; ctx.globalAlpha = Math.min(1, p.life / 40); ctx.fillStyle = p.c; ctx.beginPath(); ctx.arc(p.x, p.y, 1.8, 0, 7); ctx.fill(); }
+    ctx.globalAlpha = 1;
+    if (++frames < 260 && canvas.isConnected) requestAnimationFrame(tick); else running = false;
+  }
+  tick();
+  canvas.onclick = e => { const r = canvas.getBoundingClientRect(); burst(e.clientX - r.left, e.clientY - r.top); frames = 0; if (!running) tick(); };
+}
+
+/* ============ HOME ============ */
+function nextStep() {
+  const m = activeTopic();
+  if (!m) {
+    if (allMastered()) return { title: "Итоговый экзамен", sub: "Все темы на 90%. Пора сдать полный экзамен.", btn: "Начать экзамен", act: () => go("final"), min: 60 };
+    return { title: "Все доступные темы освоены", sub: "Поддерживай знания повторением.", btn: null };
+  }
+  const st = topicStatus(m);
+  const t = topicData(m.id);
+  if (st.st === "new") return { title: `Диагностика: ${m.title.toLowerCase()}`, sub: "Короткий замер на английском. Если не знаешь ответ, нажимай «Не знаю»: незнакомые уроки сразу попадут в план.", btn: "Пройти замер", act: () => go("diag", { t: m.id }), min: 6 };
+  if (st.st === "learn") return { title: `Урок: ${st.lesson.title}`, sub: `${st.lesson.hu}. Осталось ${st.left} ${plural(st.left, "урок", "урока", "уроков")} до чека.`, btn: "Начать урок", act: () => go("lesson", { t: m.id, l: st.lesson.id }), min: st.lesson.min };
+  if (st.st === "remedial") return { title: "Работа над ошибками", sub: `${st.rem.length} ${plural(st.rem.length, "факт", "факта", "фактов")} из прошлого чека. Разберём и потренируем, потом повторный чек.`, btn: "Разобрать ошибки", act: () => go("remedial", { t: m.id }), min: Math.max(5, st.rem.length * 2) };
+  return { title: `Чек: ${m.title.toLowerCase()}`, sub: "Вопросы на венгерском, как на экзамене. Подсказок нет. Для мастерства нужно 90%.", btn: "Начать чек", act: () => go("check", { t: m.id }), min: 15 };
+}
+const SCREENS = {};
+SCREENS.home = () => {
+  const out = [];
+  const t = todayStr();
+  const dayN = S.start ? daysBetween(S.start, t) + 1 : 1;
+  out.push(topBar(h("span", { class: "pill " + (dayN > PLAN_DAYS ? "red" : "") }, `День ${dayN} из ${PLAN_DAYS}`)));
+
+  if (resumeValid(S.here)) {
+    const hr = S.here;
+    out.push(h("section", { class: "card hero", style: "border-color:var(--meadow)" },
+      h("div", { class: "eyebrow", style: "color:var(--meadow)" }, "Продолжить с места остановки"),
+      h("h2", null, hereLabel(hr)),
+      h("div", { class: "row" }, h("button", { class: "btn go", onclick: () => resumeHere() }, "Продолжить"))));
+  }
+  const step = nextStep();
+  const due = dueKus();
+  const today = S.days[t] || { n: 0, ms: 0 };
+  const mins = Math.round(today.ms / 60000);
+  const hero = h("section", { class: "card hero" },
+    h("div", { class: "stitch", "aria-hidden": "true" }),
+    h("div", { class: "eyebrow" }, "Сегодня"),
+    h("h1", null, step.title),
+    h("p", { class: "muted" }, step.sub));
+  const todo = h("div", { class: "todo" });
+  if (due.length) todo.append(h("div", { class: "todo-item" }, h("span", { class: "dot" }), h("span", { class: "t" }, `Повторение: ${Math.min(due.length, REVIEW_MAX)} ${plural(Math.min(due.length, REVIEW_MAX), "карточка", "карточки", "карточек")}`), h("span", { class: "spacer" }), h("button", { class: "btn sm", onclick: () => startReview() }, "≈ 5 мин")));
+  if (step.btn) todo.append(h("div", { class: "todo-item" }, h("span", { class: "dot" }), h("span", { class: "t" }, step.title), h("span", { class: "spacer" }), step.min ? h("span", { class: "small muted tnum" }, `≈ ${step.min} мин`) : null));
+  todo.append(h("div", { class: "todo-item" + (mins >= 20 ? " done" : "") }, h("span", { class: "dot" }, mins >= 20 ? "✓" : ""), h("span", { class: "t" }, "20–30 минут в день"), h("span", { class: "spacer" }), h("span", { class: "small muted tnum" }, `${mins} мин сегодня`)));
+  hero.append(todo);
+  const heroBtns = h("div", { class: "row" });
+  if (due.length && step.btn) heroBtns.append(h("button", { class: "btn primary", onclick: () => startReview() }, "Начать с повторения"), h("button", { class: "btn", onclick: step.act }, step.btn));
+  else if (step.btn) heroBtns.append(h("button", { class: "btn primary", onclick: step.act }, step.btn));
+  else if (due.length) heroBtns.append(h("button", { class: "btn primary", onclick: () => startReview() }, "Повторение"));
+  hero.append(heroBtns);
+  out.push(hero);
+
+  // route across 45 days
+  const routeEl = h("div", { class: "route", role: "img", "aria-label": `Маршрут на ${PLAN_DAYS} дней, сегодня день ${dayN}` });
+  const labels = h("div", { class: "route-labels" });
+  TOPICS.forEach(m => {
+    const st = topicStatus(m).st;
+    routeEl.append(h("i", { class: st === "mastered" ? "done" : (st !== "locked" && st !== "new") ? "on" : "", style: `flex:${m.days}` }));
+    labels.append(h("span", { style: `flex:${m.days}` }, String(m.n)));
+  });
+  routeEl.append(h("i", { class: "fin", style: `flex:${FINAL_DAYS}` }));
+  labels.append(h("span", { style: `flex:${FINAL_DAYS}` }, "экз."));
+  const now = Math.min(PLAN_DAYS, dayN);
+  routeEl.append(h("span", { class: "route-now", style: `left:calc(${(now - .5) / PLAN_DAYS * 100}% - 1px)` }));
+  out.push(h("section", { class: "stack" },
+    h("div", { class: "row" }, h("h2", null, "Путь к экзамену"), h("span", { class: "spacer" }), h("span", { class: "small muted" }, "цель: 90% в каждой теме")),
+    h("div", { class: "stack", style: "gap:6px" }, routeEl, labels)));
+
+  // topics
+  const list = h("div", { class: "topics" });
+  for (const m of TOPICS) {
+    const st = topicStatus(m);
+    const pct = st.st === "locked" ? 0 : topicReadiness(m);
+    const chip = {
+      locked: h("span", { class: "pill" }, "скоро"),
+      new: h("span", { class: "pill blue" }, "замер"),
+      learn: h("span", { class: "pill green" }, "учу"),
+      remedial: h("span", { class: "pill red" }, "ошибки"),
+      check: h("span", { class: "pill blue" }, "чек"),
+      mastered: h("span", { class: "pill gold" }, "мастерство"),
+    }[st.st];
+    list.append(h("button", { class: "topic" + (st.st === "locked" ? " locked" : ""), disabled: st.st === "locked" ? true : null, onclick: st.st === "locked" ? null : () => go("topic", { t: m.id }) },
+      ring(pct, st.st),
+      h("div", { style: "min-width:0" }, h("div", { class: "t-title" }, `${m.n}. ${m.title}`), h("div", { class: "t-hu" }, m.hu),
+        st.last ? h("div", { class: "small muted" }, `последний чек: ${Math.round(st.last.pct)}%`) : null),
+      chip));
+  }
+  const fin = allMastered();
+  list.append(h("button", { class: "topic" + (fin ? "" : " locked"), disabled: fin ? null : true, onclick: fin ? () => go("final") : null },
+    h("div", { class: "ring", style: "display:grid;place-items:center" }, crownSvg(40)),
+    h("div", null, h("div", { class: "t-title" }, "Итоговый экзамен"), h("div", { class: "t-hu" }, "12 kérdés · 60 perc · 30 pont"), h("div", { class: "small muted" }, fin ? "Открыт" : "Откроется, когда все 6 тем будут на 90%")),
+    h("span", { class: "pill " + (fin ? "gold" : "") }, fin ? "готов" : "закрыт")));
+  out.push(h("section", { class: "stack" }, h("h2", null, "Темы экзамена"), list));
+
+  // stats
+  const allFact = Object.values(C.topics).flatMap(factKus);
+  const learned = allFact.filter(k => kuState(k.id).s >= 3).length;
+  const checksDone = Object.values(S.checks).reduce((a, c) => a + c.length, 0);
+  out.push(h("section", { class: "stack" }, h("h2", null, "Прогресс"),
+    h("div", { class: "stats" },
+      h("div", { class: "stat" }, h("b", null, streak()), h("span", null, "дней подряд")),
+      h("div", { class: "stat" }, h("b", null, `${learned}/${allFact.length}`), h("span", null, "фактов закреплено")),
+      h("div", { class: "stat" }, h("b", null, due.length), h("span", null, "ждут повторения")),
+      h("div", { class: "stat" }, h("b", null, checksDone), h("span", null, "чеков пройдено"))),
+    heatmap()));
+
+  out.push(h("section", { class: "stack" }, h("h2", null, "Инструменты"),
+    h("div", { class: "tools" },
+      AI_ALLOWED ? h("button", { class: "tool", onclick: () => go("analyze") }, h("b", null, "Разобрать текст"), h("span", null, "Вставь любой венгерский текст, ИИ разберёт каждое слово")) : null,
+      h("button", { class: "tool", onclick: () => go("grammar") }, h("b", null, "Грамматика"), h("span", null, "Короткие правила с примерами из экзамена")),
+      h("button", { class: "tool", onclick: () => go("dict") }, h("b", null, "Словарь"), h("span", null, `${Object.keys(C.lex).length} слов с разбором`)))));
+
+  out.push(h("footer", { class: "small muted row" },
+    h("span", null, syncMode === "cloud" ? "Прогресс сохраняется в аккаунте и доступен на телефоне и компьютере." : "Прогресс сохраняется в этом браузере."),
+    h("span", { class: "spacer" }), h("button", { class: "btn sm ghost", onclick: () => go("settings") }, "Настройки")));
+  return out;
+};
+function heatmap() {
+  const wrap = h("div", { class: "card flat stack", style: "padding:14px" });
+  const grid = h("div", { class: "heat", role: "img", "aria-label": "Активность за 14 дней" });
+  const t = todayStr();
+  for (let i = 13; i >= 0; i--) {
+    const d = addDays(t, -i); const n = (S.days[d] && S.days[d].n) || 0;
+    const lvl = n === 0 ? "" : n < 15 ? "l1" : n < 40 ? "l2" : "l3";
+    grid.append(h("i", { class: `${lvl} ${i === 0 ? "today" : ""}`, title: `${d}: ${n} ответов` }));
+  }
+  wrap.append(h("div", { class: "row small muted" }, h("span", null, "Последние 14 дней"), h("span", { class: "spacer" }), h("span", null, "сегодня справа")), grid);
+  return wrap;
+}
+
+/* ============ TOPIC overview ============ */
+SCREENS.topic = ({ t: tid }) => {
+  const m = TOPICS.find(x => x.id === tid), t = topicData(tid), st = topicStatus(m);
+  const out = [topBar(backBtn())];
+  out.push(h("section", { class: "card hero" }, h("div", { class: "stitch" }), h("div", { class: "eyebrow" }, `Тема ${m.n}`), h("h1", null, m.title), h("p", { class: "muted" }, m.hu),
+    h("div", { class: "row" }, ring(topicReadiness(m), st.st), h("div", { class: "small muted" }, st.last ? `Последний чек: ${Math.round(st.last.pct)}%. Для мастерства нужно ${MASTERY}%.` : "Чек ещё не пройден."))));
+  const traj = S.diag[tid] ? S.diag[tid].lessons : [];
+  const ls = h("div", { class: "topics" });
+  t.lessons.forEach((l, i) => {
+    const done = !!S.lessons[l.id];
+    const inTraj = traj.includes(l.id);
+    ls.append(h("button", { class: "topic", onclick: () => go("lesson", { t: tid, l: l.id }) },
+      h("div", { class: "ring", style: "display:grid;place-items:center;font-family:var(--f-display);font-weight:600" }, String(i)),
+      h("div", { style: "min-width:0" }, h("div", { class: "t-title" }, l.title), h("div", { class: "t-hu" }, l.hu)),
+      h("span", { class: "pill " + (done ? "green" : inTraj ? "blue" : "") }, done ? "пройден" : inTraj ? "в плане" : S.diag[tid] ? "знаю" : `${l.min} мин`)));
+  });
+  out.push(h("section", { class: "stack" }, h("h2", null, "Уроки"), ls));
+  const acts = h("div", { class: "row" });
+  if (!S.diag[tid]) acts.append(h("button", { class: "btn primary", onclick: () => go("diag", { t: tid }) }, "Пройти диагностику"));
+  else acts.append(h("button", { class: "btn", onclick: () => go("check", { t: tid }) }, "Пройти чек сейчас"), h("button", { class: "btn ghost", onclick: () => go("diag", { t: tid }) }, "Повторить замер"));
+  out.push(acts);
+  const hist = S.checks[tid] || [];
+  if (hist.length) out.push(h("section", { class: "stack" }, h("h2", null, "История чеков"), checkChart(hist)));
+  out.push(h("p", { class: "small muted" }, "Источник: " + t.source));
+  return out;
+};
+function checkChart(hist) {
+  const W = 600, H = 150, pad = 28, n = hist.length;
+  const x = i => n === 1 ? W / 2 : pad + i * (W - 2 * pad) / (n - 1);
+  const y = v => H - 20 - v / 100 * (H - 40);
+  let path = hist.map((c, i) => `${i ? "L" : "M"}${x(i)},${y(c.pct)}`).join(" ");
+  let dots = hist.map((c, i) => `<circle cx="${x(i)}" cy="${y(c.pct)}" r="5" fill="${c.pct >= MASTERY ? "var(--gold)" : "var(--meadow)"}"/><text x="${x(i)}" y="${y(c.pct) - 10}" text-anchor="middle" font-size="12" fill="var(--ink)">${Math.round(c.pct)}%</text>`).join("");
+  return h("div", { class: "card flat", style: "padding:10px;overflow-x:auto", html:
+    `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Результаты чеков"><line x1="${pad}" x2="${W - pad}" y1="${y(MASTERY)}" y2="${y(MASTERY)}" stroke="var(--paprika)" stroke-dasharray="4 4"/><text x="${W - pad}" y="${y(MASTERY) - 6}" text-anchor="end" font-size="11" fill="var(--paprika)">90% мастерство</text><line x1="${pad}" x2="${W - pad}" y1="${y(0)}" y2="${y(0)}" stroke="var(--line)"/><path d="${path}" fill="none" stroke="var(--meadow)" stroke-width="2.5"/>${dots}</svg>` });
+}
+
+/* ============ LESSON ============ */
+SCREENS.lesson = ({ t: tid, l: lid, i }) => {
+  const t = topicData(tid), L = t.lessons.find(x => x.id === lid);
+  if (!S.lpos) S.lpos = {};
+  if (i == null) { i = S.lpos[lid] || 0; route.p.i = i; }
+  if (S.lpos[lid] !== i) { S.lpos[lid] = i; save(); }
+  const total = L.blocks.length + 1;
+  const b = L.blocks[i];
+  const head = h("div", { class: "lesson-head" }, backBtn("Выйти", "home"), h("div", { class: "bar" }, h("i", { style: `width:${(i + 1) / total * 100}%` })), h("span", { class: "small muted tnum" }, `${i + 1}/${total}`));
+  if (!b) { // practice
+    return [head, runner({
+      items: L.practice.map(id => itemById[id]).filter(Boolean), mode: "practice", title: `Практика: ${L.title}`, key: runKey("lesson", { t: tid, l: lid }),
+      onDone: res => { S.lessons[lid] = { d: todayStr(), score: res.firstTry }; delete S.lpos[lid]; save(); go("lessonDone", { t: tid, l: lid, res }); }
+    })];
+  }
+  const card = h("section", { class: "card block" });
+  renderBlock(b, card);
+  const nav = h("div", { class: "foot" },
+    i > 0 ? h("button", { class: "btn ghost", onclick: () => { route.p.i = i - 1; render(); scrollTo(0, 0); } }, "Назад") : null,
+    h("button", { class: "btn primary", onclick: () => { route.p.i = i + 1; logActivity(); save(); render(); scrollTo(0, 0); } }, i + 1 === L.blocks.length ? "К практике" : "Дальше"));
+  const title = i === 0 ? h("div", { class: "stack", style: "gap:4px" }, h("div", { class: "eyebrow" }, `Урок · ${L.min} мин`), h("h1", null, L.title), h("p", { class: "muted" }, L.hu)) : null;
+  return [head, title, card, nav];
+};
+SCREENS.lessonDone = ({ t: tid, l: lid, res }) => {
+  const m = TOPICS.find(x => x.id === tid);
+  const t = topicData(tid), L = t.lessons.find(x => x.id === lid);
+  const st = topicStatus(m);
+  const next = nextStep();
+  return [topBar(backBtn()), h("section", { class: "card hero" }, h("div", { class: "stitch" }), h("div", { class: "eyebrow" }, "Урок пройден"), h("h1", null, L.title),
+    h("div", { class: "row" }, h("div", { class: "score" }, `${res.firstTry}%`), h("p", { class: "muted" }, "правильно с первой попытки. Ошибки уже добавлены в повторение на завтра.")),
+    h("p", null, st.st === "check" ? "Все уроки траектории пройдены. Следующий шаг — чек в формате экзамена." : `Дальше: ${next.title}.`),
+    h("div", { class: "row" }, next.btn ? h("button", { class: "btn primary", onclick: next.act }, next.btn) : null, h("button", { class: "btn", onclick: () => go("home") }, "На главную")))];
+};
+
+function renderBlock(b, card) {
+  const T = b.type;
+  if (b.title && !["flag", "hotspots", "duo", "calendar", "poem", "timeline"].includes(T)) card.append(h("h2", null, b.title));
+  if (T === "story") {
+    if (b.img) card.append(h("img", { class: "ill", src: b.img, alt: b.title || "", loading: "lazy" }));
+    card.append(rich(b.text));
+  } else if (T === "phrase" || T === "quote") {
+    card.append(h("div", { class: "eyebrow" }, T === "quote" ? "Цитата" : "Фраза по-венгерски · наведи или нажми на слово"));
+    const hu = h("div", { class: "hu-big" + (T === "quote" ? " quote" : "") }); glossInto(hu, b.hu);
+    card.append(hu);
+    const row = h("div", { class: "row" });
+    if (TTS.ok) row.append(h("button", { class: "btn sm", onclick: () => TTS.say(b.hu) }, speakerIcon(), "Послушать"));
+    const rv = h("button", { class: "reveal", onclick: () => { rv.replaceWith(h("p", { class: "tr" }, b.ru)); } }, "Сначала попробуй понять сама. Нажми, чтобы увидеть перевод");
+    card.append(row, rv);
+    if (b.src) card.append(h("p", { class: "small muted" }, b.src));
+  } else if (T === "words") {
+    card.append(h("div", { class: "wordlist" }, b.items.map(it => h("div", { class: "wordrow" }, h("div", { class: "hu" }, huSpan(it.hu)), h("div", null, it.ru), it.tip ? h("div", { class: "tip" }, it.tip) : null))));
+  } else if (T === "grammar") {
+    const g = C.grammar[b.id];
+    card.classList.add("grammar");
+    card.append(h("div", { class: "eyebrow" }, "Грамматика"), h("h2", null, g.title), rich(g.body));
+  } else if (T === "mnemo") {
+    card.classList.add("mnemo");
+    card.append(h("div", { class: "eyebrow" }, "Запоминалка"), rich(b.text));
+  } else if (T === "flag") {
+    card.append(h("h2", null, b.title));
+    const info = h("div", { class: "stack" });
+    const flag = h("div", { class: "flag", role: "group", "aria-label": "Флаг Венгрии" });
+    b.stripes.forEach(s => {
+      const btn = h("button", { style: `background:${s.hex}`, class: s.color === "fehér" ? "" : "dk", "aria-label": s.color, onclick: () => {
+        btn.classList.add("open"); btn.textContent = `${s.color} = ${s.hu}`;
+        info.replaceChildren(h("div", { class: "card flat stack", style: "padding:14px" }, h("div", { class: "hu-big" }, huSpan(`${s.color} – ${s.hu}`)), h("p", null, `${s.ru[0].toUpperCase() + s.ru.slice(1)}. ${s.mn}`)));
+      } }, s.color);
+      flag.append(btn);
+    });
+    card.append(flag, info);
+  } else if (T === "hotspots") {
+    card.append(h("h2", null, b.title));
+    const wrap = h("div", { class: "spot-wrap", style: `max-width:${Math.min(b.w, b.w / b.h * 460)}px` });
+    wrap.append(h("img", { src: b.img, alt: "", width: b.w, height: b.h }));
+    const info = h("div", { class: "stack" }, h("p", { class: "muted small" }, "Нажимай на пульсирующие точки."));
+    b.points.forEach((p, idx) => {
+      const sp = h("button", { class: "spot", style: `left:${p.x}%;top:${p.y}%`, "aria-label": `Точка ${idx + 1}`, onclick: () => {
+        sp.classList.add("seen");
+        info.replaceChildren(h("div", { class: "card flat stack", style: "padding:14px" }, h("div", { class: "hu-big" }, huSpan(p.hu)), rich(p.ru)));
+      } }, String(idx + 1));
+      wrap.append(sp);
+    });
+    card.append(wrap, info);
+  } else if (T === "duo") {
+    card.append(h("h2", null, b.title));
+    card.append(h("div", { class: "duo" }, b.cards.map(c => {
+      const f = h("button", { class: "flip", "aria-label": c.hu, onclick: e => { if (e.target.closest(".w")) return; f.classList.toggle("on"); } },
+        h("div", { class: "flip-in" },
+          h("div", { class: "face" }, c.img ? h("img", { src: c.img, alt: "" }) : h("div", { class: "mono", "aria-hidden": "true" }, c.hu.split(/\s+/).map(x => x[0]).join("").slice(0, 3)), h("div", { class: "big" }, huSpan(c.hu)), h("div", { class: "muted small" }, (c.ru || "") + " · нажми")),
+          h("div", { class: "face back" }, h("div", { class: "big" }, c.hu), h("div", { class: "kv" }, c.rows.map(r => [h("span", null, r[0]), h("b", null, huSpan(r[1]))])), h("p", { class: "small muted" }, c.note))));
+      return f;
+    })));
+  } else if (T === "poem") {
+    card.append(h("h2", null, b.title));
+    const poem = h("div", { class: "poem" });
+    b.lines.forEach(l => poem.append(h("div", null, h("div", { class: "ln" }, huSpan(l.hu)), h("div", { class: "lr" }, l.ru))));
+    const row = h("div", { class: "row" });
+    if (TTS.ok) row.append(h("button", { class: "btn sm", onclick: () => TTS.say(b.lines.map(l => l.hu).join(" ")) }, speakerIcon(), "Послушать"));
+    card.append(poem, row, h("p", { class: "small muted" }, b.note));
+  } else if (T === "timeline") {
+    card.append(h("h2", null, b.title), h("p", { class: "small muted" }, "Нажимай на события, чтобы раскрыть подробности."));
+    const tl = h("div", { class: "tl" });
+    b.events.forEach(ev => {
+      const more = h("div", { class: "more" }, rich(ev.ru), ev.img ? h("img", { src: ev.img, alt: "", loading: "lazy" }) : null);
+      const row = h("div", { class: "tl-ev" });
+      const body = h("button", { class: "tl-body", onclick: e => { if (e.target.closest(".w")) return; row.classList.toggle("open"); row.classList.add("seen"); } },
+        h("div", { class: "cap" }, huSpan(ev.hu)), h("div", { class: "small muted hint" }, "подробнее"), more);
+      row.append(h("div", { class: "tl-year" }, ev.year), body);
+      tl.append(row);
+    });
+    card.append(tl);
+  } else if (T === "calendar") {
+    card.append(h("h2", null, b.title));
+    card.append(h("div", { class: "cal" }, b.days.map(d => {
+      const more = h("div", { class: "more" });
+      const leaf = h("button", { class: "leaf", onclick: e => {
+        if (e.target.closest(".w") || e.target.closest("canvas")) return;
+        if (leaf.classList.contains("on")) return;
+        leaf.classList.add("on");
+        const sym = d.symbol === "kokarda" ? kokardaSvg() : d.symbol === "fireworks" ? h("canvas", { class: "fw", "aria-label": "Фейерверк" }) : h("img", { src: "img/w_lyukas.jpg", alt: "Флаг с дырой, 1956", style: "border-radius:8px" });
+        more.append(h("p", { class: "small" }, huSpan(d.hu)), h("p", { class: "small muted" }, d.tr), sym, h("p", { class: "small" }, h("b", null, huSpan(d.sym_hu)), " — ", d.sym_ru));
+        if (d.symbol === "fireworks") requestAnimationFrame(() => fireworks(sym));
+      } },
+        h("div", { class: "lt" }, d.season),
+        h("div", { class: "ld" }, h("div", { class: "num" }, d.date.match(/\d+/)[0]), h("div", { class: "small" }, huSpan(d.date.replace(/\s*\d+\.?$/, ""))), h("div", { class: "small muted hint" }, `${d.ru} · нажми`), more));
+      return leaf;
+    })));
+  }
+}
+
+/* ============ RUNNER ============ */
+function correctText(it) {
+  switch (it.type) {
+    case "mcq": return it.opts[it.a];
+    case "multi": return it.a.map(i => it.opts[i]).join(", ");
+    case "tf": return it.a ? "igaz (верно)" : "hamis (неверно)";
+    case "type": return it.accept[0];
+    case "list": return it.items.map(g => g[0]).join(", ");
+    case "match": return it.pairs.map(p => `${p[0]} — ${p[1]}`).join("; ");
+    case "order": return it.items.join(" → ");
+    case "tiles": return it.answer.join(" ");
+    case "hotspot": return it.points.map((p, i) => `${i + 1}: ${p.label}`).join("; ");
+    case "paint": return it.regions.join(", ");
+    case "flash": return it.back;
+  }
+  return "";
+}
+function runner(cfg) {
+  // cfg: items, mode (diag|practice|review|check), title, onDone(res)
+  const mode = cfg.mode, hints = mode === "practice" || mode === "review";
+  const key = cfg.key || runKey(route.name, route.p || {});
+  const orig = cfg.items.map(i => i.id);
+  let queue = cfg.items.slice();
+  let results = []; // per unique item: {item, res}
+  const firstTry = new Map();
+  let requeued = new Set();
+  let idx = 0, startTs = Date.now(), answeredIdx = -1;
+  if (!S.run) S.run = {};
+  const snap = S.run[key];
+  if (snap && JSON.stringify(snap.o) === JSON.stringify(orig) && snap.q.every(id => itemById[id])) {
+    queue = snap.q.map(id => itemById[id]);
+    idx = snap.i; requeued = new Set(snap.rq || []);
+    Object.entries(snap.ft || {}).forEach(([k, v]) => firstTry.set(k, v));
+    results = (snap.r || []).filter(x => itemById[x.id]).map(x => ({ item: itemById[x.id], res: x.res }));
+    if (snap.ans === idx) idx++;
+    startTs = Date.now() - (snap.ms || 0);
+  }
+  function snapshot() {
+    S.run[key] = { o: orig, q: queue.map(i => i.id), i: idx, rq: [...requeued], ft: Object.fromEntries(firstTry), r: results.map(x => ({ id: x.item.id, res: x.res })), ans: answeredIdx, ms: Date.now() - startTs };
+    save();
+  }
+  const root = h("div", { class: "stack" });
+  const head = h("div", { class: "qhead" });
+  const body = h("div", { class: "stack" });
+  root.append(head, body);
+  let timerEl = null, timerInt = null;
+  if (mode === "check") { timerEl = h("span", { class: "pill tnum" }, "0:00"); timerInt = setInterval(() => { if (!timerEl.isConnected) { clearInterval(timerInt); return; } const s = Math.floor((Date.now() - startTs) / 1000); timerEl.textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; }, 1000); }
+
+  function drawHead() {
+    head.replaceChildren(h("div", { class: "bar" }, h("i", { style: `width:${idx / queue.length * 100}%` })), h("span", { class: "small muted tnum" }, `${Math.min(idx + 1, queue.length)}/${queue.length}`), timerEl);
+  }
+  function finish() {
+    if (timerInt) clearInterval(timerInt);
+    delete S.run[key]; S.here = null; save();
+    const uniq = [...firstTry.values()];
+    const ft = uniq.length ? Math.round(uniq.filter(r => r.frac >= .999).length / uniq.length * 100) : 0;
+    cfg.onDone({ results, firstTry: ft, ms: Date.now() - startTs });
+  }
+  function next() { idx++; if (idx >= queue.length) finish(); else show(); }
+  function show() {
+    while (cfg.skip && idx < queue.length && cfg.skip(queue[idx], results)) idx++;
+    if (idx >= queue.length) { finish(); return; }
+    drawHead(); hideTip();
+    answeredIdx = -1; snapshot();
+    const it = queue[idx];
+    body.replaceChildren();
+    const card = h("section", { class: "card stack" + (mode === "check" ? " examsheet" : "") });
+    if (mode === "check") card.append(h("div", { class: "row" }, h("span", { class: "exam-tag" }, `${idx + 1}. feladat`), h("span", { class: "spacer" }), h("span", { class: "small muted" }, `${it.pts || 1} pont`)));
+    else if (mode === "diag") card.append(h("div", { class: "eyebrow" }, "Диагностика · question " + (idx + 1)));
+    else if (requeued.has(it.id) && firstTry.has(it.id)) card.append(h("div", { class: "eyebrow", style: "color:var(--paprika)" }, "Ещё раз: закрепляем ошибку"));
+    const fbBox = h("div");
+    const foot = h("div", { class: "foot" });
+    let answered = false;
+    const onAnswer = res => {
+      if (answered) return; answered = true;
+      logActivity();
+      if (!firstTry.has(it.id)) firstTry.set(it.id, res);
+      let prevKu = null;
+      if (mode !== "diag" && mode !== "check") {
+        if (!requeued.has(it.id) || firstTry.get(it.id) === res) { prevKu = (it.kus || []).map(k => [k, JSON.stringify(kuState(k))]); creditItem(it, res); }
+      }
+      results.push({ item: it, res });
+      answeredIdx = idx;
+      if (mode === "diag" || mode === "check") { next(); return; }
+      // feedback
+      const ok = res.frac >= .999, part = !ok && res.frac > 0;
+      const fb = h("div", { class: "fb " + (ok ? "ok" : part ? "part" : "bad"), role: "status" },
+        h("div", { class: "fh" }, ok ? pick(["Верно!", "Отлично!", "Так держать!", "Helyes! Верно!"]) : part ? "Частично верно" : res.dk ? "Ничего, разберём" : "Пока нет"),
+        !ok ? h("div", null, "Правильно: ", h("b", null, smartText(correctText(it)))) : null,
+        res.note ? h("div", { class: "small" }, res.note) : null,
+        it.ex ? h("div", { class: "small" }, smartText(it.ex)) : null);
+      if (!ok && it.type === "type" && AI.ok && res.given) {
+        const aiOut = h("div", { class: "small" });
+        const aiBtn = h("button", { class: "btn sm", onclick: async () => {
+          aiBtn.disabled = true; aiOut.textContent = "ИИ проверяет…";
+          try {
+            const r = await AI.fn.json(`Ты проверяешь ответ на экзамене по венгерской культуре. Вопрос (по-венгерски): «${it.q}». Эталонные ответы: ${JSON.stringify(it.accept)}. Ответ ученицы: «${res.given}».
+Засчитал бы проверяющий такой ответ? Мелкие ошибки в надстрочных знаках допустимы, но другое имя, дата или факт — нет.
+Ответь только JSON: {"ok": true|false, "why": "одно-два предложения по-русски"}`);
+            aiOut.textContent = (r && r.ok ? "ИИ: можно засчитать. " : "ИИ: не засчитывается. ") + (r && r.why ? r.why : "");
+            if (r && r.ok && firstTry.get(it.id) === res) { res.frac = 1; if (prevKu) prevKu.forEach(([k, v]) => S.ku[k] = JSON.parse(v)); creditItem(it, { frac: 1 }); if (requeued.has(it.id)) { queue.splice(queue.lastIndexOf(it), 1); } save(); drawHead(); }
+          } catch (e) { aiOut.textContent = aiErr(e) || ""; }
+        } }, "Спорно? Проверить с ИИ");
+        fb.append(h("div", { class: "row" }, aiBtn), aiOut);
+      }
+      fbBox.replaceChildren(fb);
+      if (!ok && !requeued.has(it.id)) { requeued.add(it.id); queue.push(it); drawHead(); }
+      snapshot();
+      foot.replaceChildren(h("button", { class: "btn primary", onclick: next }, idx + 1 >= queue.length ? "Готово" : "Дальше"));
+      foot.querySelector("button").focus();
+    };
+    CUR_TOPIC = itemTopic[it.id] || CUR_TOPIC;
+    const R = renderItem(it, { mode, hints, onAnswer });
+    card.append(R.el, fbBox);
+    body.append(card, foot);
+    if (R.submit) {
+      const label = mode === "check" ? (idx + 1 >= queue.length ? "Сдать работу" : "Дальше") : "Проверить";
+      const sb = h("button", { class: "btn primary", onclick: () => { const r = R.submit(); if (r) onAnswer(r); } }, label);
+      const skip = mode === "check" ? null : h("button", { class: "btn ghost", onclick: () => onAnswer({ frac: 0, dk: true }) }, "Не знаю");
+      foot.append(skip, sb);
+    }
+    const inp = card.querySelector("input.inp, textarea.inp");
+    if (inp && canHover) inp.focus();
+  }
+  const titleEl = cfg.title ? h("h2", null, cfg.title) : null;
+  if (idx >= queue.length) setTimeout(finish, 0); else show();
+  return titleEl ? [titleEl, root] : root;
+}
+function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
+
+function accentKeys(input) {
+  return h("div", { class: "keys", "aria-label": "Венгерские буквы" }, ["á", "é", "í", "ó", "ö", "ő", "ú", "ü", "ű"].map(ch => h("button", { type: "button", onmousedown: e => e.preventDefault(), onclick: () => {
+    const s = input.selectionStart ?? input.value.length, e = input.selectionEnd ?? s;
+    input.value = input.value.slice(0, s) + ch + input.value.slice(e);
+    input.selectionStart = input.selectionEnd = s + 1; input.focus();
+  } }, ch)));
+}
+
+function renderItem(it, ctx) {
+  const gl = { gloss: ctx.hints, mode: ctx.mode };
+  const el = h("div", { class: "stack" });
+  const q = h("div", { class: "q" }, smartText(it.q || "", gl));
+  const T = it.type;
+  if (it.img && T !== "hotspot") el.append(h("img", { class: "ill", src: it.img, alt: "", style: "max-height:300px" }));
+  if (T !== "flash") el.append(q);
+  const immediate = ctx.mode !== "check";
+
+  if (T === "mcq") {
+    const opts = h("div", { class: "opts" });
+    const order = shuffle(it.opts.map((o, i) => i));
+    let sel = null;
+    const btns = order.map(i => {
+      const b = h("button", { class: "opt", onclick: e => {
+        if (e.target.closest(".w")) return;
+        const ok = i === it.a;
+        if (ctx.mode === "diag") { ctx.onAnswer({ frac: ok ? 1 : 0, given: it.opts[i] }); return; }
+        if (immediate) {
+          btns.forEach((x, j) => { x.disabled = true; if (order[j] === it.a) x.classList.add("ok"); });
+          if (!ok) b.classList.add("bad");
+          ctx.onAnswer({ frac: ok ? 1 : 0, given: it.opts[i] });
+        } else { btns.forEach(x => x.classList.remove("sel")); b.classList.add("sel"); sel = i; }
+      } }, smartText(it.opts[i], gl));
+      return b;
+    });
+    opts.append(...btns);
+    if (ctx.mode === "diag") opts.append(h("button", { class: "opt dk", onclick: () => ctx.onAnswer({ frac: 0, dk: true }) }, "Не знаю · I don't know"));
+    el.append(opts);
+    if (ctx.mode === "diag") { el.querySelector(".q").style.fontWeight = "600"; }
+    return { el, submit: immediate ? null : () => ({ frac: sel === it.a ? 1 : 0, given: sel == null ? "" : it.opts[sel] }) };
+  }
+  if (T === "tf") {
+    let sel = null;
+    const mk = (val, huW, ru) => {
+      const b = h("button", { class: "opt", onclick: e => {
+        if (e.target.closest(".w")) return;
+        if (immediate) {
+          [bt, bf].forEach(x => x.disabled = true);
+          (it.a ? bt : bf).classList.add("ok"); if (val !== it.a) b.classList.add("bad");
+          ctx.onAnswer({ frac: val === it.a ? 1 : 0 });
+        } else { [bt, bf].forEach(x => x.classList.remove("sel")); b.classList.add("sel"); sel = val; }
+      } }, huW, ctx.hints ? h("small", null, ru) : null);
+      return b;
+    };
+    const bt = mk(true, "Igaz", "верно"), bf = mk(false, "Hamis", "неверно");
+    el.append(h("div", { class: "tf" }, bt, bf));
+    return { el, submit: immediate ? null : () => ({ frac: sel === it.a ? 1 : 0 }) };
+  }
+  if (T === "multi") {
+    const sel = new Set();
+    const order = shuffle(it.opts.map((o, i) => i));
+    const opts = h("div", { class: "opts" }, order.map(i => {
+      const b = h("button", { class: "opt", "aria-pressed": "false", onclick: e => { if (e.target.closest(".w")) return; if (sel.has(i)) sel.delete(i); else sel.add(i); b.classList.toggle("sel"); b.setAttribute("aria-pressed", sel.has(i)); } }, h("span", { class: "box" }, "✓"), smartText(it.opts[i], gl));
+      return b;
+    }));
+    el.append(h("p", { class: "small muted" }, ctx.hints ? "Можно выбрать несколько вариантов." : "Több válasz is lehetséges."), opts);
+    return { el, submit: () => {
+      const right = new Set(it.a); let good = 0, bad = 0;
+      sel.forEach(i => right.has(i) ? good++ : bad++);
+      if (immediate) opts.querySelectorAll(".opt").forEach((b, j) => { const i = order[j]; b.disabled = true; if (right.has(i)) b.classList.add("ok"); else if (sel.has(i)) b.classList.add("bad"); });
+      return { frac: Math.max(0, (good - bad) / right.size), given: [...sel].map(i => it.opts[i]).join(", ") };
+    } };
+  }
+  if (T === "type" || T === "list") {
+    const input = h("input", { class: "inp", id: "ans-" + it.id, autocomplete: "off", autocapitalize: "off", spellcheck: "false", placeholder: T === "list" ? "через запятую" : "ответ по-венгерски", onkeydown: e => { if (e.key === "Enter") { e.preventDefault(); const r = sub(); if (r) ctx.onAnswer(r); } } });
+    let done = false;
+    const sub = () => { if (done) return null; done = true; input.disabled = true; const v = input.value; const r = T === "list" ? gradeList(v, it.items) : gradeText(v, it.accept); r.given = v; return r; };
+    el.append(input, accentKeys(input));
+    return { el, submit: sub };
+  }
+  if (T === "match") {
+    const L = it.pairs.map((p, i) => i), Rr = shuffle(it.pairs.map((p, i) => i));
+    const pairOf = new Map(); // left -> right
+    let selL = null;
+    const lb = [], rb = [];
+    const paint = () => {
+      lb.forEach((b, i) => { b.className = "mchip" + (selL === i ? " sel" : ""); if (pairOf.has(i)) b.classList.add("pc" + (i % 5)); });
+      rb.forEach((b, j) => { const ri = Rr[j]; b.className = "mchip"; for (const [l, r] of pairOf) if (r === ri) b.classList.add("pc" + (l % 5)); });
+    };
+    L.forEach(i => lb.push(h("button", { class: "mchip", onclick: e => { if (e.target.closest(".w")) return; selL = selL === i ? null : i; if (pairOf.has(i) && selL === i) { pairOf.delete(i); } paint(); } }, smartText(it.pairs[i][0], gl))));
+    Rr.forEach(ri => rb.push(h("button", { class: "mchip", onclick: e => {
+      if (e.target.closest(".w")) return;
+      for (const [l, r] of pairOf) if (r === ri) pairOf.delete(l);
+      if (selL != null) { pairOf.set(selL, ri); selL = null; const nx = L.find(i => !pairOf.has(i)); if (nx != null) selL = nx; }
+      paint();
+    } }, smartText(it.pairs[ri][1], gl))));
+    selL = 0; paint();
+    el.append(h("p", { class: "small muted" }, ctx.hints ? "Нажми слева, потом справа. Пара окрасится одним цветом." : "Párosítsa: bal oldal → jobb oldal."), h("div", { class: "match" }, h("div", { class: "col" }, lb), h("div", { class: "col" }, rb)));
+    return { el, submit: () => {
+      const parts = L.map(i => pairOf.get(i) === i);
+      if (immediate) { lb.forEach((b, i) => b.classList.add(parts[i] ? "ok" : "bad")); [...lb, ...rb].forEach(b => b.disabled = true); }
+      return { frac: parts.filter(Boolean).length / parts.length, parts, given: L.map(i => pairOf.has(i) ? `${it.pairs[i][0]} — ${it.pairs[pairOf.get(i)][1]}` : "").join("; ") };
+    } };
+  }
+  if (T === "tiles" || T === "order") {
+    const target = T === "tiles" ? it.answer : it.items;
+    const pool = shuffle(T === "tiles" ? [...it.answer, ...(it.extra || [])] : it.items.slice());
+    const ans = [];
+    const ansBox = h("div", { class: "tiles-ans", "aria-label": "Ответ" });
+    const poolBox = h("div", { class: "tiles-pool" });
+    const poolBtns = pool.map((w, i) => h("button", { class: "tile", onclick: () => { ans.push(i); draw(); } }, w));
+    const draw = () => {
+      poolBtns.forEach((b, i) => b.classList.toggle("used", ans.includes(i)));
+      ansBox.replaceChildren(...(ans.length ? ans.map((pi, k) => h("button", { class: "tile", onclick: () => { ans.splice(k, 1); draw(); } }, T === "order" ? `${k + 1}. ${pool[pi]}` : pool[pi])) : [h("span", { class: "muted small" }, T === "order" ? "Нажимай по порядку" : "Нажимай на слова по порядку")]));
+    };
+    poolBox.append(...poolBtns); draw();
+    el.append(ansBox, poolBox);
+    return { el, submit: () => {
+      const got = ans.map(i => pool[i]);
+      if (T === "tiles") { const ok = got.length === target.length && got.every((w, k) => norm(w) === norm(target[k])); return { frac: ok ? 1 : 0, given: got.join(" ") }; }
+      const pos = target.filter((w, k) => got[k] === w).length;
+      return { frac: pos === target.length ? 1 : pos / target.length * .5, given: got.join(" → ") };
+    } };
+  }
+  if (T === "hotspot") {
+    const labels = shuffle([...it.points.map(p => p.label), ...(it.extra || [])]);
+    const choice = new Map();
+    let cur = 0;
+    const wrap = h("div", { class: "spot-wrap", style: `max-width:${Math.min(it.w, it.w / it.h * 380)}px` }, h("img", { src: it.img, alt: "", width: it.w, height: it.h }));
+    const spots = it.points.map((p, i) => { const s = h("button", { class: "spot seen", style: `left:${p.x}%;top:${p.y}%`, "aria-label": `Точка ${i + 1}`, onclick: () => { cur = i; draw(); } }, String(i + 1)); wrap.append(s); return s; });
+    const lab = it.points.map((p, i) => { const l = h("span", { class: "spot-label", style: `left:${p.x}%;top:${p.y}%`, hidden: true }); wrap.append(l); return l; });
+    const chips = h("div", { class: "chips" });
+    const prompt = h("p", { class: "small" });
+    const draw = () => {
+      spots.forEach((s, i) => s.classList.toggle("pick", i === cur));
+      lab.forEach((l, i) => { l.hidden = !choice.has(i); l.textContent = choice.get(i) || ""; });
+      prompt.replaceChildren(`Точка ${cur + 1}: выбери название`);
+      chips.replaceChildren(...labels.map(lbl => h("button", { class: "tile" + ([...choice.values()].includes(lbl) ? " sel" : ""), style: [...choice.values()].includes(lbl) ? "opacity:.45" : "", onclick: e => {
+        if (e.target.closest(".w")) return;
+        for (const [k, v] of choice) if (v === lbl) choice.delete(k);
+        choice.set(cur, lbl);
+        const nx = it.points.findIndex((p, i) => !choice.has(i)); if (nx >= 0) cur = nx;
+        draw();
+      } }, ctx.hints ? huSpan(lbl, gl) : lbl)));
+    };
+    draw();
+    el.append(wrap, prompt, chips);
+    return { el, submit: () => {
+      const parts = it.points.map((p, i) => choice.get(i) === p.label);
+      if (immediate) spots.forEach((s, i) => { s.classList.remove("pick", "seen"); s.classList.add(parts[i] ? "ok" : "bad"); });
+      return { frac: parts.filter(Boolean).length / parts.length, parts, given: it.points.map((p, i) => `${i + 1}: ${choice.get(i) || "—"}`).join("; ") };
+    } };
+  }
+  if (T === "paint") {
+    const PAL = [["piros", "#CD2A3E"], ["fehér", "#FFFFFF"], ["zöld", "#436F4D"], ["kék", "#2A5DB0"], ["sárga", "#F2C200"], ["fekete", "#111111"]];
+    let brush = null; const got = it.regions.map(() => null);
+    const pal = h("div", { class: "palette" });
+    const flag = h("div", { class: "pflag" });
+    const stripes = it.regions.map((r, i) => h("button", { "aria-label": `Полоса ${i + 1}`, onclick: () => { if (!brush) { toast("Сначала выбери цвет"); return; } got[i] = brush[0]; stripes[i].style.background = brush[1]; stripes[i].textContent = ""; } }, ["верх", "середина", "низ"][i] || ""));
+    flag.append(...stripes);
+    PAL.forEach(p => { const s = h("button", { class: "sw", onclick: () => { brush = p; pal.querySelectorAll(".sw").forEach(x => x.classList.remove("sel")); s.classList.add("sel"); } }, h("i", { style: `background:${p[1]}` }), ctx.hints ? huSpan(p[0], gl) : p[0]); pal.append(s); });
+    el.append(h("p", { class: "small muted" }, "Выбери цвет, потом нажми на полосу."), pal, flag);
+    return { el, submit: () => { const parts = it.regions.map((r, i) => got[i] === r); return { frac: parts.filter(Boolean).length / parts.length, parts, given: got.map(x => x || "—").join(", ") }; } };
+  }
+  if (T === "flash") {
+    const face = h("button", { class: "flash", onclick: e => { if (e.target.closest(".w")) return; face.replaceChildren(h("div", { class: "stack", style: "gap:6px" }, h("div", null, huSpan(it.front, gl)), h("div", { class: "muted", style: "font-size:1rem;font-weight:500" }, it.back))); rate.hidden = false; } }, h("div", null, huSpan(it.front, gl), h("div", { class: "small muted", style: "font-weight:400" }, "Вспомни перевод и нажми")));
+    const rate = h("div", { class: "row", hidden: true }, h("button", { class: "btn", onclick: () => ctx.onAnswer({ frac: 0 }) }, "Не вспомнила"), h("button", { class: "btn go", onclick: () => ctx.onAnswer({ frac: 1 }) }, "Вспомнила"));
+    el.append(face, rate);
+    return { el, submit: null };
+  }
+  el.append(h("p", null, "Неизвестный тип задания."));
+  return { el, submit: () => ({ frac: 0 }) };
+}
+
+/* ============ DIAG ============ */
+SCREENS.diag = ({ t: tid, started }) => {
+  const m = TOPICS.find(x => x.id === tid), t = topicData(tid);
+  const items = t.items.filter(i => i.mode === "diag");
+  if (!started) {
+    return [topBar(backBtn()), h("section", { class: "card hero" }, h("div", { class: "stitch" }), h("div", { class: "eyebrow" }, `Тема ${m.n} · замер знаний`), h("h1", null, "Что ты уже знаешь?"),
+      rich(`Вопросы на английском, от ${Math.min(items.length, 3 * t.lessons.filter(l => items.some(i => l.kus.some(k => i.kus.includes(k)))).length)} до ${items.length}. Если первые вопросы по какому-то уроку незнакомы, остальные по нему пропускаются: этот урок и так попадёт в план. Около ${Math.max(4, Math.round(items.length / 6))} минут, можно прерваться и продолжить позже.\n\n**Если не знаешь ответ, нажимай «Не знаю».** Угаданный ответ спрячет пробел, и система решит, что тему учить не нужно. Честное «не знаю» — это правильная стратегия.\n\nПравильные ответы здесь не показываются, чтобы замер был чистым. Всё разберём в уроках.`),
+      h("div", { class: "row" }, h("button", { class: "btn primary", onclick: () => { route.p.started = true; route.p.items = null; delete S.run[runKey("diag", { t: tid })]; render(); } }, "Начать")))];
+  }
+  if (!route.p.items) {
+    const byLesson = new Map();
+    for (const it of items) { const L = t.lessons.find(l => l.kus.some(k => it.kus.includes(k))); const key = L ? L.id : "_"; if (!byLesson.has(key)) byLesson.set(key, []); byLesson.get(key).push(it.id); }
+    const probe = [], rest = [];
+    for (const ids of byLesson.values()) { const sh = shuffle(ids); probe.push(...sh.slice(0, 3)); rest.push(...sh.slice(3)); }
+    route.p.items = [...probe, ...rest];
+    route.p.probe = probe;
+  }
+  const probeSet = new Set(route.p.probe || route.p.items);
+  const lessonOf = id => { const it = itemById[id]; const L = t.lessons.find(l => l.kus.some(k => it.kus.includes(k))); return L ? L.id : "_"; };
+  return [topBar(backBtn("Выйти")), runner({
+    items: route.p.items.map(id => itemById[id]), mode: "diag",
+    skip: (it, results) => {
+      if (probeSet.has(it.id)) return false;
+      const L = lessonOf(it.id);
+      const pr = results.filter(r => probeSet.has(r.item.id) && lessonOf(r.item.id) === L);
+      return pr.filter(r => r.res.frac >= .999).length < 2;
+    },
+    onDone: res => {
+      const known = [], unknown = [];
+      for (const { item, res: r } of res.results) {
+        for (const k of item.kus) {
+          const ks = kuState(k);
+          if (r.frac >= .999) { known.push(k); if (ks.s < 2) { ks.s = 2; ks.due = addDays(todayStr(), 3); ks.c++; } }
+          else { unknown.push(k); ks.s = 0; ks.due = null; }
+        }
+      }
+      const unk = new Set(unknown);
+      const lessons = t.lessons.filter(l => l.kus.some(k => kuById[k].lang ? !S.lessons[l.id] : kuById[k].extra ? false : (unk.has(k) || !known.includes(k)))).map(l => l.id);
+      const knownSet = new Set(known);
+      items.forEach(i => i.kus.forEach(k => { if (!knownSet.has(k)) unk.add(k); }));
+      S.diag[tid] = { d: todayStr(), known: [...knownSet], unknown: [...unk], lessons };
+      if (!S.start) S.start = todayStr();
+      save();
+      go("diagDone", { t: tid });
+    }
+  })];
+};
+SCREENS.diagDone = ({ t: tid }) => {
+  const t = topicData(tid), d = S.diag[tid];
+  const factTotal = factKus(t).filter(k => !k.extra).length;
+  const knownN = d.known.filter(k => !kuById[k].extra).length;
+  const ls = trajLessons(t);
+  const mins = ls.reduce((a, l) => a + l.min, 0);
+  return [topBar(backBtn()), h("section", { class: "card hero" }, h("div", { class: "stitch" }), h("div", { class: "eyebrow" }, "Результат замера"),
+    h("div", { class: "row" }, h("div", { class: "score" }, `${knownN}/${factTotal}`), h("p", { class: "muted" }, "фактов ты уже знаешь. Их проверим повторением через 3 дня, чтобы убедиться, что это не угадывание.")),
+    h("h2", null, "Твоя траектория"),
+    h("div", { class: "todo" }, ls.map((l, i) => h("div", { class: "todo-item" }, h("span", { class: "dot" }, String(i + 1)), h("span", { class: "t" }, `${l.title} · ${l.hu}`), h("span", { class: "spacer" }), h("span", { class: "small muted tnum" }, `${l.min} мин`))),
+      h("div", { class: "todo-item" }, h("span", { class: "dot" }, "✓"), h("span", { class: "t" }, "Чек в формате экзамена (на венгерском)"), h("span", { class: "spacer" }), h("span", { class: "small muted" }, "15 мин"))),
+    h("p", { class: "small muted" }, `Всего около ${mins + 15} минут: примерно ${Math.ceil((mins + 15) / 25)} ${plural(Math.ceil((mins + 15) / 25), "день", "дня", "дней")} по 25 минут.`),
+    d.unknown.length ? h("div", { class: "stack", style: "gap:6px" }, h("div", { class: "eyebrow" }, "Пробелы"), h("div", { class: "chips" }, d.unknown.slice(0, 14).map(k => h("span", { class: "pill red" }, kuById[k].ru.split(/[:—]/)[0].slice(0, 42))))) : null,
+    h("div", { class: "row" }, ls.length ? h("button", { class: "btn primary", onclick: () => go("lesson", { t: tid, l: ls[0].id }) }, "Начать первый урок") : h("button", { class: "btn primary", onclick: () => go("check", { t: tid }) }, "Сразу к чеку"), h("button", { class: "btn", onclick: () => go("home") }, "На главную")))];
+};
+
+/* ============ CHECK ============ */
+function buildCheck(t) {
+  const pool = shuffle(t.items.filter(i => i.mode === "check"));
+  const need = new Set(factKus(t).map(k => k.id));
+  const chosen = [];
+  // greedy cover: take items covering most uncovered kus
+  const cap = Math.min(24, Math.max(16, Math.ceil(need.size / 5) + 8));
+  while (need.size && chosen.length < cap) {
+    let best = null, bestN = 0;
+    for (const it of pool) { if (chosen.includes(it)) continue; const n = it.kus.filter(k => need.has(k)).length; if (n > bestN) { best = it; bestN = n; } }
+    if (!best) break;
+    chosen.push(best); best.kus.forEach(k => need.delete(k));
+  }
+  for (const it of pool) { if (chosen.length >= 12) break; if (!chosen.includes(it)) chosen.push(it); }
+  return shuffle(chosen);
+}
+SCREENS.check = ({ t: tid, started }) => {
+  const m = TOPICS.find(x => x.id === tid), t = topicData(tid);
+  if (!started) {
+    return [topBar(backBtn()), h("section", { class: "card hero examsheet" }, h("div", { class: "eyebrow" }, `Тема ${m.n} · чек`), h("h1", null, "Vizsgalap"), h("p", { class: "muted" }, m.hu),
+      rich(`Условия как на экзамене:\n\n**Всё на венгерском, подсказок и перевода нет.** Отвечай, как сможешь. Имена пиши «фамилия + имя».\n\nОценка появится в конце. Для мастерства темы нужно **${MASTERY}%**. Для настоящего экзамена достаточно 16 баллов из 30, но мы готовимся с запасом.`),
+      h("div", { class: "row" }, h("button", { class: "btn primary", onclick: () => { route.p.started = true; route.p.items = buildCheck(t).map(i => i.id); delete S.run[runKey("check", { t: tid })]; render(); } }, "Начать чек")))];
+  }
+  const items = route.p.items.map(id => itemById[id]);
+  return [topBar(h("span", { class: "exam-tag" }, m.hu)), runner({
+    items, mode: "check",
+    onDone: res => {
+      let pts = 0, total = 0; const wrongKus = new Set(); const rows = [];
+      for (const { item, res: r } of res.results) {
+        const p = item.pts || 1; total += p; pts += p * r.frac;
+        creditItem(item, r);
+        if (r.frac < .999) { const kus = item.kus; if (r.parts && r.parts.length === kus.length && kus.length > 1) kus.forEach((k, i) => { if (!r.parts[i]) wrongKus.add(k); }); else kus.forEach(k => wrongKus.add(k)); }
+        rows.push({ id: item.id, f: r.frac, g: r.given || "" });
+      }
+      const pct = total ? pts / total * 100 : 0;
+      const entry = { d: todayStr(), pct: Math.round(pct * 10) / 10, pts: Math.round(pts * 10) / 10, total, rows, wrong: [...wrongKus] };
+      (S.checks[tid] = S.checks[tid] || []).push(entry);
+      S.remedial[tid] = pct >= MASTERY ? [] : [...wrongKus];
+      save();
+      go("checkDone", { t: tid });
+    }
+  })];
+};
+SCREENS.checkDone = ({ t: tid }) => {
+  const m = TOPICS.find(x => x.id === tid);
+  const hist = S.checks[tid]; const c = hist[hist.length - 1];
+  const ok = c.pct >= MASTERY;
+  const exam30 = Math.round(c.pct / 100 * 30 * 10) / 10;
+  const list = h("div", { class: "reslist" }, c.rows.map((r, i) => {
+    const it = itemById[r.id]; CUR_TOPIC = itemTopic[r.id] || CUR_TOPIC;
+    const cls = r.f >= .999 ? "ok" : r.f > 0 ? "part" : "bad";
+    return h("div", { class: "resrow" }, h("span", { class: "mk " + cls }, r.f >= .999 ? "✓" : r.f > 0 ? "½" : "✕"),
+      h("div", { class: "stack", style: "gap:4px;min-width:0" }, h("div", { style: "font-weight:600" }, smartText(it.q)),
+        r.f < .999 ? h("div", { class: "small" }, "Правильно: ", h("b", null, smartText(correctText(it)))) : null,
+        r.g && r.f < .999 ? h("div", { class: "small muted" }, "Твой ответ: " + r.g) : null));
+  }));
+  return [topBar(backBtn()), h("section", { class: "card hero" + (ok ? "" : " examsheet") }, ok ? h("div", { class: "crown-burst" }, crownSvg(84)) : null,
+    h("div", { class: "eyebrow" }, `Тема ${m.n} · результат чека`),
+    h("div", { class: "row" }, h("div", { class: "score" }, `${Math.round(c.pct)}%`), h("p", { class: "muted" }, `${c.pts} из ${c.total} баллов. В пересчёте на экзамен это около ${exam30} из 30.`)),
+    h("h2", null, ok ? "Мастерство! Тема освоена." : `До мастерства ${Math.ceil(MASTERY - c.pct)}%`),
+    h("p", null, ok ? "Факты этой темы будут всплывать в повторении, чтобы не забылись к экзамену." : `Новая траектория: работа над ошибками (${c.wrong.length} ${plural(c.wrong.length, "факт", "факта", "фактов")}), затем повторный чек.`),
+    h("div", { class: "row" }, ok ? h("button", { class: "btn primary", onclick: () => go("home") }, "На главную") : h("button", { class: "btn primary", onclick: () => go("remedial", { t: tid }) }, "Разобрать ошибки"), !ok ? h("button", { class: "btn", onclick: () => go("home") }, "Позже") : null)),
+    h("section", { class: "stack" }, h("h2", null, "Разбор вопросов"), h("p", { class: "small muted" }, "Теперь подсказки снова работают: наводи на слова."), list), checkChart(S.checks[tid])];
+};
+
+/* ============ REMEDIAL ============ */
+SCREENS.remedial = ({ t: tid, stage }) => {
+  const t = topicData(tid);
+  const kus = S.remedial[tid] || [];
+  if (!kus.length) { go("home"); return; }
+  if (!stage) {
+    const cards = kus.map(k => { const ku = kuById[k]; const les = t.lessons.find(l => l.kus.includes(k)); return h("div", { class: "card flat stack", style: "padding:14px" }, h("p", null, ku.ru), ku.hu ? h("div", { class: "hu-big", style: "font-size:1.15rem" }, huSpan(ku.hu)) : null, les ? h("button", { class: "btn sm ghost", style: "align-self:flex-start", onclick: () => go("lesson", { t: tid, l: les.id }) }, `Открыть урок «${les.title}»`) : null); });
+    return [topBar(backBtn()), h("div", { class: "stack", style: "gap:4px" }, h("div", { class: "eyebrow" }, "Работа над ошибками"), h("h1", null, "Эти факты ускользнули"), h("p", { class: "muted" }, "Прочитай карточки, наведи на венгерские слова. Потом короткая тренировка только по ним.")), ...cards,
+      h("div", { class: "foot" }, h("button", { class: "btn primary", onclick: () => { route.p.stage = 1; render(); scrollTo(0, 0); } }, "К тренировке"))];
+  }
+  const set = new Set(kus);
+  const lastIds = new Set(((S.checks[tid] || []).slice(-1)[0] || { rows: [] }).rows.map(r => r.id));
+  let items = t.items.filter(i => i.mode === "practice" && i.kus.some(k => set.has(k)));
+  const extra = t.items.filter(i => i.mode === "check" && !lastIds.has(i.id) && i.kus.some(k => set.has(k)));
+  if (!route.p.items) route.p.items = shuffle([...items, ...extra.slice(0, 4)]).slice(0, 16).map(i => i.id);
+  items = route.p.items.map(id => itemById[id]);
+  return [topBar(backBtn("Выйти")), runner({
+    items, mode: "practice", title: "Тренировка по ошибкам",
+    onDone: res => { S.remedial[tid] = []; save(); go("lessonDoneRem", { t: tid, res }); }
+  })];
+};
+SCREENS.lessonDoneRem = ({ t: tid, res }) => [topBar(backBtn()), h("section", { class: "card hero" }, h("div", { class: "stitch" }), h("div", { class: "eyebrow" }, "Ошибки разобраны"),
+  h("div", { class: "row" }, h("div", { class: "score" }, `${res.firstTry}%`), h("p", { class: "muted" }, "с первой попытки.")),
+  h("p", null, "Можно идти на повторный чек сейчас или завтра, после повторения."),
+  h("div", { class: "row" }, h("button", { class: "btn primary", onclick: () => go("check", { t: tid }) }, "Повторный чек"), h("button", { class: "btn", onclick: () => go("home") }, "На главную")))];
+
+/* ============ REVIEW ============ */
+function buildReview() {
+  const due = dueKus().slice(0, REVIEW_MAX * 2);
+  const chosen = [], covered = new Set();
+  const easy = ["mcq", "match", "tf", "tiles", "flash", "paint", "hotspot", "order", "multi"];
+  for (const k of due) {
+    if (covered.has(k) || chosen.length >= REVIEW_MAX) continue;
+    const s = kuState(k).s;
+    const cands = Object.values(itemById).filter(i => i.mode !== "diag" && i.kus.includes(k) && !chosen.includes(i));
+    let pref = s <= 1 ? cands.filter(i => i.mode === "practice" && easy.includes(i.type)) : cands.filter(i => i.mode === "check");
+    if (!pref.length) pref = cands;
+    if (!pref.length) continue;
+    const it = pick(pref);
+    chosen.push(it); it.kus.forEach(x => covered.add(x));
+  }
+  return shuffle(chosen);
+}
+function startReview() { if (S.run) delete S.run[runKey("review", {})]; go("review"); }
+SCREENS.review = () => {
+  const items = route.p.items ? route.p.items.map(id => itemById[id]) : buildReview();
+  route.p.items = items.map(i => i.id);
+  if (!items.length) return [topBar(backBtn()), h("section", { class: "card hero" }, h("h1", null, "На сегодня повторять нечего"), h("p", { class: "muted" }, "Карточки появятся завтра: интервалы 1, 3, 7, 14 и 30 дней."), h("button", { class: "btn primary", onclick: () => go("home") }, "На главную"))];
+  return [topBar(backBtn("Выйти")), runner({
+    items, mode: "review", title: "Повторение",
+    onDone: res => go("reviewDone", { res })
+  })];
+};
+SCREENS.reviewDone = ({ res }) => [topBar(backBtn()), h("section", { class: "card hero" }, h("div", { class: "stitch" }), h("div", { class: "eyebrow" }, "Повторение завершено"),
+  h("div", { class: "row" }, h("div", { class: "score" }, `${res.firstTry}%`), h("p", { class: "muted" }, "вспомнила с первой попытки. Что вспомнилось, уйдёт на более длинный интервал, а забытое вернётся завтра.")),
+  (() => { const n = nextStep(); return h("div", { class: "row" }, n.btn ? h("button", { class: "btn primary", onclick: n.act }, n.btn) : null, h("button", { class: "btn", onclick: () => go("home") }, "На главную")); })())];
+
+/* ============ FINAL ============ */
+function buildFinal() {
+  const chosen = [];
+  for (const m of TOPICS) {
+    const t = topicData(m.id); if (!t) continue;
+    const pool = shuffle(t.items.filter(i => i.mode === "check"));
+    const strong = pool.filter(i => (i.pts || 1) >= 2), weak = pool.filter(i => (i.pts || 1) < 2);
+    chosen.push(...[...strong.slice(0, 1), ...weak.slice(0, 1), ...strong.slice(1)].slice(0, 2));
+  }
+  return chosen;
+}
+SCREENS.final = ({ started }) => {
+  const hist = S.final || [];
+  if (!allMastered()) return [topBar(backBtn()), h("section", { class: "card hero examsheet" }, h("div", { class: "eyebrow" }, "Итоговый экзамен"), h("h1", null, "Magyar kulturális ismereti vizsga"),
+    rich("Откроется, когда все шесть тем будут на 90%. Это последний шаг перед настоящим экзаменом: 12 вопросов, по 2 из каждой темы, 60 минут, 30 баллов."),
+    h("button", { class: "btn", onclick: () => go("home") }, "На главную"))];
+  if (!started) return [topBar(backBtn()), h("section", { class: "card hero examsheet" }, h("div", { class: "eyebrow" }, "Итоговый экзамен"), h("h1", null, "Magyar kulturális ismereti vizsga"),
+    rich(`Ровно как в Будапеште: **12 kérdés, 60 perc, 30 pont**. По 2 вопроса из каждой из 6 тем, всё на венгерском, без подсказок.\n\nНа настоящем экзамене достаточно 16 баллов. Мастерство здесь — **27 баллов (90%)**.`),
+    hist.length ? h("p", { class: "small muted" }, `Прошлые попытки: ${hist.map(x => x.p30 + "/30").join(", ")}`) : null,
+    h("div", { class: "row" }, h("button", { class: "btn primary", onclick: () => { route.p.started = true; route.p.items = buildFinal().map(i => i.id); delete S.run[runKey("final", {})]; render(); } }, "Начать экзамен")))];
+  const items = route.p.items.map(id => itemById[id]);
+  return [topBar(h("span", { class: "exam-tag" }, "Vizsga · 60 perc")), runner({
+    items, mode: "check", key: runKey("final", {}),
+    onDone: res => {
+      let pts = 0, total = 0; const rows = [];
+      for (const { item, res: r } of res.results) { const p = item.pts || 1; total += p; pts += p * r.frac; creditItem(item, r); rows.push({ id: item.id, f: r.frac, g: r.given || "" }); }
+      const pct = total ? pts / total * 100 : 0;
+      (S.final = S.final || []).push({ d: todayStr(), pct: Math.round(pct * 10) / 10, p30: Math.round(pct * 30 / 100 * 2) / 2, rows, ms: res.ms });
+      save(); go("finalDone");
+    }
+  })];
+};
+SCREENS.finalDone = () => {
+  const f = S.final[S.final.length - 1];
+  const pass = f.p30 >= 16, master = f.pct >= MASTERY;
+  const list = h("div", { class: "reslist" }, f.rows.map(r => { const it = itemById[r.id]; CUR_TOPIC = itemTopic[r.id] || null; const cls = r.f >= .999 ? "ok" : r.f > 0 ? "part" : "bad";
+    return h("div", { class: "resrow" }, h("span", { class: "mk " + cls }, r.f >= .999 ? "✓" : r.f > 0 ? "½" : "✕"), h("div", { class: "stack", style: "gap:4px;min-width:0" }, h("div", { style: "font-weight:600" }, smartText(it.q)), r.f < .999 ? h("div", { class: "small" }, "Правильно: ", h("b", null, smartText(correctText(it)))) : null)); }));
+  return [topBar(backBtn()), h("section", { class: "card hero" + (master ? "" : " examsheet") }, master ? h("div", { class: "crown-burst" }, crownSvg(84)) : null,
+    h("div", { class: "eyebrow" }, "Итоговый экзамен · результат"),
+    h("div", { class: "row" }, h("div", { class: "score" }, `${f.p30}/30`), h("p", { class: "muted" }, pass ? "На настоящем экзамене это было бы «megfelelt», то есть сдано." : "На настоящем экзамене это пока «nem megfelelt». Нужно 16.")),
+    h("h2", null, master ? "Мастерство! Ты готова к экзамену." : `До мастерства ${Math.max(0, Math.ceil(27 - f.p30))} балла`),
+    h("p", null, master ? "Продолжай повторения каждый день до даты экзамена, чтобы ничего не забылось." : "Ошибки уже добавлены в повторение. Пройди его пару дней и попробуй снова."),
+    h("div", { class: "row" }, h("button", { class: "btn primary", onclick: () => go("home") }, "На главную"))),
+    h("section", { class: "stack" }, h("h2", null, "Разбор"), list)];
+};
+
+/* ============ GRAMMAR / DICT / ANALYZE / SETTINGS ============ */
+function openGrammar(id) { go("grammar", { open: id }); }
+SCREENS.grammar = ({ open }) => {
+  const out = [topBar(backBtn()), h("h1", null, "Грамматика для экзамена"), h("p", { class: "muted" }, "Только то, что нужно, чтобы понимать вопросы и писать короткие ответы.")];
+  for (const [id, g] of Object.entries(C.grammar)) {
+    const det = h("details", { class: "card", open: open === id ? true : null, id: "g-" + id }, h("summary", { style: "cursor:pointer;font-weight:600;font-family:var(--f-display)" }, g.title), h("div", { style: "margin-top:12px" }, rich(g.body)));
+    out.push(det);
+  }
+  if (open) requestAnimationFrame(() => { const el = document.getElementById("g-" + open); if (el) el.scrollIntoView({ block: "start" }); });
+  return out;
+};
+SCREENS.dict = () => {
+  const box = h("div", { class: "dict" });
+  const inp = h("input", { class: "inp", id: "dict-q", placeholder: "Поиск: венгерское или русское слово", oninput: () => draw() });
+  const keys = Object.keys(C.lex).filter(k => !/^\d/.test(k) && !k.includes("_")).sort((a, b) => a.localeCompare(b, "hu"));
+  const draw = () => {
+    const q = norm(inp.value);
+    box.replaceChildren(...keys.filter(k => !q || deacc(k).includes(deacc(q)) || (C.lex[k].t + " " + (C.lex[k].l || "")).toLowerCase().includes(q)).slice(0, 300).map(k => {
+      const g = C.lex[k];
+      return h("div", { class: "drow" }, h("b", null, glossInto(h("span"), k)), h("span", null, g.l || g.t, S.looked[k] ? h("span", { class: "pill blue", style: "margin-left:6px" }, "смотрела") : null));
+    }));
+  };
+  draw();
+  return [topBar(backBtn()), h("h1", null, "Словарь"), h("div", { class: "search" }, inp), box];
+};
+SCREENS.analyze = () => {
+  const out = [topBar(backBtn()), h("h1", null, "Разобрать текст"), h("p", { class: "muted" }, "Вставь венгерский текст: абзац из методички, вопрос с сайта, табличку на улице. ИИ разберёт каждое слово в контексте, и оно заработает при наведении, как в уроках.")];
+  if (!AI.ok) { out.push(h("div", { class: "card" }, h("p", null, "ИИ-помощник недоступен в этом окне. Он работает, когда страница открыта в Claude и ты разрешила ей обращаться к Claude."))); return out; }
+  const ta = h("textarea", { class: "inp", id: "an-text", maxlength: "700", placeholder: "Például: A Szent Korona az Országházban tekinthető meg." });
+  const res = h("div", { class: "stack" });
+  let ctl = null;
+  const btn = h("button", { class: "btn primary", onclick: async () => {
+    const text = ta.value.trim(); if (!text) { toast("Вставь текст"); return; }
+    btn.disabled = true; res.replaceChildren(h("p", { class: "muted" }, "Разбираю… Обычно это занимает 10–40 секунд."));
+    ctl = new AbortController();
+    try {
+      const arr = await AI.fn.json(`Ты репетитор венгерского для русскоязычной ученицы с нулевым уровнем. Разбери венгерский текст по словам.
+Текст: «${text}»
+Верни ТОЛЬКО JSON-массив, по объекту на каждое слово текста по порядку (знаки препинания пропусти):
+[{"w":"слово как в тексте","t":"перевод этого слова именно в этом контексте","l":"словарная форма — значение","p":"разбор на части, например ház + -ban (в)","e":"почему здесь такая форма, одно короткое предложение по-русски"}]
+Если слово простое и без окончаний, поле p оставь пустым.
+После массива ничего не пиши.`, { signal: ctl.signal });
+      if (!Array.isArray(arr)) throw { code: "invalid_json" };
+      const lex = Object.assign({}, C.lex);
+      const map = {}; let n = 0;
+      for (const o of arr) { if (!o || !o.w) continue; const key = "ai" + (n++); map[o.w.toLowerCase()] = map[o.w.toLowerCase()] || []; map[o.w.toLowerCase()].push(key); lex[key] = { t: o.t || "", l: o.l || "", p: o.p || "", w: o.e || "" }; }
+      Object.assign(C.lex, Object.fromEntries(Object.entries(lex).filter(([k]) => k.startsWith("ai"))));
+      const marked = text.replace(/\p{L}+(?:-\p{L}+)*/gu, w => { const q = map[w.toLowerCase()]; return q && q.length ? `${w}{${q.length > 1 ? q.shift() : q[0]}}` : w; });
+      res.replaceChildren(h("div", { class: "card stack" }, h("div", { class: "eyebrow" }, "Разбор · наводи на слова"), glossInto(h("div", { class: "hu-big" }), marked)));
+    } catch (e) { res.replaceChildren(h("p", { class: "muted" }, aiErr(e) || "Ответ пришёл в неожиданном виде. Попробуй текст покороче.")); }
+    btn.disabled = false;
+  } }, "Разобрать");
+  out.push(h("div", { class: "card stack" }, ta, h("div", { class: "row" }, btn, h("span", { class: "small muted" }, "до 700 символов"))), res);
+  return out;
+};
+SCREENS.settings = ({ confirm }) => {
+  const out = [topBar(backBtn()), h("h1", null, "Настройки")];
+  out.push(h("div", { class: "card stack" }, h("h2", null, "Сохранение"), h("p", { class: "muted" }, syncMode === "cloud" ? "Прогресс хранится в твоём аккаунте Claude. Открой эту же страницу на телефоне, и он будет там." : "Прогресс хранится только в этом браузере. Облачное сохранение работает, когда страница открыта в Claude.")));
+  out.push(h("div", { class: "card stack" }, h("h2", null, "Озвучка"), h("p", { class: "muted" }, TTS.ok ? `Голос: ${TTS.voice.name}. Кнопки «Послушать» работают.` : "В этом браузере нет венгерского голоса, поэтому кнопок «Послушать» нет. На iPhone и Mac голос можно добавить: Настройки → Универсальный доступ → Устный контент → Голоса → Венгерский.")));
+  out.push(h("div", { class: "card stack" }, h("h2", null, "Источники"), h("p", { class: "small muted" }, "Факты взяты из официального учебного материала Budapest Főváros Kormányhivatala (segédanyag, сентябрь 2026). Большинство иллюстраций взяты из того же материала. Их авторы и лицензии перечислены на последнем слайде методички: Wikimedia Commons (CC BY / CC BY-SA и public domain), Fortepan, Országgyűlési Könyvtár и другие."),
+    C.credits.length ? h("p", { class: "small muted" }, "Дополнительные фото с Wikimedia Commons:") : null,
+    C.credits.length ? h("ul", { class: "small muted", style: "margin:0;padding-left:18px" }, C.credits.map(c => h("li", null, `${c.what}: «${c.file}», автор ${c.author}, ${c.lic}`))) : null,
+    C.guideCredits ? h("details", { class: "small muted" }, h("summary", { style: "cursor:pointer" }, "Источники иллюстраций методички (слайд 52)"), h("p", { style: "margin-top:8px;word-break:break-word" }, C.guideCredits)) : null));
+  const reset = h("div", { class: "card stack" }, h("h2", null, "Начать заново"), h("p", { class: "muted" }, "Сотрёт замеры, уроки, чеки и повторения."));
+  if (!confirm) reset.append(h("button", { class: "btn", onclick: () => { route.p.confirm = true; render(); } }, "Сбросить прогресс"));
+  else reset.append(h("div", { class: "confirm" }, h("b", null, "Точно стереть весь прогресс? Это нельзя отменить."), h("div", { class: "row" }, h("button", { class: "btn", style: "border-color:var(--paprika);color:var(--paprika)", onclick: () => { S = freshState(); save(); flush(); go("home"); toast("Прогресс сброшен"); } }, "Да, стереть"), h("button", { class: "btn ghost", onclick: () => { route.p.confirm = false; render(); } }, "Отмена"))));
+  out.push(reset);
+  return out;
+};
+
+/* ============ boot ============ */
+async function boot() {
+  try {
+    const get = f => fetch(f).then(r => { if (!r.ok) throw new Error(f); return r.json(); });
+    const opt = f => get(f).catch(() => ({}));
+    const [lex, grammar, credits] = await Promise.all([get("content/lex.json"), get("content/grammar.json"), get("content/credits.json").catch(() => [])]);
+    C.lex = lex; C.grammar = grammar; C.credits = Array.isArray(credits) ? credits : [];
+    C.guideCredits = await fetch("content/guide_credits.txt").then(r => r.ok ? r.text() : "").catch(() => "");
+    await Promise.all(TOPICS.filter(t => t.ready).map(async m => {
+      try {
+        const [t, lx, gr] = await Promise.all([get(`content/${m.id}.json`), m.id === "t1" ? {} : opt(`content/lex_${m.id}.json`), m.id === "t1" ? {} : opt(`content/grammar_${m.id}.json`)]);
+        C.lexT[m.id] = lx;
+        for (const [k, v] of Object.entries(lx)) if (!C.lex[k]) C.lex[k] = v;
+        Object.assign(C.grammar, gr);
+        C.topics[m.id] = t; t.items.forEach(i => { itemById[i.id] = i; itemTopic[i.id] = m.id; }); t.kus.forEach(k => kuById[k.id] = k);
+      } catch (e) { m.ready = false; }
+    }));
+    if (!C.topics.t1) throw new Error("t1");
+  } catch (e) {
+    app.replaceChildren(h("div", { class: "card" }, h("h2", null, "Не удалось загрузить учебник"), h("p", { class: "muted" }, "Обнови страницу. Если не поможет, напиши в чат, что видишь эту ошибку.")));
+    return;
+  }
+  app.replaceChildren(h("div", { class: "card" }, h("p", { class: "muted" }, "Загружаю твой прогресс…")));
+  await Promise.race([initStore(), new Promise(r => setTimeout(r, 5000))]);
+  if (!resumeHere()) render();
+  initAI();
+}
+boot();
+</script>
+
+</body>
+</html>
